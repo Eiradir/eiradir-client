@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://t5l6js68pd3q"]
+
+[ext_resource type="PackedScene" uid="uid://wy1fco63fhb2" path="res://items/equipment/armor/archers_steel_cap.tscn" id="1_4415m"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_gmwul"]
+[ext_resource type="Texture2D" uid="uid://u58ct0e7esaq" path="res://items/equipment/armor/archers_steel_cap.png" id="3_ffq8n"]
+
+[resource]
+script = ExtResource("2_gmwul")
+scene = ExtResource("1_4415m")
+texture = ExtResource("3_ffq8n")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

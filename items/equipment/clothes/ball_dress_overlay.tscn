@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmsp444vtoark"]
+
+[ext_resource type="Texture2D" uid="uid://b1vhlry54vs0a" path="res://items/equipment/clothes/ball_dress_overlay.png" id="1_wbiiq"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_wbiiq")

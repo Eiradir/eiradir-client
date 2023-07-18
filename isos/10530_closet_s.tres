@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://b1gx2x008sg5u"]
+
+[ext_resource type="PackedScene" uid="uid://dlocraf1va2i4" path="res://items/furniture/cupboards/closet_s.tscn" id="1_6m0kc"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_o7yie"]
+[ext_resource type="Texture2D" uid="uid://d2ayklg7viwnq" path="res://items/furniture/cupboards/closet_s.png" id="3_6j1ew"]
+
+[resource]
+script = ExtResource("2_o7yie")
+scene = ExtResource("1_6m0kc")
+texture = ExtResource("3_6j1ew")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

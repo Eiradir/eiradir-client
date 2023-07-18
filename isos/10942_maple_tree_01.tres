@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c2146yhml513f"]
+
+[ext_resource type="PackedScene" uid="uid://c4hnfc2mh12fm" path="res://items/nature/trees/maple_tree/maple_tree_01.tscn" id="1_g5by4"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_3emvr"]
+[ext_resource type="Texture2D" uid="uid://canq7ukcj7x5e" path="res://items/nature/trees/maple_tree/maple_tree_01.png" id="3_ud1ld"]
+
+[resource]
+script = ExtResource("2_3emvr")
+scene = ExtResource("1_g5by4")
+texture = ExtResource("3_ud1ld")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

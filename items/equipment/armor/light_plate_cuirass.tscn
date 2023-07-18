@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://1u8helmdoc4x"]
+
+[ext_resource type="Texture2D" uid="uid://dfgam6xt8e0ys" path="res://items/equipment/armor/light_plate_cuirass.png" id="1_ge0u7"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ge0u7")

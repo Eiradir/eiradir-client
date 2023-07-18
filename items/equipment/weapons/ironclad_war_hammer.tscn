@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://csh2twrj2pcr1"]
+
+[ext_resource type="Texture2D" uid="uid://jn8ff8phrjpt" path="res://items/equipment/weapons/ironclad_war_hammer.png" id="1_bsl7p"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_bsl7p")

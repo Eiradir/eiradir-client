@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dacpfnqvmgajf"]
+
+[ext_resource type="PackedScene" uid="uid://cy8hx8rx7r5ml" path="res://items/tools/hatchet.tscn" id="1_v1nmb"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_yenyt"]
+[ext_resource type="Texture2D" uid="uid://bc21a3w3bnlbu" path="res://items/tools/hatchet.png" id="3_0osc3"]
+
+[resource]
+script = ExtResource("2_yenyt")
+scene = ExtResource("1_v1nmb")
+texture = ExtResource("3_0osc3")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

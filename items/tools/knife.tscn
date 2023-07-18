@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bnw3a410vwmfa"]
+
+[ext_resource type="Texture2D" uid="uid://car4ivk0mybtt" path="res://items/tools/knife.png" id="1_ve48m"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ve48m")

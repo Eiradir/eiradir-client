@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cm6oeu8jb7cdx"]
+
+[ext_resource type="PackedScene" uid="uid://bqc1ploqpspfq" path="res://items/furniture/chairs/wooden_chair_e.tscn" id="1_t3qy2"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_bqorq"]
+[ext_resource type="Texture2D" uid="uid://dn8do7k7ywe7y" path="res://items/furniture/chairs/wooden_chair_e.png" id="3_wltof"]
+
+[resource]
+script = ExtResource("2_bqorq")
+scene = ExtResource("1_t3qy2")
+texture = ExtResource("3_wltof")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

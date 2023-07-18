@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmfi21ngrhwoa"]
+
+[ext_resource type="Texture2D" uid="uid://2odyqfvfnxij" path="res://items/equipment/armor/improved_leather_cap.png" id="1_j0f1n"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_j0f1n")

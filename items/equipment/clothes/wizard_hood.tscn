@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ctfvb614wpgeo"]
+
+[ext_resource type="Texture2D" uid="uid://bs3xcyebwcauo" path="res://items/equipment/clothes/wizard_hood.png" id="1_gau5p"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_gau5p")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cb5ymaohc7dvy"]
+
+[ext_resource type="Texture2D" uid="uid://est3gt1f8utw" path="res://items/bridges/wooden_bridge_ew.png" id="1_el40e"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_el40e")

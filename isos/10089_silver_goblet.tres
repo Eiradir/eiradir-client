@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://be7r3hshr8hu4"]
+
+[ext_resource type="PackedScene" uid="uid://de41lymexh50t" path="res://items/cups/silver_goblet.tscn" id="1_w6x5w"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_58777"]
+[ext_resource type="Texture2D" uid="uid://cgfhl1fix1klg" path="res://items/cups/silver_goblet.png" id="3_t0ys8"]
+
+[resource]
+script = ExtResource("2_58777")
+scene = ExtResource("1_w6x5w")
+texture = ExtResource("3_t0ys8")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

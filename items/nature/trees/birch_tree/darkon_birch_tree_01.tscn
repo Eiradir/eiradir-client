@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bojednoraauec"]
+
+[ext_resource type="Texture2D" uid="uid://cq6w0f44em8f0" path="res://items/nature/trees/birch_tree/darkon_birch_tree_01.png" id="1_sblba"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_sblba")
+offset = Vector2(37, -119)

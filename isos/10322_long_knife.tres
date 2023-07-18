@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://oeb5u0007fds"]
+
+[ext_resource type="PackedScene" uid="uid://bdn2ygu0elu3l" path="res://items/equipment/weapons/long_knife.tscn" id="1_dcpcw"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_w21l7"]
+[ext_resource type="Texture2D" uid="uid://ciqcuxg3o0amc" path="res://items/equipment/weapons/long_knife.png" id="3_hl0wm"]
+
+[resource]
+script = ExtResource("2_w21l7")
+scene = ExtResource("1_dcpcw")
+texture = ExtResource("3_hl0wm")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://gp5bq7cox8c1"]
+
+[ext_resource type="SpriteFrames" uid="uid://dl62enbicgy7o" path="res://items/tools/lit_torch.tres" id="1_mhs2n"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_mhs2n")

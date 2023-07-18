@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cjfaeunscglox"]
+
+[ext_resource type="Texture2D" uid="uid://cvqmceanjna8i" path="res://items/nature/trees/crooked_dwarftop_tree/crooked_dwarftop_04.png" id="1_qufpd"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_qufpd")

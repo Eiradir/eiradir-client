@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://d4jg8o0y2awwe"]
+
+[ext_resource type="Texture2D" uid="uid://cq54h0ehqev51" path="res://items/nature/plants/fern/caeril_fern_03.png" id="1_8hm1v"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_8hm1v")

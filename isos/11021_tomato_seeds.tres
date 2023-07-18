@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dtmdlrp2h8te0"]
+
+[ext_resource type="PackedScene" uid="uid://4efa1w1khk1" path="res://items/seeds/tomato_seeds.tscn" id="1_2vwwl"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_p8w1r"]
+[ext_resource type="Texture2D" uid="uid://dnyhf0vgviuc7" path="res://items/seeds/tomato_seeds.png" id="3_etx4n"]
+
+[resource]
+script = ExtResource("2_p8w1r")
+scene = ExtResource("1_2vwwl")
+texture = ExtResource("3_etx4n")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

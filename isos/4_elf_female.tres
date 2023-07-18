@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=3 format=3 uid="uid://7svfub1q6ggt"]
+
+[ext_resource type="PackedScene" uid="uid://cmk1xbva1k0a0" path="res://characters/elf_female/elf_female.tscn" id="1_psjwu"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_mhm0n"]
+
+[resource]
+script = ExtResource("2_mhm0n")
+scene = ExtResource("1_psjwu")
+elevation = 0
+is_solid = true
+is_bridge = false
+disallow_drag = true
+eager_tooltip = true
+tags = Array[String]([])

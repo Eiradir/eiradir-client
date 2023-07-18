@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://lw7q2e446tup"]
+
+[ext_resource type="PackedScene" uid="uid://bov45fj43h3ty" path="res://items/furniture/golden_pot.tscn" id="1_01yft"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_6jax7"]
+[ext_resource type="Texture2D" uid="uid://cm04syrw2vtia" path="res://items/furniture/golden_pot.png" id="3_40g8r"]
+
+[resource]
+script = ExtResource("2_6jax7")
+scene = ExtResource("1_01yft")
+texture = ExtResource("3_40g8r")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

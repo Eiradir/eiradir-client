@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cs6p4wouyff2a"]
+
+[ext_resource type="PackedScene" uid="uid://idcdcya3ls2o" path="res://items/misc/sunflower_oil.tscn" id="1_3fe0i"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_yhus7"]
+[ext_resource type="Texture2D" uid="uid://b0l8v1wvia6uq" path="res://items/misc/sunflower_oil.png" id="3_ri3to"]
+
+[resource]
+script = ExtResource("2_yhus7")
+scene = ExtResource("1_3fe0i")
+texture = ExtResource("3_ri3to")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://33kvel1lru3"]
+
+[ext_resource type="PackedScene" uid="uid://convwolh3xiio" path="res://items/structure/wood/wood_door_s.tscn" id="1_yv0l2"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_xtg5a"]
+[ext_resource type="Texture2D" uid="uid://drprf7uxuxhyj" path="res://items/structure/wood/wood_door_s.png" id="3_h2cm0"]
+
+[resource]
+script = ExtResource("2_xtg5a")
+scene = ExtResource("1_yv0l2")
+texture = ExtResource("3_h2cm0")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

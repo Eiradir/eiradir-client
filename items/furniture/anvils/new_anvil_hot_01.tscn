@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://oorg30wt0hkn"]
+
+[ext_resource type="Texture2D" uid="uid://tqeb758y5xcq" path="res://items/furniture/anvils/new_anvil_hot_01.png" id="1_wpfsy"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_wpfsy")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bok26dkg0xq65"]
+
+[ext_resource type="PackedScene" uid="uid://deqm6e0dm4len" path="res://items/nature/plants/fern/caeril_fern_02.tscn" id="1_idwfi"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_65phl"]
+[ext_resource type="Texture2D" uid="uid://bp2i72p2rt270" path="res://items/nature/plants/fern/caeril_fern_02.png" id="3_thnhd"]
+
+[resource]
+script = ExtResource("2_65phl")
+scene = ExtResource("1_idwfi")
+texture = ExtResource("3_thnhd")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

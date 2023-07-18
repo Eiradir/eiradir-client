@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://kui53lfsfn2u"]
+
+[ext_resource type="Texture2D" uid="uid://dqa6rmn2foa1t" path="res://items/misc/support_stakes.png" id="1_jxihw"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_jxihw")

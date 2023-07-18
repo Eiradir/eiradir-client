@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dw7kkg66dxj1j"]
+
+[ext_resource type="Texture2D" uid="uid://ylgmdhjgkw5r" path="res://items/seeds/carrot_seeds.png" id="1_cbenq"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_cbenq")

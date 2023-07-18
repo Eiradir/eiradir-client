@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://3w7xef13txdc"]
+
+[ext_resource type="PackedScene" uid="uid://dg1xna80ngi8e" path="res://items/equipment/weapons/fire_dagger.tscn" id="1_8ckow"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_1is00"]
+[ext_resource type="Texture2D" uid="uid://8aul5k3semqm" path="res://items/equipment/weapons/fire_dagger.png" id="3_r2m1j"]
+
+[resource]
+script = ExtResource("2_1is00")
+scene = ExtResource("1_8ckow")
+texture = ExtResource("3_r2m1j")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

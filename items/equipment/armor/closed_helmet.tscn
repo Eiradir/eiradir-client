@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ltw63hpx0c4e"]
+
+[ext_resource type="Texture2D" uid="uid://b1kfdcmxj3b4" path="res://items/equipment/armor/closed_helmet.png" id="1_cg46l"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_cg46l")

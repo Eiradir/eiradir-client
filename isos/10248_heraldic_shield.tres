@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bts1mc4nd84xb"]
+
+[ext_resource type="PackedScene" uid="uid://bjg4vk14fbanh" path="res://items/equipment/shields/heraldic_shield.tscn" id="1_6eqtp"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_2i1gu"]
+[ext_resource type="Texture2D" uid="uid://d13lsmrmc8580" path="res://items/equipment/shields/heraldic_shield.png" id="3_vh7gv"]
+
+[resource]
+script = ExtResource("2_2i1gu")
+scene = ExtResource("1_6eqtp")
+texture = ExtResource("3_vh7gv")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

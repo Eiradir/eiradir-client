@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://drknntsb6cb5p"]
+
+[ext_resource type="Texture2D" uid="uid://dq7t1dw0tv01n" path="res://items/furniture/drapes/red_drapes_double_w.png" id="1_y51n7"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_y51n7")

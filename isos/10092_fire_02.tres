@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=3 format=3 uid="uid://dgvkvfyi1m7we"]
+
+[ext_resource type="PackedScene" uid="uid://cmu0cgk7su54d" path="res://items/elemental/fire_02.tscn" id="1_3il18"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_vne6v"]
+
+[resource]
+script = ExtResource("2_vne6v")
+scene = ExtResource("1_3il18")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+paperdoll_id = 0
+tags = Array[String]([])

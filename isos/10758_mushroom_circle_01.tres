@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cupi83aa6rre1"]
+
+[ext_resource type="PackedScene" uid="uid://b0x7k6br7yg85" path="res://items/nature/mushrooms/mushroom_circle/mushroom_circle_01.tscn" id="1_royy1"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_4kju8"]
+[ext_resource type="Texture2D" uid="uid://bfk4qne8pqfmm" path="res://items/nature/mushrooms/mushroom_circle/mushroom_circle_01.png" id="3_pd3ut"]
+
+[resource]
+script = ExtResource("2_4kju8")
+scene = ExtResource("1_royy1")
+texture = ExtResource("3_pd3ut")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

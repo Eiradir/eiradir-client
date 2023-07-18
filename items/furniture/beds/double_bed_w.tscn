@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvigkkkcxjk6y"]
+
+[ext_resource type="Texture2D" uid="uid://b1e2r406ktirl" path="res://items/furniture/beds/double_bed_w.png" id="1_vhu2c"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_vhu2c")

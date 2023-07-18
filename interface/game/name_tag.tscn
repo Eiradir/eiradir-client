@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cy8rbjaseqy8k"]
+
+[ext_resource type="Theme" uid="uid://ff8ufmacq6dq" path="res://interface/theme/default.tres" id="1_h1mk6"]
+
+[node name="name_tag" type="Label"]
+z_index = 1
+offset_right = 111.0
+offset_bottom = 26.0
+theme = ExtResource("1_h1mk6")
+text = "Rowena Moon"
+horizontal_alignment = 1

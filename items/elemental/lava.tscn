@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://t6lkxgkp44tu"]
+
+[ext_resource type="SpriteFrames" uid="uid://h4gcg31y0jfy" path="res://items/elemental/lava.tres" id="1_5wqdv"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_5wqdv")

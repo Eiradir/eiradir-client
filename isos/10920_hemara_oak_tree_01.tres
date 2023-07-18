@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bhw1bdbiax2bb"]
+
+[ext_resource type="PackedScene" uid="uid://bhdg3c3ltfq5d" path="res://items/nature/trees/hemara_oak_tree/hemara_oak_tree_01.tscn" id="1_hbs7g"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_tnl7o"]
+[ext_resource type="Texture2D" uid="uid://dkorbu5haioiy" path="res://items/nature/trees/hemara_oak_tree/hemara_oak_tree_01.png" id="3_7s8ba"]
+
+[resource]
+script = ExtResource("2_tnl7o")
+scene = ExtResource("1_hbs7g")
+texture = ExtResource("3_7s8ba")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

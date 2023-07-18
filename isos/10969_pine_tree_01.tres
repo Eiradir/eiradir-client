@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dd63vkdofqq4f"]
+
+[ext_resource type="PackedScene" uid="uid://dmlbhofyrhv1h" path="res://items/nature/trees/pine_tree/pine_tree_01.tscn" id="1_61iv8"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_qws5y"]
+[ext_resource type="Texture2D" uid="uid://cuy1nc2nhi3yx" path="res://items/nature/trees/pine_tree/pine_tree_01.png" id="3_alspd"]
+
+[resource]
+script = ExtResource("2_qws5y")
+scene = ExtResource("1_61iv8")
+texture = ExtResource("3_alspd")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

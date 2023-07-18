@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=5 format=3 uid="uid://dlti7iofanx6y"]
+
+[ext_resource type="PackedScene" uid="uid://ddlq56arjtg" path="res://items/equipment/armor/full_leather_armor.tscn" id="1_2ygi5"]
+[ext_resource type="Resource" uid="uid://d3g3xjo0m8air" path="res://paperdolls/10003_full_leather_armor.tres" id="1_garqb"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_nhk7w"]
+[ext_resource type="Texture2D" uid="uid://b8p8w0u3hkknh" path="res://items/equipment/armor/full_leather_armor.png" id="3_0jfuq"]
+
+[resource]
+script = ExtResource("2_nhk7w")
+scene = ExtResource("1_2ygi5")
+texture = ExtResource("3_0jfuq")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+paperdoll = ExtResource("1_garqb")
+tags = Array[String]([])

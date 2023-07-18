@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dyixmjf72lv1y"]
+
+[ext_resource type="Texture2D" uid="uid://bg4731aj8qami" path="res://items/equipment/clothes/cloak_of_methos.png" id="1_x717r"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_x717r")

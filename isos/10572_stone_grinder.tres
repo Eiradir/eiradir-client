@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://daf78xplmom6w"]
+
+[ext_resource type="PackedScene" uid="uid://dtwg0wsb8j66w" path="res://items/furniture/stone_grinder/stone_grinder.tscn" id="1_13j2x"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_c1cj2"]
+[ext_resource type="Texture2D" uid="uid://dsvpmwih286w7" path="res://items/furniture/stone_grinder/stone_grinder.png" id="3_84t5p"]
+
+[resource]
+script = ExtResource("2_c1cj2")
+scene = ExtResource("1_13j2x")
+texture = ExtResource("3_84t5p")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

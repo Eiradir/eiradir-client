@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dxl4e82ivp5v"]
+
+[ext_resource type="PackedScene" uid="uid://b54so4hgjva62" path="res://items/misc/honeycomb.tscn" id="1_76s8y"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_s5s41"]
+[ext_resource type="Texture2D" uid="uid://dndq0pnvonew3" path="res://items/misc/honeycomb.png" id="3_fowdr"]
+
+[resource]
+script = ExtResource("2_s5s41")
+scene = ExtResource("1_76s8y")
+texture = ExtResource("3_fowdr")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

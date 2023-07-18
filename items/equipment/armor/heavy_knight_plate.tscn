@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://j48mb5sfbaxt"]
+
+[ext_resource type="Texture2D" uid="uid://d3a8rfd3ye6qc" path="res://items/equipment/armor/heavy_knight_plate.png" id="1_mtdkx"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_mtdkx")

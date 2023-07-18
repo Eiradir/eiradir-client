@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://vxay8mu7a6xa"]
+
+[ext_resource type="PackedScene" uid="uid://bbuvcgse5h4no" path="res://items/equipment/armor/invari_assassin_armor.tscn" id="1_6nj1t"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_oom0s"]
+[ext_resource type="Texture2D" uid="uid://chmean1pnaqoq" path="res://items/equipment/armor/invari_assassin_armor.png" id="3_7c5f2"]
+
+[resource]
+script = ExtResource("2_oom0s")
+scene = ExtResource("1_6nj1t")
+texture = ExtResource("3_7c5f2")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

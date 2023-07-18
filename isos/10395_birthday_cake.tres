@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=3 format=3]
+
+[ext_resource type="PackedScene" uid="uid://pommoh86s3g7" path="res://items/food/birthday_cake.tscn" id="1_kxj2w"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_ug3lw"]
+
+[resource]
+script = ExtResource("2_ug3lw")
+scene = ExtResource("1_kxj2w")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+paperdoll_id = 0
+tags = Array[String]([])

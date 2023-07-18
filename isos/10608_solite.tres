@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://oydks6ydnv0s"]
+
+[ext_resource type="PackedScene" uid="uid://cgasnh26cbsr0" path="res://items/gems/solite.tscn" id="1_we58a"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_5agwd"]
+[ext_resource type="Texture2D" uid="uid://bhiwxv4iotef1" path="res://items/gems/solite.png" id="3_irc7l"]
+
+[resource]
+script = ExtResource("2_5agwd")
+scene = ExtResource("1_we58a")
+texture = ExtResource("3_irc7l")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

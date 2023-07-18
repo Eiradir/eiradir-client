@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://dmpuk7pmey1bx"]
+
+[ext_resource type="Texture2D" uid="uid://c63dr24cmj2we" path="res://items/food/birthday_cake.png" id="1_0jhsx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i8cys"]
+atlas = ExtResource("1_0jhsx")
+region = Rect2(0, 0, 38, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ift64"]
+atlas = ExtResource("1_0jhsx")
+region = Rect2(38, 0, 38, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kab5a"]
+atlas = ExtResource("1_0jhsx")
+region = Rect2(76, 0, 38, 40)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i8cys")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ift64")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kab5a")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

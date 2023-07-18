@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqpy03l65fesu"]
+
+[ext_resource type="Texture2D" uid="uid://yru66omipanu" path="res://items/herbs/aspenmate_mushroom.png" id="1_iky8b"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_iky8b")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://3auvj6x13te2"]
+
+[ext_resource type="Texture2D" uid="uid://buqwcpsjf25m5" path="res://items/gems/barrid.png" id="1_ul45o"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ul45o")

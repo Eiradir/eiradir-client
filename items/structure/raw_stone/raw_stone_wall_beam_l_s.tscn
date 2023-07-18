@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://mdxh8ewy132y"]
+
+[ext_resource type="Texture2D" uid="uid://dx8uki4ukjgjq" path="res://items/structure/raw_stone/raw_stone_wall_beam_l_s.png" id="1_wbvpn"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_wbvpn")

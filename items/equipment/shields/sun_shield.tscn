@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://44r5n7255uu0"]
+
+[ext_resource type="Texture2D" uid="uid://d1bv8rtd8d0s7" path="res://items/equipment/shields/sun_shield.png" id="1_12w4t"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_12w4t")

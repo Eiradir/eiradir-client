@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://co5i6um4ljm1s"]
+
+[ext_resource type="Texture2D" uid="uid://b42ytujwgetdu" path="res://items/misc/cut_logs.png" id="1_6o6gn"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_6o6gn")

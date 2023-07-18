@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvr2nvk1fpy2l"]
+
+[ext_resource type="Texture2D" uid="uid://jausg2qnd228" path="res://items/equipment/armor/sallet.png" id="1_lhv8b"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_lhv8b")

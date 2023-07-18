@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bektp74j7ylpx"]
+
+[ext_resource type="Texture2D" uid="uid://ctauuya8mst4f" path="res://items/gems/cut_amethyst.png" id="1_ak0j1"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ak0j1")

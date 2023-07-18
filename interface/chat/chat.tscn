@@ -1,0 +1,74 @@
+[gd_scene load_steps=6 format=3 uid="uid://bjx4dm5wh01hw"]
+
+[ext_resource type="Script" path="res://interface/chat/chat.gd" id="1_omg8d"]
+[ext_resource type="Script" path="res://hud_system/hud_messages.gd" id="2_ly3f2"]
+[ext_resource type="Script" path="res://hud_system/hud_message_string.gd" id="3_0iwhe"]
+[ext_resource type="Script" path="res://hud_system/hud_message_chat.gd" id="4_unctf"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xwkti"]
+bg_color = Color(0, 0, 0, 0.705882)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_omg8d")
+
+[node name="chat" type="Control" parent="."]
+layout_mode = 1
+anchor_top = 0.654948
+anchor_right = 0.502928
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="chat"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScrollPane" type="ScrollContainer" parent="chat/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_xwkti")
+
+[node name="ChatContent" type="VBoxContainer" parent="chat/VBoxContainer/ScrollPane"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ChatInput" type="TextEdit" parent="chat/VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 31)
+layout_mode = 2
+theme_override_colors/background_color = Color(0, 0, 0, 0.705882)
+drag_and_drop_selection_enabled = false
+wrap_mode = 1
+scroll_fit_content_height = true
+caret_blink = true
+caret_multiple = false
+
+[node name="Messages" type="Node" parent="."]
+script = ExtResource("2_ly3f2")
+
+[node name="SubmitChatMessage" type="Node" parent="Messages"]
+script = ExtResource("3_0iwhe")
+
+[node name="ChatMessage" type="Node" parent="Messages"]
+script = ExtResource("4_unctf")
+key = 1
+
+[connection signal="focus_entered" from="chat/VBoxContainer/ChatInput" to="." method="_on_chat_input_focus_entered"]
+[connection signal="focus_exited" from="chat/VBoxContainer/ChatInput" to="." method="_on_chat_input_focus_exited"]
+[connection signal="gui_input" from="chat/VBoxContainer/ChatInput" to="." method="_on_chat_input_gui_input"]
+[connection signal="message_received" from="Messages/SubmitChatMessage" to="." method="_on_chat_message_message_received"]
+[connection signal="message_received" from="Messages/ChatMessage" to="." method="_on_chat_message_message_received"]

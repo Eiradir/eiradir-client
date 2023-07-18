@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyue2a7wjk33k"]
+
+[ext_resource type="Texture2D" uid="uid://si2h74hg0fpn" path="res://items/crops/watermelon_crop/watermelon_crop_stage_04.png" id="1_w8dx6"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_w8dx6")

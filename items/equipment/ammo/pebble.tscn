@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://4jwy2bdnrjli"]
+
+[ext_resource type="Texture2D" uid="uid://ymdeqeb0i5ww" path="res://items/equipment/ammo/pebble.png" id="1_n3phr"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_n3phr")

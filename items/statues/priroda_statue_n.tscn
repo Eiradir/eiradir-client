@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b2d7e53d3xd1i"]
+
+[ext_resource type="Texture2D" uid="uid://sjsuxrbrqdee" path="res://items/statues/priroda_statue_n.png" id="1_6jyt7"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_6jyt7")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cwg1j0al5r23y"]
+
+[ext_resource type="Texture2D" uid="uid://boashk4t7tqx5" path="res://items/equipment/weapons/improved_morningstar.png" id="1_elfgc"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_elfgc")

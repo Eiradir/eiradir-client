@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://k2dp70q61ay3"]
+
+[ext_resource type="Texture2D" uid="uid://dcryga2n7hpfk" path="res://items/food/raw_mutton.png" id="1_k4ot5"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_k4ot5")

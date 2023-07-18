@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpk8s43nctofh"]
+
+[ext_resource type="Texture2D" uid="uid://dcr4u3v2b058k" path="res://items/herbs/queens_goblet.png" id="1_uhplk"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_uhplk")

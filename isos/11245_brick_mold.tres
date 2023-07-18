@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://d4xf4swyvtdi"]
+
+[ext_resource type="PackedScene" uid="uid://bmgudmq28lwjm" path="res://items/tools/brick_mold.tscn" id="1_gn84l"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_kx04t"]
+[ext_resource type="Texture2D" uid="uid://crxes2lk57wwl" path="res://items/tools/brick_mold.png" id="3_q55sg"]
+
+[resource]
+script = ExtResource("2_kx04t")
+scene = ExtResource("1_gn84l")
+texture = ExtResource("3_q55sg")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

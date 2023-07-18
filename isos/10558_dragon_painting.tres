@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c2jyobbxbqdfm"]
+
+[ext_resource type="PackedScene" uid="uid://pufygocebacb" path="res://items/furniture/paintings/dragon_painting.tscn" id="1_wy25j"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_l5gft"]
+[ext_resource type="Texture2D" uid="uid://bhhaq14t2wxh8" path="res://items/furniture/paintings/dragon_painting.png" id="3_56n5e"]
+
+[resource]
+script = ExtResource("2_l5gft")
+scene = ExtResource("1_wy25j")
+texture = ExtResource("3_56n5e")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

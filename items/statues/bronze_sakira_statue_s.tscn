@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7se5k730uurw"]
+
+[ext_resource type="Texture2D" uid="uid://be8j0q875ka54" path="res://items/statues/bronze_sakira_statue_s.png" id="1_4i5f2"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_4i5f2")

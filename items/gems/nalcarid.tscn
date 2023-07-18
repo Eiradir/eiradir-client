@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://druu4e15o5rdn"]
+
+[ext_resource type="Texture2D" uid="uid://drranfy67wgl0" path="res://items/gems/nalcarid.png" id="1_68lpy"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_68lpy")

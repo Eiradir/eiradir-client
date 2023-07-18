@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://ccnkfyt2koy8k"]
+
+[ext_resource type="PackedScene" uid="uid://dqr4qxantmv02" path="res://items/nature/bushes/kernabu_bush/kernabu_bush_01_full.tscn" id="1_ih01r"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_3gn14"]
+[ext_resource type="Texture2D" uid="uid://dg2vc4jh5vra6" path="res://items/nature/bushes/kernabu_bush/kernabu_bush_01_full.png" id="3_wcwsj"]
+
+[resource]
+script = ExtResource("2_3gn14")
+scene = ExtResource("1_ih01r")
+texture = ExtResource("3_wcwsj")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

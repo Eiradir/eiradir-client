@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cf1gjo2n4h6ld"]
+
+[ext_resource type="PackedScene" uid="uid://jexqhybal011" path="res://items/furniture/archery_target/archery_target_w.tscn" id="1_73ada"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_0dt0g"]
+[ext_resource type="Texture2D" uid="uid://dbjibvds7wfif" path="res://items/furniture/archery_target/archery_target_w.png" id="3_cyl2u"]
+
+[resource]
+script = ExtResource("2_0dt0g")
+scene = ExtResource("1_73ada")
+texture = ExtResource("3_cyl2u")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

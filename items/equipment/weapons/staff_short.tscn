@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bgkhm51quad4w"]
+
+[ext_resource type="Texture2D" uid="uid://c6mawytdg7e1" path="res://items/equipment/weapons/staff_short.png" id="1_3pby2"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_3pby2")

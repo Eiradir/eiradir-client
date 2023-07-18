@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2c1kea2e3eo0"]
+
+[ext_resource type="Texture2D" uid="uid://cos0kqoar6wu6" path="res://items/equipment/weapons/improved_double_axe.png" id="1_43t7f"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_43t7f")

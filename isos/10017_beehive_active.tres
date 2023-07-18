@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=5 format=3 uid="uid://bxe4oudhha7gh"]
+
+[ext_resource type="PackedScene" uid="uid://so0iip83nxxg" path="res://items/beehive/beehive_active.tscn" id="1_xvep5"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_orq4d"]
+[ext_resource type="Texture2D" uid="uid://c24rb7lsxt0yf" path="res://items/beehive/beehive_active.png" id="3_fsba4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b7s51"]
+atlas = ExtResource("3_fsba4")
+region = Rect2(0, 0, 37, 40)
+
+[resource]
+script = ExtResource("2_orq4d")
+scene = ExtResource("1_xvep5")
+texture = SubResource("AtlasTexture_b7s51")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+eager_tooltip = false
+tags = Array[String]([])

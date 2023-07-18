@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dy4cjnbb55dei"]
+
+[ext_resource type="Texture2D" uid="uid://b4upug7411goh" path="res://items/tools/sickle.png" id="1_l82xx"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_l82xx")

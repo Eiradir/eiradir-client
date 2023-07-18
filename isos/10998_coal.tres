@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://1q0yjeihismu"]
+
+[ext_resource type="PackedScene" uid="uid://c6rh1i87jxn8k" path="res://items/ores/coal.tscn" id="1_el3wy"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_nxyt3"]
+[ext_resource type="Texture2D" uid="uid://c37qpx3b036ka" path="res://items/ores/coal.png" id="3_agqm2"]
+
+[resource]
+script = ExtResource("2_nxyt3")
+scene = ExtResource("1_el3wy")
+texture = ExtResource("3_agqm2")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

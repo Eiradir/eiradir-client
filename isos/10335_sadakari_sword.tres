@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cjml7bafk7rp4"]
+
+[ext_resource type="PackedScene" uid="uid://bmr3j3iep0wgn" path="res://items/equipment/weapons/sadakari_sword.tscn" id="1_3ighg"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_h8xa1"]
+[ext_resource type="Texture2D" uid="uid://bp84ypsh4tqax" path="res://items/equipment/weapons/sadakari_sword.png" id="3_mf78m"]
+
+[resource]
+script = ExtResource("2_h8xa1")
+scene = ExtResource("1_3ighg")
+texture = ExtResource("3_mf78m")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

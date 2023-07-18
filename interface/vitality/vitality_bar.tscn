@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://bom14p5q6f56p"]
+
+[ext_resource type="Texture2D" uid="uid://bcr71d08wsjew" path="res://interface/vitality/vitality_bar.png" id="1_l0f8w"]
+[ext_resource type="Texture2D" uid="uid://2k8qrx4kuwtl" path="res://interface/vitality/vitality_glass.png" id="2_gvhr5"]
+
+[node name="StatBar" type="TextureProgressBar"]
+custom_minimum_size = Vector2(33, 88)
+offset_left = 16.0
+offset_top = 15.0
+offset_right = 49.0
+offset_bottom = 103.0
+value = 100.0
+fill_mode = 3
+texture_progress = ExtResource("1_l0f8w")
+tint_progress = Color(0.741176, 0, 0, 1)
+
+[node name="Glass" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -4.0
+offset_top = 1.0
+offset_right = 36.0
+offset_bottom = 89.0
+texture = ExtResource("2_gvhr5")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bvxpfjg5r00kr"]
+
+[ext_resource type="PackedScene" uid="uid://gv08n8h0k1pf" path="res://items/food/cherry.tscn" id="1_17c0p"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_tey3a"]
+[ext_resource type="Texture2D" uid="uid://cv1aw1houpk0" path="res://items/food/cherry.png" id="3_bmygf"]
+
+[resource]
+script = ExtResource("2_tey3a")
+scene = ExtResource("1_17c0p")
+texture = ExtResource("3_bmygf")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

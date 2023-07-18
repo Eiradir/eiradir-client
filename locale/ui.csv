@@ -1,0 +1,34 @@
+keys,en,de
+PASSWORD_RESET_SENT_TITLE,Password Reset,Passwort zurückgesetzt
+PASSWORD_RESET_SENT,An email with instructions to reset your password has been sent.,Eine E-Mail mit Anweisungen zum Zurücksetzen des Passworts wurde versendet.
+LOGIN_ERROR_INVALID_GRANT,Invalid credentials,Falscher Nutzername oder Passwort.
+ATTRIBUTE_STRENGTH,Strength,Stärke
+ATTRIBUTE_DEXTERITY,Dexterity,Geschicklichkeit
+ATTRIBUTE_AGILITY,Agility,Geschwindigkeit
+ATTRIBUTE_CONSTITUTION,Constitution,Konstitution
+ATTRIBUTE_PERCEPTION,Perception,Wahrnehmung
+ATTRIBUTE_INTELLIGENCE,Intelligence,Intelligenz
+ATTRIBUTE_ARCANUM,Arcanum,Arkanum
+ATTRIBUTE_STRENGTH_DESCRIPTION,Strength is a measure of your physical power. It affects your melee damage and your ability to carry heavy items.\n\n[ul]Melee Damage\nCarry Capacity\nParry\nVarious Effects on Armor and Dual Wield\nRanged Weapons Range\nRanged Weapons Damage[/ul],
+ATTRIBUTE_DEXTERITY_DESCRIPTION,Dexterity is a measure of your hand-eye coordination and reflexes. It affects your ranged damage and your ability to dodge attacks.\n\n[ul]Hit Precision\nCritical Hit Chance\nMelee Damage with Daggers\nCrafting Quality\nParry\nRanged Weapons Attack Speed[/ul],
+ATTRIBUTE_AGILITY_DESCRIPTION,Agility is a measure of your speed and nimbleness. It affects your movement speed and your ability to dodge attacks.\n\n[ul]Movement Speed\nAttack Speed\nMelee Damage\nParry\nDodge\nVarious Effects on Dual Wield[/ul],
+ATTRIBUTE_CONSTITUTION_DESCRIPTION,Constitution is a measure of your health and stamina. It affects your maximum health and your ability to resist poison.\n\n[ul]\nDamage Reduction\nHealth Regeneration\nResistance to Diseases and Various Effects[/ul],
+ATTRIBUTE_PERCEPTION_DESCRIPTION,Perception is a measure of your senses and awareness. It affects your ranged damage and your ability to detect hidden objects.\n\n[ul]Ranged Hit Precision\nGathering Success\nSpellcasting Range\nCritical Hit Chance\nCritical Hit Damage\nRanged Weapons Damage[/ul],
+ATTRIBUTE_INTELLIGENCE_DESCRIPTION,Intelligence is a measure of your knowledge and reasoning. It affects your maximum mana and your ability to resist magic.\n\n[ul]Element Points\nSpellcasting Effects\nMelee Damage[/ul],
+ATTRIBUTE_ARCANUM_DESCRIPTION,Arcanum is a measure of your magical power. It affects your spell damage and your ability to resist magic.\n\n[ul]Mana Capacity\nMana Regeneration\nMagic Defense[/ul],
+JOIN_TITLE,On the Way to Eiradir,Auf dem Weg nach Eiradir
+JOIN_INITIALIZING,Initializing client...,Initialisiere Client...
+JOIN_FETCHING_TOKEN,Fetching join token...,Rufe Beitrittsmarke ab...
+JOIN_CONNECTING,Connecting to server...,Verbinde zum Server...
+JOIN_LOADING_WORLD,Loading world...,Lade die Welt...
+JOIN_FINISHED,Arriving at Eiradir...,Betrete Eiradir...
+CANCEL,Cancel,Abbrechen
+TOO_MANY_ATTRIBUTE_POINTS_DISTRIBUTED,{points_left} points left to distribute,{points_left} Punkte übrig zum Verteilen
+ATTRIBUTE_POINTS_LEFT_TO_DISTRIBUTE,{points_left} points left to distribute,{points_left} Punkte übrig zum Verteilen
+ALL_ATTRIBUTE_POINTS_DISTRIBUTED,all points distributed,alle Punkte verteilt
+AGE_YOUNG,Still Young,Still Young
+AGE_OLD,Pretty Old,Pretty Old
+AGE_ANCIENT,Literally Ancient,Literally Ancient
+AGE_YOUNG_DESCRIPTION,you're young,you're young
+AGE_OLD_DESCRIPTION,you're old,you're old
+AGE_ANCIENT_DESCRIPTION,sooooo old,sooooo old

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjvh1voj3f5o6"]
+
+[ext_resource type="Texture2D" uid="uid://gllft80jfh83" path="res://items/equipment/shields/red_knight_shield.png" id="1_3nysh"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_3nysh")

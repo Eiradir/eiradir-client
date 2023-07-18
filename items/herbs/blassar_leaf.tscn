@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ck0kgjhujge02"]
+
+[ext_resource type="Texture2D" uid="uid://cjp7vh3j0v30u" path="res://items/herbs/blassar_leaf.png" id="1_i2sex"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_i2sex")

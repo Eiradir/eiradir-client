@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bd5nwdvxbtvok"]
+
+[ext_resource type="Texture2D" uid="uid://bjjj5f3dia38k" path="res://items/crops/cabbage_crop/cabbage_crop_stage_01.png" id="1_nsyfw"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_nsyfw")

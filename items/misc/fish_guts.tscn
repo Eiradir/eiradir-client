@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bdvun6uoe4hi0"]
+
+[ext_resource type="Texture2D" uid="uid://txnf3xebw8mu" path="res://items/misc/fish_guts.png" id="1_al73k"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_al73k")

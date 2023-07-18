@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c4ugroyibnd58"]
+
+[ext_resource type="PackedScene" uid="uid://bvy3ufwepdjlk" path="res://items/nature/trees/butternut_tree/butternut_tree_02.tscn" id="1_8nwti"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_i53os"]
+[ext_resource type="Texture2D" uid="uid://b04hkwtp8iw8f" path="res://items/nature/trees/butternut_tree/butternut_tree_02.png" id="3_sy1j2"]
+
+[resource]
+script = ExtResource("2_i53os")
+scene = ExtResource("1_8nwti")
+texture = ExtResource("3_sy1j2")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

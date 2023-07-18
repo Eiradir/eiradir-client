@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://qnibn0504kw7"]
+
+[ext_resource type="Texture2D" uid="uid://derxktwts3n11" path="res://items/equipment/armor/kassar_skullhound_bascinet.png" id="1_hohw6"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_hohw6")

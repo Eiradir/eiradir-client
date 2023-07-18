@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://basoir88efcjh"]
+
+[ext_resource type="Texture2D" uid="uid://clto5ya2qwpcg" path="res://items/equipment/clothes/fur_leggings.png" id="1_ke3xq"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ke3xq")

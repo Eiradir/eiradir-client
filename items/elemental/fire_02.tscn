@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmu0cgk7su54d"]
+
+[ext_resource type="SpriteFrames" uid="uid://dfmjkvnw1do7a" path="res://items/elemental/fire_02.tres" id="1_c5om3"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_c5om3")

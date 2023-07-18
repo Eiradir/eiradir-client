@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://c7cvgulrqyd3d"]
+
+[ext_resource type="Texture2D" uid="uid://d2fu7ytnnwqf6" path="res://items/alchemy/neiralium_potion_base.png" id="1_iv153"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_agvbf"]
+atlas = ExtResource("1_iv153")
+region = Rect2(0, 0, 16, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b3mu7"]
+atlas = ExtResource("1_iv153")
+region = Rect2(16, 0, 16, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_51ple"]
+atlas = ExtResource("1_iv153")
+region = Rect2(32, 0, 16, 26)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_agvbf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b3mu7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_51ple")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

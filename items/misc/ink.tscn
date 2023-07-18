@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://08frjq7s1p6r"]
+
+[ext_resource type="Texture2D" uid="uid://dp74ky1trwfx2" path="res://items/misc/ink.png" id="1_dk2lc"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_dk2lc")

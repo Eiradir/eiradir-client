@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dref7v44u6mm7"]
+
+[ext_resource type="PackedScene" uid="uid://drs7m2svhf3l8" path="res://items/tools/pickaxe.tscn" id="1_ipuxa"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_4gmeh"]
+[ext_resource type="Texture2D" uid="uid://ck7ke4dieyimf" path="res://items/tools/pickaxe.png" id="3_cajck"]
+
+[resource]
+script = ExtResource("2_4gmeh")
+scene = ExtResource("1_ipuxa")
+texture = ExtResource("3_cajck")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

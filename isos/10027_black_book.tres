@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://b16dwjpdqr4qs"]
+
+[ext_resource type="PackedScene" uid="uid://bspi1o1xrm06k" path="res://items/books/black_book.tscn" id="1_mjiq8"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_v8nm6"]
+[ext_resource type="Texture2D" uid="uid://br37ys3th48p5" path="res://items/books/black_book.png" id="3_m1akv"]
+
+[resource]
+script = ExtResource("2_v8nm6")
+scene = ExtResource("1_mjiq8")
+texture = ExtResource("3_m1akv")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

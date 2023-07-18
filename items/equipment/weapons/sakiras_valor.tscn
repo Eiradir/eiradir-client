@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbb7pxhko0slf"]
+
+[ext_resource type="Texture2D" uid="uid://bd4kmh3nbak7a" path="res://items/equipment/weapons/sakiras_valor.png" id="1_w1m3l"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_w1m3l")

@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://c31dv2j2i1vkw"]
+
+[ext_resource type="PackedScene" uid="uid://dqj0tmhnpgbip" path="res://game/tilemap.tscn" id="1_vgxjx"]
+[ext_resource type="Script" path="res://game/camera/editor_camera.gd" id="3_d6trb"]
+
+[node name="transitions" type="Node2D"]
+
+[node name="TileMaps" type="Node2D" parent="."]
+unique_name_in_owner = true
+
+[node name="0-0" parent="TileMaps" instance=ExtResource("1_vgxjx")]
+layer_0/tile_data = PackedInt32Array(0, 0, 1, 1, 0, 1, 2, 0, 1, 65536, 0, 0, 65537, 0, 0, 65538, 0, 0)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="EditorCamera" type="Node" parent="Camera2D"]
+script = ExtResource("3_d6trb")

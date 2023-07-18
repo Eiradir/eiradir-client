@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://btbn13pctkfe0"]
+
+[ext_resource type="Texture2D" uid="uid://c2snymni8ud0s" path="res://items/statues/gold_lelei_statue_w.png" id="1_x3g14"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_x3g14")

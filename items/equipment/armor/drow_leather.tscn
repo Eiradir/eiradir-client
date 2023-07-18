@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://jg45htph5o1q"]
+
+[ext_resource type="Texture2D" uid="uid://d27w43042utvk" path="res://items/equipment/armor/drow_leather.png" id="1_pr8am"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_pr8am")

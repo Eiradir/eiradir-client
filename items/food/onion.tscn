@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://qrtvqcs1pnuj"]
+
+[ext_resource type="Texture2D" uid="uid://c1qh6l0p0xsl" path="res://items/food/onion.png" id="1_mablt"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_mablt")

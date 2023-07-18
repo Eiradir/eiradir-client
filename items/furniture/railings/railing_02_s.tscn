@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://5g4dcnseva6j"]
+
+[ext_resource type="Texture2D" uid="uid://p7p0xpfd27f5" path="res://items/furniture/railings/railing_02_s.png" id="1_40ch2"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_40ch2")

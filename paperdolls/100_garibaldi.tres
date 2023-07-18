@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="PaperdollDefinition" load_steps=6 format=3 uid="uid://blw0f68wsnvgo"]
+
+[ext_resource type="Script" path="res://registry/data/paperdoll_definition.gd" id="1_47wep"]
+[ext_resource type="Resource" uid="uid://bgvkmf45reai0" path="res://isos/5_dwarf_male.tres" id="1_nf18t"]
+[ext_resource type="PackedScene" uid="uid://c57cucqp1icp2" path="res://clothing/dwarf_male/garibaldi/dwarf_male_garibaldi.tscn" id="2_nxdiw"]
+[ext_resource type="Script" path="res://registry/data/paperdoll_mapping.gd" id="3_7bsvc"]
+
+[sub_resource type="Resource" id="Resource_1yeod"]
+script = ExtResource("3_7bsvc")
+iso = ExtResource("1_nf18t")
+scene = ExtResource("2_nxdiw")
+
+[resource]
+script = ExtResource("1_47wep")
+mappings = Array[ExtResource("3_7bsvc")]([SubResource("Resource_1yeod")])

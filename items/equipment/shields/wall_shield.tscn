@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dlfl6vk3ac8jj"]
+
+[ext_resource type="Texture2D" uid="uid://vqo7673crjmb" path="res://items/equipment/shields/wall_shield.png" id="1_ay5uh"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ay5uh")

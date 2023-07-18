@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://b0f10ge0jijd3"]
+
+[ext_resource type="PackedScene" uid="uid://dpdcby7ohuenc" path="res://items/stairs/ladder_s.tscn" id="1_akoqo"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_fhspc"]
+[ext_resource type="Texture2D" uid="uid://dro066g64gw8m" path="res://items/stairs/ladder_s.png" id="3_ekair"]
+
+[resource]
+script = ExtResource("2_fhspc")
+scene = ExtResource("1_akoqo")
+texture = ExtResource("3_ekair")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

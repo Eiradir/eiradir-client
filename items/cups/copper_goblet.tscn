@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://iv8vgu65fw23"]
+
+[ext_resource type="Texture2D" uid="uid://c3syi4n1eturu" path="res://items/cups/copper_goblet.png" id="1_774cp"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_774cp")

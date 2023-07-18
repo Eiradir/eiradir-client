@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dnjekfsoqp2m2"]
+
+[ext_resource type="SpriteFrames" uid="uid://denqiwsisugtx" path="res://characters/cow/cow.tres" id="1_wfuxj"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_wfuxj")
+animation = &"walking_southwest"
+offset = Vector2(1, 3)

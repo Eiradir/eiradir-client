@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ty6m6gp36ff4"]
+
+[ext_resource type="Texture2D" uid="uid://dtneeynux0n3v" path="res://items/equipment/weapons/improved_shortbow.png" id="1_thdjm"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_thdjm")

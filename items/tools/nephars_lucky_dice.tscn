@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dspnto08contt"]
+
+[ext_resource type="Texture2D" uid="uid://df6uu03fitid4" path="res://items/tools/nephars_lucky_dice.png" id="1_ch8ac"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ch8ac")

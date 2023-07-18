@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://dl62enbicgy7o"]
+
+[ext_resource type="Texture2D" uid="uid://cj6rtkkgfasv8" path="res://items/tools/lit_torch.png" id="1_d0o20"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ecgnk"]
+atlas = ExtResource("1_d0o20")
+region = Rect2(0, 0, 31, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3y4aw"]
+atlas = ExtResource("1_d0o20")
+region = Rect2(31, 0, 31, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hljg0"]
+atlas = ExtResource("1_d0o20")
+region = Rect2(62, 0, 31, 45)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ecgnk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3y4aw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hljg0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

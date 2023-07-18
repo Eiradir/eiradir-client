@@ -1,0 +1,122 @@
+[gd_scene load_steps=7 format=3 uid="uid://dbjn5usex521a"]
+
+[ext_resource type="Script" path="res://interface/vitality/vitality.gd" id="1_pkqbt"]
+[ext_resource type="Script" path="res://interface/game/hud_properties.gd" id="2_53515"]
+[ext_resource type="Script" path="res://interface/game/hud_property_int.gd" id="3_hct7h"]
+[ext_resource type="Texture2D" uid="uid://c5cjdu40deonw" path="res://interface/vitality/vitality_bg.png" id="4_vmm4e"]
+[ext_resource type="PackedScene" uid="uid://bom14p5q6f56p" path="res://interface/vitality/vitality_bar.tscn" id="5_e54le"]
+[ext_resource type="Texture2D" uid="uid://dlpxeohhyhbr8" path="res://interface/vitality/vitality_fg.png" id="5_yb6gj"]
+
+[node name="vitality" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 172.0
+offset_bottom = 172.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_pkqbt")
+fill_speed = 2.0
+
+[node name="Control" type="Control" parent="."]
+custom_minimum_size = Vector2(155, 115)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -158.0
+offset_right = -3.0
+offset_bottom = 115.0
+grow_horizontal = 0
+
+[node name="Background" type="TextureRect" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -67.0
+offset_top = -49.5
+offset_right = 67.0
+offset_bottom = 49.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_vmm4e")
+
+[node name="Health" parent="Control" instance=ExtResource("5_e54le")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 18.0
+offset_top = 14.0
+offset_right = 51.0
+offset_bottom = 102.0
+step = 0.0
+value = 0.0
+tint_progress = Color(0.66, 0.033, 0, 1)
+
+[node name="Hunger" parent="Control" instance=ExtResource("5_e54le")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 61.0
+offset_top = 13.0
+offset_right = 94.0
+offset_bottom = 101.0
+step = 0.0
+value = 0.0
+tint_progress = Color(0.815686, 0.384314, 0, 1)
+
+[node name="Mana" parent="Control" instance=ExtResource("5_e54le")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 106.0
+offset_top = 14.0
+offset_right = 139.0
+offset_bottom = 102.0
+step = 0.0
+value = 0.0
+tint_progress = Color(0.275, 0, 0.66, 1)
+
+[node name="Foreground" type="TextureRect" parent="Control"]
+layout_mode = 0
+offset_right = 155.0
+offset_bottom = 115.0
+texture = ExtResource("5_yb6gj")
+
+[node name="Properties" type="Node" parent="."]
+script = ExtResource("2_53515")
+
+[node name="Health" type="Node" parent="Properties"]
+script = ExtResource("3_hct7h")
+
+[node name="MaxHealth" type="Node" parent="Properties"]
+script = ExtResource("3_hct7h")
+key = 1
+_value = 100
+
+[node name="Mana" type="Node" parent="Properties"]
+script = ExtResource("3_hct7h")
+key = 2
+
+[node name="MaxMana" type="Node" parent="Properties"]
+script = ExtResource("3_hct7h")
+key = 3
+_value = 100
+
+[node name="Hunger" type="Node" parent="Properties"]
+script = ExtResource("3_hct7h")
+key = 4
+
+[node name="MaxHunger" type="Node" parent="Properties"]
+script = ExtResource("3_hct7h")
+key = 5
+_value = 100
+
+[connection signal="property_changed" from="Properties/Health" to="." method="_on_health_property_changed"]
+[connection signal="property_changed" from="Properties/MaxHealth" to="." method="_on_max_health_property_changed"]
+[connection signal="property_changed" from="Properties/Mana" to="." method="_on_mana_property_changed"]
+[connection signal="property_changed" from="Properties/MaxMana" to="." method="_on_max_mana_property_changed"]
+[connection signal="property_changed" from="Properties/Hunger" to="." method="_on_hunger_property_changed"]
+[connection signal="property_changed" from="Properties/MaxHunger" to="." method="_on_max_hunger_property_changed"]

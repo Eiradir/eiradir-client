@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ck0ns8k8inig3"]
+
+[ext_resource type="Texture2D" uid="uid://cx8bidl2hf1g6" path="res://items/misc/predator_guts.png" id="1_j823x"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_j823x")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://orpyx780abof"]
+
+[ext_resource type="Texture2D" uid="uid://bvxhp8d60f3v" path="res://items/stairs/cave_stairs_down_w.png" id="1_p15cs"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_p15cs")

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=5 format=3 uid="uid://c4fpp580fy6jb"]
+
+[ext_resource type="PackedScene" uid="uid://cb28mip8g2514" path="res://items/equipment/clothes/shirt.tscn" id="1_me2qr"]
+[ext_resource type="Resource" uid="uid://bs01jttmogx2i" path="res://paperdolls/10000_blouse.tres" id="1_tj0q6"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_rrw28"]
+[ext_resource type="Texture2D" uid="uid://dvsdj3e2ukptf" path="res://items/equipment/clothes/shirt.png" id="3_qe100"]
+
+[resource]
+script = ExtResource("2_rrw28")
+scene = ExtResource("1_me2qr")
+texture = ExtResource("3_qe100")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+paperdoll = ExtResource("1_tj0q6")
+tags = Array[String]([])

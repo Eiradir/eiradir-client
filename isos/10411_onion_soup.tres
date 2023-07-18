@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c88hw3mhb7huu"]
+
+[ext_resource type="PackedScene" uid="uid://u0f870r88tb7" path="res://items/food/onion_soup.tscn" id="1_xsqty"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_akphu"]
+[ext_resource type="Texture2D" uid="uid://cyfkrsy4kj5bq" path="res://items/food/onion_soup.png" id="3_wnvgn"]
+
+[resource]
+script = ExtResource("2_akphu")
+scene = ExtResource("1_xsqty")
+texture = ExtResource("3_wnvgn")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

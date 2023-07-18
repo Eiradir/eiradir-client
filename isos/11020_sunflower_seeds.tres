@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://d15ejvbcg23cs"]
+
+[ext_resource type="PackedScene" uid="uid://bd7fm3fct6o6i" path="res://items/seeds/sunflower_seeds.tscn" id="1_blo46"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_i7idh"]
+[ext_resource type="Texture2D" uid="uid://b1bj0l5lq33a0" path="res://items/seeds/sunflower_seeds.png" id="3_m31pg"]
+
+[resource]
+script = ExtResource("2_i7idh")
+scene = ExtResource("1_blo46")
+texture = ExtResource("3_m31pg")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

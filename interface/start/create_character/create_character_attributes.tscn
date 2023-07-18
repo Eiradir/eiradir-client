@@ -1,0 +1,125 @@
+[gd_scene load_steps=4 format=3 uid="uid://bloj4krh2fr5s"]
+
+[ext_resource type="Theme" uid="uid://ff8ufmacq6dq" path="res://interface/theme/default.tres" id="1_dxywl"]
+[ext_resource type="Script" path="res://interface/start/create_character/create_character_attributes.gd" id="2_ye6k6"]
+[ext_resource type="PackedScene" uid="uid://dyu1cxj2y01em" path="res://interface/start/create_character/attribute_slider.tscn" id="3_d6drj"]
+
+[node name="create_character_attributes" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_dxywl")
+script = ExtResource("2_ye6k6")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="LeftPanel" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+
+[node name="Strength" parent="HBoxContainer/LeftPanel" instance=ExtResource("3_d6drj")]
+unique_name_in_owner = true
+layout_mode = 2
+attribute = "strength"
+
+[node name="Dexterity" parent="HBoxContainer/LeftPanel" instance=ExtResource("3_d6drj")]
+unique_name_in_owner = true
+layout_mode = 2
+attribute = "dexterity"
+
+[node name="Constitution" parent="HBoxContainer/LeftPanel" instance=ExtResource("3_d6drj")]
+unique_name_in_owner = true
+layout_mode = 2
+attribute = "constitution"
+
+[node name="Agility" parent="HBoxContainer/LeftPanel" instance=ExtResource("3_d6drj")]
+unique_name_in_owner = true
+layout_mode = 2
+attribute = "agility"
+
+[node name="Perception" parent="HBoxContainer/LeftPanel" instance=ExtResource("3_d6drj")]
+unique_name_in_owner = true
+layout_mode = 2
+attribute = "perception"
+
+[node name="Intelligence" parent="HBoxContainer/LeftPanel" instance=ExtResource("3_d6drj")]
+unique_name_in_owner = true
+layout_mode = 2
+attribute = "intelligence"
+
+[node name="Arcanum" parent="HBoxContainer/LeftPanel" instance=ExtResource("3_d6drj")]
+unique_name_in_owner = true
+layout_mode = 2
+attribute = "arcanum"
+
+[node name="RightPanel" type="Panel" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/RightPanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/RightPanel/MarginContainer"]
+layout_mode = 2
+
+[node name="TitleAndDescription" type="VBoxContainer" parent="HBoxContainer/RightPanel/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="AttributeTitle" type="Label" parent="HBoxContainer/RightPanel/MarginContainer/VBoxContainer/TitleAndDescription"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 1
+theme_type_variation = &"HeaderMedium"
+text = "Strength"
+autowrap_mode = 3
+
+[node name="AttributeDescription" type="RichTextLabel" parent="HBoxContainer/RightPanel/MarginContainer/VBoxContainer/TitleAndDescription"]
+unique_name_in_owner = true
+layout_mode = 2
+bbcode_enabled = true
+text = "Strength is the embodiment of raw power and fortitude in a world filled with peril. It sets warriors apart, representing their honed physique, relentless training, and sinewy muscles. With strength, heroes effortlessly wield formidable weapons, deliver bone-crushing blows, and endure the harshest of attacks without flinching. It empowers them to cleave through enemies, shatter obstacles, and unleash devastating attacks. But strength is not limited to physicality alone; it encompasses an indomitable spirit and unwavering resolve to conquer any challenge. It is the foundation upon which legends are built."
+fit_content = true
+scroll_active = false
+
+[node name="PointsLeft" type="Label" parent="HBoxContainer/RightPanel/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "0 points left to distribute"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[connection signal="mouse_entered" from="HBoxContainer/LeftPanel/Strength" to="." method="_on_strength_mouse_entered"]
+[connection signal="value_changed" from="HBoxContainer/LeftPanel/Strength" to="." method="_on_strength_value_changed"]
+[connection signal="mouse_entered" from="HBoxContainer/LeftPanel/Dexterity" to="." method="_on_dexterity_mouse_entered"]
+[connection signal="value_changed" from="HBoxContainer/LeftPanel/Dexterity" to="." method="_on_dexterity_value_changed"]
+[connection signal="mouse_entered" from="HBoxContainer/LeftPanel/Constitution" to="." method="_on_constitution_mouse_entered"]
+[connection signal="value_changed" from="HBoxContainer/LeftPanel/Constitution" to="." method="_on_constitution_value_changed"]
+[connection signal="mouse_entered" from="HBoxContainer/LeftPanel/Agility" to="." method="_on_agility_mouse_entered"]
+[connection signal="value_changed" from="HBoxContainer/LeftPanel/Agility" to="." method="_on_agility_value_changed"]
+[connection signal="mouse_entered" from="HBoxContainer/LeftPanel/Perception" to="." method="_on_perception_mouse_entered"]
+[connection signal="value_changed" from="HBoxContainer/LeftPanel/Perception" to="." method="_on_perception_value_changed"]
+[connection signal="mouse_entered" from="HBoxContainer/LeftPanel/Intelligence" to="." method="_on_intelligence_mouse_entered"]
+[connection signal="value_changed" from="HBoxContainer/LeftPanel/Intelligence" to="." method="_on_intelligence_value_changed"]
+[connection signal="mouse_entered" from="HBoxContainer/LeftPanel/Arcanum" to="." method="_on_arcanum_mouse_entered"]
+[connection signal="value_changed" from="HBoxContainer/LeftPanel/Arcanum" to="." method="_on_arcanum_value_changed"]

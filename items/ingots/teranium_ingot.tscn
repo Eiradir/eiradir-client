@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://srmy7v3nfjl4"]
+
+[ext_resource type="SpriteFrames" uid="uid://dpbw5nttwr4no" path="res://items/ingots/teranium_ingot.tres" id="1_kffio"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_kffio")

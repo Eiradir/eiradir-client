@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://btqlx5ahg0lw"]
+
+[ext_resource type="PackedScene" uid="uid://chwnv8g715xsp" path="res://items/structure/raw_stone/raw_stone_window_n.tscn" id="1_8m4yi"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_gh1ui"]
+[ext_resource type="Texture2D" uid="uid://irdup22w717h" path="res://items/structure/raw_stone/raw_stone_window_n.png" id="3_g8wbj"]
+
+[resource]
+script = ExtResource("2_gh1ui")
+scene = ExtResource("1_8m4yi")
+texture = ExtResource("3_g8wbj")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

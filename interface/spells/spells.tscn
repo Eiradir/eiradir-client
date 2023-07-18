@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3 uid="uid://dbejkmqhxjgge"]
+
+[ext_resource type="Script" path="res://interface/spells/spells.gd" id="1_o03rb"]
+[ext_resource type="Script" path="res://interface/game/hud_properties.gd" id="2_2jg7p"]
+[ext_resource type="Script" path="res://hud_system/hud_property_icons.gd" id="3_7elo8"]
+
+[node name="spells" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_o03rb")
+
+[node name="Label" type="Label" parent="."]
+unique_name_in_owner = true
+visible = false
+layout_mode = 0
+offset_left = 189.0
+offset_top = 273.0
+offset_right = 288.0
+offset_bottom = 299.0
+text = "SPELLS WOO"
+
+[node name="Properties" type="Node" parent="."]
+script = ExtResource("2_2jg7p")
+
+[node name="Spells" type="Node" parent="Properties"]
+script = ExtResource("3_7elo8")
+
+[connection signal="property_changed" from="Properties/Spells" to="." method="_on_spells_property_changed"]

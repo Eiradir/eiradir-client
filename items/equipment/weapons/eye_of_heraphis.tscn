@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpgkyfkkx81cd"]
+
+[ext_resource type="Texture2D" uid="uid://ba63qvfv165mr" path="res://items/equipment/weapons/eye_of_heraphis.png" id="1_3wm25"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_3wm25")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dntcvm1mn357p"]
+
+[ext_resource type="Texture2D" uid="uid://d2c2h1ew1qoy5" path="res://items/equipment/weapons/dwarven_axe.png" id="1_y1s7y"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_y1s7y")

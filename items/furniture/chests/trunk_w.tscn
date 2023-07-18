@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bytsn72dimeqi"]
+
+[ext_resource type="Texture2D" uid="uid://dlsv1c35py603" path="res://items/furniture/chests/trunk_w.png" id="1_tfwwa"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_tfwwa")

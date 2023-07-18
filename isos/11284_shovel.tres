@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://btyitjs8fhs46"]
+
+[ext_resource type="PackedScene" uid="uid://dmjy7im18se1r" path="res://items/tools/shovel.tscn" id="1_1uupb"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_1t76a"]
+[ext_resource type="Texture2D" uid="uid://brs51orwyv0to" path="res://items/tools/shovel.png" id="3_84jso"]
+
+[resource]
+script = ExtResource("2_1t76a")
+scene = ExtResource("1_1uupb")
+texture = ExtResource("3_84jso")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

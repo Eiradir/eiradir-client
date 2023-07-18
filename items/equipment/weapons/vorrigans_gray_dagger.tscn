@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bcqqe46bwfm1t"]
+
+[ext_resource type="Texture2D" uid="uid://i5074ljcltyw" path="res://items/equipment/weapons/vorrigans_gray_dagger.png" id="1_b16mk"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_b16mk")

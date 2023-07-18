@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ctap0lmasvice"]
+
+[ext_resource type="Texture2D" uid="uid://dyg1ldtgfx37w" path="res://items/equipment/clothes/jack.png" id="1_nvdso"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_nvdso")

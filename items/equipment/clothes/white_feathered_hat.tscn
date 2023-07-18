@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyx67pk8k8cyu"]
+
+[ext_resource type="Texture2D" uid="uid://ldc8fjfvafuw" path="res://items/equipment/clothes/white_feathered_hat.png" id="1_22rlx"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_22rlx")

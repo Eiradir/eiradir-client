@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://baudpb5og5ped"]
+
+[ext_resource type="Texture2D" uid="uid://n3j82yx25dry" path="res://items/misc/glass_panels.png" id="1_mljlh"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_mljlh")

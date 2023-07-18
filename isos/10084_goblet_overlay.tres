@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://b23xv5nc8apb3"]
+
+[ext_resource type="PackedScene" uid="uid://dytw5l6dnb6f3" path="res://items/cups/goblet_overlay.tscn" id="1_6msbb"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_dhhp5"]
+[ext_resource type="Texture2D" uid="uid://dm45v78ekmiw8" path="res://items/cups/goblet_overlay.png" id="3_vuf2s"]
+
+[resource]
+script = ExtResource("2_dhhp5")
+scene = ExtResource("1_6msbb")
+texture = ExtResource("3_vuf2s")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

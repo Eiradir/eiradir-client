@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://blb5p2nrb1fxx"]
+
+[ext_resource type="PackedScene" uid="uid://u316cp6kot0n" path="res://items/equipment/weapons/improved_trigadi_master_blade.tscn" id="1_8w8xc"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_16onn"]
+[ext_resource type="Texture2D" uid="uid://lruopsyyp0na" path="res://items/equipment/weapons/improved_trigadi_master_blade.png" id="3_6av7h"]
+
+[resource]
+script = ExtResource("2_16onn")
+scene = ExtResource("1_8w8xc")
+texture = ExtResource("3_6av7h")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

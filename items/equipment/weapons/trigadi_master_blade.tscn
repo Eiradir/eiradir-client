@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0tjgs305cj2c"]
+
+[ext_resource type="Texture2D" uid="uid://eia3q6meicui" path="res://items/equipment/weapons/trigadi_master_blade.png" id="1_tnlba"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_tnlba")

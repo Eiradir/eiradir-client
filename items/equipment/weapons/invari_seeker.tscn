@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bi6y2ool5wsdq"]
+
+[ext_resource type="Texture2D" uid="uid://bfsfdmunydgao" path="res://items/equipment/weapons/invari_seeker.png" id="1_80oin"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_80oin")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://clp3cney285aj"]
+
+[ext_resource type="PackedScene" uid="uid://mffblib0sonn" path="res://items/equipment/clothes/dress.tscn" id="1_5o50p"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_ge57a"]
+[ext_resource type="Texture2D" uid="uid://xg5g5xjfe447" path="res://items/equipment/clothes/dress.png" id="3_dtef0"]
+
+[resource]
+script = ExtResource("2_ge57a")
+scene = ExtResource("1_5o50p")
+texture = ExtResource("3_dtef0")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

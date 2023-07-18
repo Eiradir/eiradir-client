@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bahg08nfq4q15"]
+
+[ext_resource type="Texture2D" uid="uid://crrtrgn57377v" path="res://items/ores/gold_ore.png" id="1_bda32"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_bda32")

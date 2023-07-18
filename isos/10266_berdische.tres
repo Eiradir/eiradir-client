@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bqg6m7gbmrs3e"]
+
+[ext_resource type="PackedScene" uid="uid://cvfcnyxvx7br3" path="res://items/equipment/weapons/berdische.tscn" id="1_0gkc6"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_k0ki6"]
+[ext_resource type="Texture2D" uid="uid://d2irmafljl116" path="res://items/equipment/weapons/berdische.png" id="3_j01qn"]
+
+[resource]
+script = ExtResource("2_k0ki6")
+scene = ExtResource("1_0gkc6")
+texture = ExtResource("3_j01qn")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6ht8uw2p7y7c"]
+
+[ext_resource type="Texture2D" uid="uid://5m4aj45mcs52" path="res://items/crops/wheat_crop/wheat_crop_stage_02.png" id="1_42l7g"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_42l7g")

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dgo51ttuhnt00"]
+
+[ext_resource type="Texture2D" uid="uid://dv23mvndpact4" path="res://items/nature/trees/elven_oak_tree/elven_oak_tree_01.png" id="1_bys63"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_bys63")
+offset = Vector2(64, -181)

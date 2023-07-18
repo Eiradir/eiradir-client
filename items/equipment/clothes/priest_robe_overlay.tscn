@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dp6pcf16pqcwr"]
+
+[ext_resource type="Texture2D" uid="uid://bd3i0hihwkn1n" path="res://items/equipment/clothes/priest_robe_overlay.png" id="1_lh10f"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_lh10f")

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://chdlujrflfx6m"]
+
+[ext_resource type="Texture2D" uid="uid://dq408b2g8crs0" path="res://items/nature/trees/hemara_oak_tree/hemara_oak_tree_02.png" id="1_eud1g"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_eud1g")
+offset = Vector2(30, -102)

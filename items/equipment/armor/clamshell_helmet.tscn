@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://chqrniqls0avk"]
+
+[ext_resource type="Texture2D" uid="uid://b7s23ic51qxs3" path="res://items/equipment/armor/clamshell_helmet.png" id="1_4nrf7"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_4nrf7")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dv2m6fspsqylo"]
+
+[ext_resource type="Texture2D" uid="uid://dlkpsmthf1m4x" path="res://items/equipment/weapons/thiefs_knife.png" id="1_twoem"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_twoem")

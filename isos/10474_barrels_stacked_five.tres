@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://vl1m7u3mwplt"]
+
+[ext_resource type="PackedScene" uid="uid://b8urhc5ow5cp" path="res://items/furniture/barrels/barrels_stacked_five.tscn" id="1_eblrr"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_4jns7"]
+[ext_resource type="Texture2D" uid="uid://bbob06nve0y6f" path="res://items/furniture/barrels/barrels_stacked_five.png" id="3_bdapl"]
+
+[resource]
+script = ExtResource("2_4jns7")
+scene = ExtResource("1_eblrr")
+texture = ExtResource("3_bdapl")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

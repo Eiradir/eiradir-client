@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bfms4gwhqghwh"]
+
+[ext_resource type="PackedScene" uid="uid://fxm1q5g0qm00" path="res://items/furniture/barrels/empty_barrel.tscn" id="1_1nsqe"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_7llbv"]
+[ext_resource type="Texture2D" uid="uid://dsbx0qi5khexa" path="res://items/furniture/barrels/empty_barrel.png" id="3_uckms"]
+
+[resource]
+script = ExtResource("2_7llbv")
+scene = ExtResource("1_1nsqe")
+texture = ExtResource("3_uckms")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

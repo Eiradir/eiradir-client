@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dfi0n8rhsyhrq"]
+
+[ext_resource type="PackedScene" uid="uid://bm2qfuvuhh5o2" path="res://items/furniture/leather_frame/leather_frame.tscn" id="1_m03tj"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_462bx"]
+[ext_resource type="Texture2D" uid="uid://cileuu2bbecbx" path="res://items/furniture/leather_frame/leather_frame.png" id="3_tlrat"]
+
+[resource]
+script = ExtResource("2_462bx")
+scene = ExtResource("1_m03tj")
+texture = ExtResource("3_tlrat")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

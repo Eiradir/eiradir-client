@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://batcmoxruv16j"]
+
+[ext_resource type="Texture2D" uid="uid://cuxrmdh8ff2pl" path="res://items/equipment/armor/flesh_of_koshmar.png" id="1_4dh0q"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_4dh0q")

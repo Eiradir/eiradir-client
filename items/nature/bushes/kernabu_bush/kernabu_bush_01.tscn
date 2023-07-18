@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dslpxq7ciqygq"]
+
+[ext_resource type="Texture2D" uid="uid://7udw2f7fl206" path="res://items/nature/bushes/kernabu_bush/kernabu_bush_01.png" id="1_w66hw"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_w66hw")

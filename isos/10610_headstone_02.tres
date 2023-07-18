@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://0ta1l7i4k00k"]
+
+[ext_resource type="PackedScene" uid="uid://vq0yl63ub1pe" path="res://items/graves/headstone_02.tscn" id="1_mqirn"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_4a7cd"]
+[ext_resource type="Texture2D" uid="uid://coqw2ycx8ub5b" path="res://items/graves/headstone_02.png" id="3_xm085"]
+
+[resource]
+script = ExtResource("2_4a7cd")
+scene = ExtResource("1_mqirn")
+texture = ExtResource("3_xm085")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

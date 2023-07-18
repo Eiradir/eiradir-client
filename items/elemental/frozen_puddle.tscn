@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://q6h3aqro3qi2"]
+
+[ext_resource type="Texture2D" uid="uid://blgyang5hyajt" path="res://items/elemental/frozen_puddle.png" id="1_s8vej"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_s8vej")

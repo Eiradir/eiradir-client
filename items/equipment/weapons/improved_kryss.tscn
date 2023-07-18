@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://chxhn3m5vguge"]
+
+[ext_resource type="Texture2D" uid="uid://bnbebk3djo6qs" path="res://items/equipment/weapons/improved_kryss.png" id="1_e15rj"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_e15rj")

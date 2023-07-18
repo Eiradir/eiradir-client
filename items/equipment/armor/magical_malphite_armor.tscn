@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cygbt23miscrh"]
+
+[ext_resource type="Texture2D" uid="uid://ct5maxvf8adpl" path="res://items/equipment/armor/magical_malphite_armor.png" id="1_ngfyj"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ngfyj")

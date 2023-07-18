@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bgchej2rjhg23"]
+
+[ext_resource type="PackedScene" uid="uid://dwlcecb2lmcvj" path="res://items/nature/plants/water_plants/water_plants_01.tscn" id="1_utqu5"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_wy0l4"]
+[ext_resource type="Texture2D" uid="uid://dki8i32bw7k7q" path="res://items/nature/plants/water_plants/water_plants_01.png" id="3_m47jc"]
+
+[resource]
+script = ExtResource("2_wy0l4")
+scene = ExtResource("1_utqu5")
+texture = ExtResource("3_m47jc")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

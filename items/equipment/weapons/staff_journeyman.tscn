@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cu2t3w4v31nqi"]
+
+[ext_resource type="Texture2D" uid="uid://bn24jre5gpq6s" path="res://items/equipment/weapons/staff_journeyman.png" id="1_if1r2"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_if1r2")

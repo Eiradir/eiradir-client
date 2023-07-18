@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ct1n5tpq1qjug"]
+
+[ext_resource type="Texture2D" uid="uid://cfg4afclaqnpj" path="res://items/equipment/clothes/fancy_dress_overlay.png" id="1_dba48"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_dba48")

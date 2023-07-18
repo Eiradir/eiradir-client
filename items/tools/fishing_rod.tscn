@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://t4i162o8pmca"]
+
+[ext_resource type="Texture2D" uid="uid://nmcgjvl17htr" path="res://items/tools/fishing_rod.png" id="1_s23de"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_s23de")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://diau2q8r6g53j"]
+
+[ext_resource type="Texture2D" uid="uid://73ga4po8eivg" path="res://items/herbs/maple_root.png" id="1_3qfpy"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_3qfpy")

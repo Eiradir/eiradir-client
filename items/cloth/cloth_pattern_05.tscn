@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bgy5eiemxoiha"]
+
+[ext_resource type="Texture2D" uid="uid://dhjbhs6gdpv5d" path="res://items/cloth/cloth_pattern_05.png" id="1_gonxn"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_gonxn")

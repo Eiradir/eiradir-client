@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dwqneln8q4mrf"]
+
+[ext_resource type="PackedScene" uid="uid://llvbph8bv5nl" path="res://items/structure/stucco/stucco_triangle_e_n.tscn" id="1_7mrfg"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_75d65"]
+[ext_resource type="Texture2D" uid="uid://chwj2ul2tfabt" path="res://items/structure/stucco/stucco_triangle_e_n.png" id="3_2trhe"]
+
+[resource]
+script = ExtResource("2_75d65")
+scene = ExtResource("1_7mrfg")
+texture = ExtResource("3_2trhe")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

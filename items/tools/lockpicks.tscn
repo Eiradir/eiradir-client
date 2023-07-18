@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dv0xh5hkvba0n"]
+
+[ext_resource type="Texture2D" uid="uid://cm3uqxr0b2c0g" path="res://items/tools/lockpicks.png" id="1_pdt7u"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_pdt7u")

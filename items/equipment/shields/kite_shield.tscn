@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://w0i3do18e6dc"]
+
+[ext_resource type="Texture2D" uid="uid://c1j88t7r0on5" path="res://items/equipment/shields/kite_shield.png" id="1_t16pb"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_t16pb")

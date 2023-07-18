@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cmwu8cs0ylwb5"]
+
+[ext_resource type="PackedScene" uid="uid://mqn47qeu2eat" path="res://items/equipment/weapons/sabre.tscn" id="1_7cw3b"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_04q1a"]
+[ext_resource type="Texture2D" uid="uid://bb0psc6qjtq58" path="res://items/equipment/weapons/sabre.png" id="3_jc41e"]
+
+[resource]
+script = ExtResource("2_04q1a")
+scene = ExtResource("1_7cw3b")
+texture = ExtResource("3_jc41e")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

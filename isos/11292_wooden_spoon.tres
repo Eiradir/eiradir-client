@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dfshehsqdueeo"]
+
+[ext_resource type="PackedScene" uid="uid://dtrxtwxeurdab" path="res://items/tools/wooden_spoon.tscn" id="1_mb21o"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_qws7n"]
+[ext_resource type="Texture2D" uid="uid://crwitqim8fji3" path="res://items/tools/wooden_spoon.png" id="3_ilocj"]
+
+[resource]
+script = ExtResource("2_qws7n")
+scene = ExtResource("1_mb21o")
+texture = ExtResource("3_ilocj")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

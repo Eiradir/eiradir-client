@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dppp7jdqopm2u"]
+
+[ext_resource type="PackedScene" uid="uid://5jhhyqwug6lm" path="res://items/equipment/armor/sugarloaf_helmet.tscn" id="1_5plc8"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_v5l8u"]
+[ext_resource type="Texture2D" uid="uid://bwplbvemrabcw" path="res://items/equipment/armor/sugarloaf_helmet.png" id="3_gopkr"]
+
+[resource]
+script = ExtResource("2_v5l8u")
+scene = ExtResource("1_5plc8")
+texture = ExtResource("3_gopkr")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

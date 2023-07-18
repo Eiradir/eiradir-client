@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://di7ta6oed0jv4"]
+
+[ext_resource type="Texture2D" uid="uid://dj3hlnoot8phl" path="res://items/equipment/weapons/elven_longbow.png" id="1_rki6l"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_rki6l")

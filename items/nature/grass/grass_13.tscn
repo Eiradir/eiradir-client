@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://daeg8sjc14y7x"]
+
+[ext_resource type="Texture2D" uid="uid://bvjsr3kvbaj24" path="res://items/nature/grass/grass_13.png" id="1_mqprh"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_mqprh")

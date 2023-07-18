@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://b6sjuyaabfxsq"]
+
+[ext_resource type="PackedScene" uid="uid://t25304jnrvp2" path="res://items/structure/brick/brick_triangle_w_s.tscn" id="1_m5uce"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_81ppd"]
+[ext_resource type="Texture2D" uid="uid://bxgg7t1qcw278" path="res://items/structure/brick/brick_triangle_w_s.png" id="3_pcn1d"]
+
+[resource]
+script = ExtResource("2_81ppd")
+scene = ExtResource("1_m5uce")
+texture = ExtResource("3_pcn1d")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

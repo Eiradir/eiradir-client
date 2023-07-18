@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwwsbuhof4nxv"]
+
+[ext_resource type="Texture2D" uid="uid://c5l4lei0paukd" path="res://items/books/book_overlay.png" id="1_fvbk3"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_fvbk3")

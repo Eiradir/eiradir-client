@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbg61mimqpho3"]
+
+[ext_resource type="Texture2D" uid="uid://bg2bcplnumwjm" path="res://items/gems/cut_sapphire.png" id="1_nu0md"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_nu0md")

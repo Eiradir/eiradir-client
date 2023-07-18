@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dqhs6u7pqwa8e"]
+
+[ext_resource type="PackedScene" uid="uid://c0nmmqmt7j64o" path="res://items/stairs/stairs_down_w.tscn" id="1_4qiun"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_qifab"]
+[ext_resource type="Texture2D" uid="uid://ddnny25mb85kd" path="res://items/stairs/stairs_down_w.png" id="3_6dqer"]
+
+[resource]
+script = ExtResource("2_qifab")
+scene = ExtResource("1_4qiun")
+texture = ExtResource("3_6dqer")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

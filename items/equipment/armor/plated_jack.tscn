@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b46mnqa4rjypj"]
+
+[ext_resource type="Texture2D" uid="uid://ccyupi4oepnbk" path="res://items/equipment/armor/plated_jack.png" id="1_iw705"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_iw705")

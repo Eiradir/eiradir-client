@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdgu20gunfsvf"]
+
+[ext_resource type="Texture2D" uid="uid://m1wy2msgrgws" path="res://items/equipment/armor/banded_chain_hauberk.png" id="1_xlko4"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_xlko4")

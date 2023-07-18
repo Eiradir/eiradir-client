@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://or0p8vbseqmw"]
+
+[ext_resource type="Texture2D" uid="uid://be17x00bdcfsi" path="res://items/equipment/weapons/maruvian_hussar.png" id="1_qap7k"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_qap7k")

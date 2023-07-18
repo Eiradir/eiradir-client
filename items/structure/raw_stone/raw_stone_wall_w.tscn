@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://crsl8x482d5jn"]
+
+[ext_resource type="Texture2D" uid="uid://fgbl3j4l1qhh" path="res://items/structure/raw_stone/raw_stone_wall_w.png" id="1_k7knl"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_k7knl")

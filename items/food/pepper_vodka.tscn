@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxv7x1tjmeui4"]
+
+[ext_resource type="Texture2D" uid="uid://f32rfkycn3hq" path="res://items/food/pepper_vodka.png" id="1_b4m2p"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_b4m2p")

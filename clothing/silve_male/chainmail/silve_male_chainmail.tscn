@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0xflq8yh61lk"]
+
+[ext_resource type="SpriteFrames" path="res://clothing/silve_male/chainmail/silve_male_chainmail.tres" id="1_njh74"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_njh74")
+animation = &"idle_east"
+offset = Vector2(-3, -36)

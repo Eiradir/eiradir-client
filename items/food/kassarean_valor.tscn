@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bky40xdx25sbx"]
+
+[ext_resource type="Texture2D" uid="uid://bwivku0s7wdeb" path="res://items/food/kassarean_valor.png" id="1_tgxgd"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_tgxgd")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://8rmweem0v1nr"]
+
+[ext_resource type="SpriteFrames" uid="uid://dw54sjjskly3d" path="res://clothing/dwarf_male/chainmail/dwarf_male_chainmail.tres" id="1_tx44x"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_tx44x")
+animation = &"idle_east"
+offset = Vector2(-4, -24)

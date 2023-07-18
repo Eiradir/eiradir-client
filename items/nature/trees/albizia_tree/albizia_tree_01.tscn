@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cj3m8fff88t6y"]
+
+[ext_resource type="Texture2D" uid="uid://b3tyx1c4yym32" path="res://items/nature/trees/albizia_tree/albizia_tree_01.png" id="1_2sht2"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_2sht2")
+offset = Vector2(90, -99)

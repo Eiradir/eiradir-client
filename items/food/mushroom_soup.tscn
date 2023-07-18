@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c06eniythdm67"]
+
+[ext_resource type="Texture2D" uid="uid://bu7wixblu2urt" path="res://items/food/mushroom_soup.png" id="1_rr6ft"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_rr6ft")

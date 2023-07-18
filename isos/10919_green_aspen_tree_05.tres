@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://1cdjum8ww5hi"]
+
+[ext_resource type="PackedScene" uid="uid://djousnlatpow4" path="res://items/nature/trees/green_aspen_tree/green_aspen_tree_05.tscn" id="1_flcrt"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_pr0mg"]
+[ext_resource type="Texture2D" uid="uid://cxh8r3rtdgxvc" path="res://items/nature/trees/green_aspen_tree/green_aspen_tree_05.png" id="3_w3kpx"]
+
+[resource]
+script = ExtResource("2_pr0mg")
+scene = ExtResource("1_flcrt")
+texture = ExtResource("3_w3kpx")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

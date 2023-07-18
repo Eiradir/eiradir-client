@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://wux3gfud0um7"]
+
+[ext_resource type="Texture2D" uid="uid://mcfd0ljsurqc" path="res://items/furniture/alchemy/alchemical_alembic_active_s.png" id="1_7fbnd"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_7fbnd")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dpu63tiv71c3q"]
+
+[ext_resource type="Texture2D" uid="uid://cdm81twwk6gt0" path="res://items/equipment/clothes/fitted_tunic_overlay.png" id="1_gp62b"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_gp62b")

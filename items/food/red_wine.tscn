@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ekwbhehebyiw"]
+
+[ext_resource type="Texture2D" uid="uid://c4p0qj5cdn1pj" path="res://items/food/red_wine.png" id="1_qxnim"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_qxnim")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cmq5j33xakv8c"]
+
+[ext_resource type="PackedScene" uid="uid://bd5nwdvxbtvok" path="res://items/crops/cabbage_crop/cabbage_crop_stage_01.tscn" id="1_pkjnd"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_66jb6"]
+[ext_resource type="Texture2D" uid="uid://bjjj5f3dia38k" path="res://items/crops/cabbage_crop/cabbage_crop_stage_01.png" id="3_7nwnr"]
+
+[resource]
+script = ExtResource("2_66jb6")
+scene = ExtResource("1_pkjnd")
+texture = ExtResource("3_7nwnr")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

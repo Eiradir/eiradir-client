@@ -1,0 +1,195 @@
+[gd_scene load_steps=7 format=3 uid="uid://bjciqlvxais87"]
+
+[ext_resource type="Script" path="res://interface/equipment/equipment.gd" id="1_3hfe1"]
+[ext_resource type="Script" path="res://hud_system/hud_inventories.gd" id="1_xyrpb"]
+[ext_resource type="Script" path="res://hud_system/hud_inventory.gd" id="2_tx7uf"]
+[ext_resource type="Texture2D" uid="uid://m6v4rosy6wie" path="res://interface/equipment/equipment.png" id="2_u7pcp"]
+[ext_resource type="PackedScene" uid="uid://dqgnt7vyhg4wa" path="res://interface/equipment/equipment_slot.tscn" id="3_5lg4i"]
+[ext_resource type="Texture2D" uid="uid://7lj4nsv3kn86" path="res://interface/equipment/belt.png" id="4_o7wue"]
+
+[node name="equipment" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_3hfe1")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -163.0
+offset_top = -447.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_constants/separation = 0
+
+[node name="EquipmentSlots" type="TextureRect" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+texture = ExtResource("2_u7pcp")
+
+[node name="Slot00" parent="VBoxContainer/EquipmentSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 92.0
+offset_top = 318.0
+offset_right = 131.0
+offset_bottom = 344.0
+
+[node name="Slot01" parent="VBoxContainer/EquipmentSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 37.0
+offset_top = 278.0
+offset_right = 76.0
+offset_bottom = 304.0
+
+[node name="Slot02" parent="VBoxContainer/EquipmentSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 2
+offset_left = 19.0
+offset_top = 136.5
+offset_right = 61.0
+offset_bottom = 178.5
+
+[node name="Slot03" parent="VBoxContainer/EquipmentSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 71.0
+offset_top = 167.0
+offset_right = 97.0
+offset_bottom = 208.0
+
+[node name="Slot04" parent="VBoxContainer/EquipmentSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 103.0
+offset_top = 134.0
+offset_right = 145.0
+offset_bottom = 184.0
+
+[node name="Slot05" parent="VBoxContainer/EquipmentSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 21.0
+offset_top = 193.0
+offset_right = 60.0
+offset_bottom = 219.0
+
+[node name="Slot06" parent="VBoxContainer/EquipmentSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 105.0
+offset_top = 193.0
+offset_right = 144.0
+offset_bottom = 219.0
+
+[node name="Slot07" parent="VBoxContainer/EquipmentSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 66.0
+offset_top = 87.0
+offset_right = 105.0
+offset_bottom = 126.0
+
+[node name="Slot08" parent="VBoxContainer/EquipmentSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 67.0
+offset_top = 52.0
+offset_right = 104.0
+offset_bottom = 78.0
+
+[node name="Slot09" parent="VBoxContainer/EquipmentSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 117.0
+offset_top = 54.0
+offset_right = 141.0
+offset_bottom = 91.0
+
+[node name="Slot10" parent="VBoxContainer/EquipmentSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 18.0
+offset_top = 53.0
+offset_right = 55.0
+offset_bottom = 79.0
+
+[node name="Slot11" parent="VBoxContainer/EquipmentSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 60.0
+offset_top = 16.0
+offset_right = 97.0
+offset_bottom = 42.0
+
+[node name="BeltSlots" type="TextureRect" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+texture = ExtResource("4_o7wue")
+
+[node name="Slot12" parent="VBoxContainer/BeltSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 17.0
+offset_top = 8.0
+offset_right = 56.0
+offset_bottom = 34.0
+
+[node name="Slot13" parent="VBoxContainer/BeltSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 62.0
+offset_top = 8.0
+offset_right = 101.0
+offset_bottom = 34.0
+
+[node name="Slot14" parent="VBoxContainer/BeltSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 111.0
+offset_top = 10.0
+offset_right = 150.0
+offset_bottom = 36.0
+
+[node name="Slot15" parent="VBoxContainer/BeltSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 19.0
+offset_top = 38.0
+offset_right = 58.0
+offset_bottom = 64.0
+
+[node name="Slot16" parent="VBoxContainer/BeltSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 66.0
+offset_top = 40.0
+offset_right = 105.0
+offset_bottom = 66.0
+
+[node name="Slot17" parent="VBoxContainer/BeltSlots" instance=ExtResource("3_5lg4i")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 111.0
+offset_top = 40.0
+offset_right = 150.0
+offset_bottom = 66.0
+
+[node name="Inventories" type="Node" parent="."]
+script = ExtResource("1_xyrpb")
+
+[node name="Inventory" type="Node" parent="Inventories"]
+unique_name_in_owner = true
+script = ExtResource("2_tx7uf")
+
+[connection signal="inventory_changed" from="Inventories/Inventory" to="." method="_on_inventory_inventory_changed"]
+[connection signal="inventory_slot_changed" from="Inventories/Inventory" to="." method="_on_inventory_inventory_slot_changed"]

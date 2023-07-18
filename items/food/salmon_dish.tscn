@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://11e432wxxxdp"]
+
+[ext_resource type="Texture2D" uid="uid://cb0hh0ushhgvv" path="res://items/food/salmon_dish.png" id="1_8icof"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_8icof")

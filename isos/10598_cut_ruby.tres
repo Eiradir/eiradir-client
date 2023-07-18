@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://ctm6ptjjym1ii"]
+
+[ext_resource type="PackedScene" uid="uid://du3jy64twkt5c" path="res://items/gems/cut_ruby.tscn" id="1_nr73y"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_xdqii"]
+[ext_resource type="Texture2D" uid="uid://dt8gq8txe2wyb" path="res://items/gems/cut_ruby.png" id="3_ayogo"]
+
+[resource]
+script = ExtResource("2_xdqii")
+scene = ExtResource("1_nr73y")
+texture = ExtResource("3_ayogo")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c4y6ra0imll8l"]
+
+[ext_resource type="Texture2D" uid="uid://cq0x30nxh2u83" path="res://items/structure/rock/rock_face_corner.png" id="1_uwhf0"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_uwhf0")

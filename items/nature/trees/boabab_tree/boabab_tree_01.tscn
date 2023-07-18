@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dtqap08o64pky"]
+
+[ext_resource type="Texture2D" uid="uid://dgh1ko0xetmmw" path="res://items/nature/trees/boabab_tree/boabab_tree_01.png" id="1_rsqrx"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_rsqrx")
+offset = Vector2(24, -118)

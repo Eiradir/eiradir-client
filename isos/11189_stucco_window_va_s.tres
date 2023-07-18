@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://fud2w6pjr6p4"]
+
+[ext_resource type="PackedScene" uid="uid://yqb8dpeqgti6" path="res://items/structure/stucco/stucco_window_va_s.tscn" id="1_8e4c1"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_cngfa"]
+[ext_resource type="Texture2D" uid="uid://x17qu62s14pc" path="res://items/structure/stucco/stucco_window_va_s.png" id="3_nqkhc"]
+
+[resource]
+script = ExtResource("2_cngfa")
+scene = ExtResource("1_8e4c1")
+texture = ExtResource("3_nqkhc")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

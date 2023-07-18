@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bhm2ahc4tgqp0"]
+
+[ext_resource type="PackedScene" uid="uid://bjvh1voj3f5o6" path="res://items/equipment/shields/red_knight_shield.tscn" id="1_3yibf"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_f26g6"]
+[ext_resource type="Texture2D" uid="uid://gllft80jfh83" path="res://items/equipment/shields/red_knight_shield.png" id="3_b2jds"]
+
+[resource]
+script = ExtResource("2_f26g6")
+scene = ExtResource("1_3yibf")
+texture = ExtResource("3_b2jds")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

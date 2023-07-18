@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b4bq2dani6qr8"]
+
+[ext_resource type="Texture2D" uid="uid://5fpgte5050xu" path="res://items/herbs/stonecrow.png" id="1_ulgjr"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ulgjr")

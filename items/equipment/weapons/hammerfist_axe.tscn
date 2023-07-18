@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ywt3u3i5na2d"]
+
+[ext_resource type="Texture2D" uid="uid://cg3r8frwye3g3" path="res://items/equipment/weapons/hammerfist_axe.png" id="1_68y2d"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_68y2d")

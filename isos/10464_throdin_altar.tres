@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c40x826i1aaef"]
+
+[ext_resource type="PackedScene" uid="uid://hg5v3p6hgyvy" path="res://items/furniture/altars/throdin_altar.tscn" id="1_l4cdk"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_7p5qi"]
+[ext_resource type="Texture2D" uid="uid://33xn0u76g1y" path="res://items/furniture/altars/throdin_altar.png" id="3_74ege"]
+
+[resource]
+script = ExtResource("2_7p5qi")
+scene = ExtResource("1_l4cdk")
+texture = ExtResource("3_74ege")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

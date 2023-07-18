@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=3 format=3 uid="uid://cb82dw8ba4xjf"]
+
+[ext_resource type="PackedScene" uid="uid://d1x6n2rkvxkly" path="res://items/misc/lit_candelabra.tscn" id="1_njidb"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_jh6ek"]
+
+[resource]
+script = ExtResource("2_jh6ek")
+scene = ExtResource("1_njidb")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+paperdoll_id = 0
+tags = Array[String]([])

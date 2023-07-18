@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvad56xn64clx"]
+
+[ext_resource type="Texture2D" uid="uid://bb3k3a8wlnfru" path="res://items/equipment/weapons/improved_heavy_crossbow.png" id="1_i3peo"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_i3peo")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bpupavrfgcpur"]
+
+[ext_resource type="PackedScene" uid="uid://dnrbtb1y1s78n" path="res://items/nature/trees/jungle_tree/jungle_tree_11.tscn" id="1_eswbp"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_sw5hj"]
+[ext_resource type="Texture2D" uid="uid://busuemu4l1qfy" path="res://items/nature/trees/jungle_tree/jungle_tree_11.png" id="3_10qpj"]
+
+[resource]
+script = ExtResource("2_sw5hj")
+scene = ExtResource("1_eswbp")
+texture = ExtResource("3_10qpj")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqm2rxo0jyphb"]
+
+[ext_resource type="Texture2D" uid="uid://wr0cv62hadl8" path="res://items/equipment/armor/leather_fingerless_gloves.png" id="1_rtrlx"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_rtrlx")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2y6430h3451l"]
+
+[ext_resource type="Texture2D" uid="uid://diuyjbrnsrqm3" path="res://items/equipment/clothes/merchant_cloak.png" id="1_6h3gq"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_6h3gq")

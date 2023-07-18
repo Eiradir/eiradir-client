@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cv8khlxbsc8m1"]
+
+[ext_resource type="Texture2D" uid="uid://teojpd6splbm" path="res://items/furniture/altars/lelei_altar.png" id="1_4ps3p"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_4ps3p")

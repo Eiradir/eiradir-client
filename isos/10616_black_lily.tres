@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bytgjm22m6jch"]
+
+[ext_resource type="PackedScene" uid="uid://wsyac5qk8mol" path="res://items/herbs/black_lily.tscn" id="1_8rpde"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_tr62i"]
+[ext_resource type="Texture2D" uid="uid://bojokp35j1uuo" path="res://items/herbs/black_lily.png" id="3_em5bc"]
+
+[resource]
+script = ExtResource("2_tr62i")
+scene = ExtResource("1_8rpde")
+texture = ExtResource("3_em5bc")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

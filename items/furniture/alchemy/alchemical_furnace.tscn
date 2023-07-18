@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c1f1bxyiw15iv"]
+
+[ext_resource type="Texture2D" uid="uid://upkat6yxaex7" path="res://items/furniture/alchemy/alchemical_furnace.png" id="1_tgs84"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_tgs84")

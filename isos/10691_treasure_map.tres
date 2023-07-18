@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cefk5wa0lluqr"]
+
+[ext_resource type="PackedScene" uid="uid://dmq5bqjjn5wbd" path="res://items/misc/treasure_map.tscn" id="1_l37aq"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_5fkl6"]
+[ext_resource type="Texture2D" uid="uid://c4jktmxj4sow" path="res://items/misc/treasure_map.png" id="3_k2nju"]
+
+[resource]
+script = ExtResource("2_5fkl6")
+scene = ExtResource("1_l37aq")
+texture = ExtResource("3_k2nju")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

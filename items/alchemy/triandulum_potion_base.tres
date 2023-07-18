@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://cjququw2yveik"]
+
+[ext_resource type="Texture2D" uid="uid://b5c82mvmmnxuo" path="res://items/alchemy/triandulum_potion_base.png" id="1_e13h5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gm6x1"]
+atlas = ExtResource("1_e13h5")
+region = Rect2(0, 0, 16, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4hjb7"]
+atlas = ExtResource("1_e13h5")
+region = Rect2(16, 0, 16, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p5wve"]
+atlas = ExtResource("1_e13h5")
+region = Rect2(32, 0, 16, 26)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gm6x1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4hjb7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p5wve")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

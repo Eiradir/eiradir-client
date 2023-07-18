@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dbqm531e2oww2"]
+
+[ext_resource type="PackedScene" uid="uid://cbg61mimqpho3" path="res://items/gems/cut_sapphire.tscn" id="1_a1qi8"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_smxka"]
+[ext_resource type="Texture2D" uid="uid://bg2bcplnumwjm" path="res://items/gems/cut_sapphire.png" id="3_l7p06"]
+
+[resource]
+script = ExtResource("2_smxka")
+scene = ExtResource("1_a1qi8")
+texture = ExtResource("3_l7p06")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

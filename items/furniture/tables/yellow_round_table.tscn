@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dm6hssp7ulc25"]
+
+[ext_resource type="Texture2D" uid="uid://7t3fbhx2yque" path="res://items/furniture/tables/yellow_round_table.png" id="1_idjvd"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_idjvd")

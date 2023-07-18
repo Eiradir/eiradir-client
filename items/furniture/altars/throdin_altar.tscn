@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://hg5v3p6hgyvy"]
+
+[ext_resource type="Texture2D" uid="uid://33xn0u76g1y" path="res://items/furniture/altars/throdin_altar.png" id="1_2w03f"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_2w03f")

@@ -1,0 +1,58 @@
+[gd_scene load_steps=3 format=3 uid="uid://dyu1cxj2y01em"]
+
+[ext_resource type="Script" path="res://interface/start/create_character/attribute_slider.gd" id="1_2xdlv"]
+[ext_resource type="Theme" uid="uid://ff8ufmacq6dq" path="res://interface/theme/default.tres" id="2_uf6og"]
+
+[node name="AttributeSlider" type="Panel"]
+clip_contents = true
+custom_minimum_size = Vector2(275, 80)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_2xdlv")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="AttributeSlider" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/AttributeSlider"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/AttributeSlider/VBoxContainer"]
+layout_mode = 2
+
+[node name="SpinBox" type="SpinBox" parent="MarginContainer/AttributeSlider/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+select_all_on_focus = true
+
+[node name="Label" type="Label" parent="MarginContainer/AttributeSlider/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("2_uf6og")
+theme_type_variation = &"HeaderSmall"
+text = "ATTRIBUTE_NONE"
+vertical_alignment = 2
+
+[node name="Slider" type="HSlider" parent="MarginContainer/AttributeSlider/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]
+[connection signal="value_changed" from="MarginContainer/AttributeSlider/VBoxContainer/HBoxContainer/SpinBox" to="." method="_on_spin_box_value_changed"]
+[connection signal="value_changed" from="MarginContainer/AttributeSlider/VBoxContainer/Slider" to="." method="_on_slider_value_changed"]

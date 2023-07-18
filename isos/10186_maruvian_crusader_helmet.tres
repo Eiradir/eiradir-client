@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://vfnmujne0wg1"]
+
+[ext_resource type="PackedScene" uid="uid://b8ode6ml5gpku" path="res://items/equipment/armor/maruvian_crusader_helmet.tscn" id="1_n1c72"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_2v8h4"]
+[ext_resource type="Texture2D" uid="uid://dt1bhhxxkbb68" path="res://items/equipment/armor/maruvian_crusader_helmet.png" id="3_kc1lx"]
+
+[resource]
+script = ExtResource("2_2v8h4")
+scene = ExtResource("1_n1c72")
+texture = ExtResource("3_kc1lx")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

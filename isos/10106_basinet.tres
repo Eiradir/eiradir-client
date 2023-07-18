@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=5 format=3 uid="uid://cdhbd52s46i4j"]
+
+[ext_resource type="Resource" uid="uid://cqkfml078yr64" path="res://paperdolls/10009_sallet.tres" id="1_1jb18"]
+[ext_resource type="PackedScene" uid="uid://cxu3vwafin5q" path="res://items/equipment/armor/basinet.tscn" id="1_x75d5"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_ehuf5"]
+[ext_resource type="Texture2D" uid="uid://dcxq4i1863m40" path="res://items/equipment/armor/basinet.png" id="3_smcww"]
+
+[resource]
+script = ExtResource("2_ehuf5")
+scene = ExtResource("1_x75d5")
+texture = ExtResource("3_smcww")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+paperdoll = ExtResource("1_1jb18")
+tags = Array[String]([])

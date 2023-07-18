@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=3 format=3 uid="uid://c5f5fy3l3ddoe"]
+
+[ext_resource type="PackedScene" uid="uid://erbeg5d18t5n" path="res://characters/dwarf_female/dwarf_female.tscn" id="1_xn44h"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_cbli7"]
+
+[resource]
+script = ExtResource("2_cbli7")
+scene = ExtResource("1_xn44h")
+elevation = 0
+is_solid = true
+is_bridge = false
+disallow_drag = true
+eager_tooltip = true
+tags = Array[String]([])

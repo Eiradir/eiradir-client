@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b34j8vkx0p6nq"]
+
+[ext_resource type="Texture2D" uid="uid://fvaahv7k44ag" path="res://items/structure/stucco/stucco_door_s.png" id="1_vehhl"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_vehhl")

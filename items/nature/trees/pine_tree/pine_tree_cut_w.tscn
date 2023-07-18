@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxb4mijvxaewn"]
+
+[ext_resource type="Texture2D" uid="uid://crjttn3o3aw78" path="res://items/nature/trees/pine_tree/pine_tree_cut_w.png" id="1_1w0g4"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_1w0g4")
+offset = Vector2(-43, 26)

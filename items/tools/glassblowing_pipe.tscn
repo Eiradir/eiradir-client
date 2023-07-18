@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1bxs36qhxwqm"]
+
+[ext_resource type="Texture2D" uid="uid://sdfsdhijyikw" path="res://items/tools/glassblowing_pipe.png" id="1_tpgsn"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_tpgsn")

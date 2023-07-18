@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://v6g8noduchsu"]
+
+[ext_resource type="Texture2D" uid="uid://ck1cam1ibpg35" path="res://items/equipment/clothes/sorcerer_cloaked_coat.png" id="1_d16wa"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_d16wa")

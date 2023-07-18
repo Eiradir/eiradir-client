@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c0t54hkstts8l"]
+
+[ext_resource type="PackedScene" uid="uid://dmrehmhok5m8p" path="res://items/food/strawberry_pie.tscn" id="1_rkd3t"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_g2tax"]
+[ext_resource type="Texture2D" uid="uid://cr4m1cmmsby00" path="res://items/food/strawberry_pie.png" id="3_bgs11"]
+
+[resource]
+script = ExtResource("2_g2tax")
+scene = ExtResource("1_rkd3t")
+texture = ExtResource("3_bgs11")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c3vc3vca6es3p"]
+
+[ext_resource type="PackedScene" uid="uid://bxybnlx4ag2of" path="res://items/equipment/clothes/gray_long_coat.tscn" id="1_74ccb"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_j408e"]
+[ext_resource type="Texture2D" uid="uid://bg8ngnwoa04vk" path="res://items/equipment/clothes/gray_long_coat.png" id="3_vy6e4"]
+
+[resource]
+script = ExtResource("2_j408e")
+scene = ExtResource("1_74ccb")
+texture = ExtResource("3_vy6e4")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

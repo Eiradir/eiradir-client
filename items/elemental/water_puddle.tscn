@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dj1bh0c4321m5"]
+
+[ext_resource type="SpriteFrames" uid="uid://j5opcr8bb3fu" path="res://items/elemental/water_puddle.tres" id="1_5mpl5"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_5mpl5")

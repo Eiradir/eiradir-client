@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://mfffhil32yip"]
+
+[ext_resource type="PackedScene" uid="uid://b7aecrd5y2056" path="res://items/nature/bushes/hemara_bush_01.tscn" id="1_dcvik"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_k5e7j"]
+[ext_resource type="Texture2D" uid="uid://cnemj5r5kp7ts" path="res://items/nature/bushes/hemara_bush_01.png" id="3_ix06s"]
+
+[resource]
+script = ExtResource("2_k5e7j")
+scene = ExtResource("1_dcvik")
+texture = ExtResource("3_ix06s")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

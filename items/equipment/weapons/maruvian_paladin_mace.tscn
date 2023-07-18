@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfecpf4d5q7l0"]
+
+[ext_resource type="Texture2D" uid="uid://bntacd82aa7li" path="res://items/equipment/weapons/maruvian_paladin_mace.png" id="1_rrh3p"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_rrh3p")

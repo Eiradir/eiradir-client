@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bujyw6vl2ums7"]
+
+[ext_resource type="PackedScene" uid="uid://c7uf70h0ff4fi" path="res://items/equipment/weapons/improved_armored_bow.tscn" id="1_s2u30"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_t6oct"]
+[ext_resource type="Texture2D" uid="uid://4yqcahvmnyoc" path="res://items/equipment/weapons/improved_armored_bow.png" id="3_xpls7"]
+
+[resource]
+script = ExtResource("2_t6oct")
+scene = ExtResource("1_s2u30")
+texture = ExtResource("3_xpls7")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://so0iip83nxxg"]
+
+[ext_resource type="SpriteFrames" uid="uid://5uywjdqv3bo3" path="res://items/beehive/beehive_active.tres" id="1_ald53"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_ald53")
+offset = Vector2(0, -9)

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dt4bvgjij1bs4"]
+
+[ext_resource type="Texture2D" uid="uid://cuol4ayuvvndj" path="res://items/food/cherry_pie.png" id="1_kansk"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_kansk")

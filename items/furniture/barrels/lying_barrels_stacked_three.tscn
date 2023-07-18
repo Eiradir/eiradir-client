@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://vx5t0esb4ubp"]
+
+[ext_resource type="Texture2D" uid="uid://cflnnofxjnktm" path="res://items/furniture/barrels/lying_barrels_stacked_three.png" id="1_s2au7"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_s2au7")

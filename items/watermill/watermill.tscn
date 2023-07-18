@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmaqtkxhb3di0"]
+
+[ext_resource type="Texture2D" uid="uid://dgfjnobre012h" path="res://items/watermill/watermill.png" id="1_j2g45"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_j2g45")

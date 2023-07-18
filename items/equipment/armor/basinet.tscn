@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxu3vwafin5q"]
+
+[ext_resource type="Texture2D" uid="uid://dcxq4i1863m40" path="res://items/equipment/armor/basinet.png" id="1_01jew"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_01jew")

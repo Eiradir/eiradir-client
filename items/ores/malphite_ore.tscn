@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://nm6pbsuwj3jp"]
+
+[ext_resource type="Texture2D" uid="uid://bsifmoobrwr82" path="res://items/ores/malphite_ore.png" id="1_7yfk7"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_7yfk7")

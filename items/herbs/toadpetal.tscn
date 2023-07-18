@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://u5r32g7w5gmj"]
+
+[ext_resource type="Texture2D" uid="uid://btk23ywgdk3gw" path="res://items/herbs/toadpetal.png" id="1_ny4rs"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ny4rs")

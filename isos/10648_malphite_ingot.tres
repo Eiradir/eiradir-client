@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=3 format=3 uid="uid://bi62klcntuvv8"]
+
+[ext_resource type="PackedScene" uid="uid://bip6djlto8nup" path="res://items/ingots/malphite_ingot.tscn" id="1_nlu0v"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_rygw7"]
+
+[resource]
+script = ExtResource("2_rygw7")
+scene = ExtResource("1_nlu0v")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+paperdoll_id = 0
+tags = Array[String]([])

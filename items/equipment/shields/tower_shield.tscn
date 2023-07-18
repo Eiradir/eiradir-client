@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5itwg4ebj0m6"]
+
+[ext_resource type="Texture2D" uid="uid://cecvveblo5cy0" path="res://items/equipment/shields/tower_shield.png" id="1_kt836"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_kt836")

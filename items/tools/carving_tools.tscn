@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7uehpru5l3kt"]
+
+[ext_resource type="Texture2D" uid="uid://buvopu34ttqs4" path="res://items/tools/carving_tools.png" id="1_1lpt7"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_1lpt7")

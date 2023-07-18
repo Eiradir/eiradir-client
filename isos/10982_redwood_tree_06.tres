@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://ck4x0avd3devl"]
+
+[ext_resource type="PackedScene" uid="uid://bbw0aveqarb6q" path="res://items/nature/trees/redwood_tree/redwood_tree_06.tscn" id="1_j5150"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_em0in"]
+[ext_resource type="Texture2D" uid="uid://bet66kne5wuf3" path="res://items/nature/trees/redwood_tree/redwood_tree_06.png" id="3_mtxid"]
+
+[resource]
+script = ExtResource("2_em0in")
+scene = ExtResource("1_j5150")
+texture = ExtResource("3_mtxid")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

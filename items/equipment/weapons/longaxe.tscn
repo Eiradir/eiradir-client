@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ccr1l3qy5ecs6"]
+
+[ext_resource type="Texture2D" uid="uid://c104q4dg3art4" path="res://items/equipment/weapons/longaxe.png" id="1_7ax7u"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_7ax7u")

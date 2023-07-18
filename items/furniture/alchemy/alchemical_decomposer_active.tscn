@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjeot5u7rapb8"]
+
+[ext_resource type="Texture2D" uid="uid://tou6cj70jj7s" path="res://items/furniture/alchemy/alchemical_decomposer_active.png" id="1_i6bhm"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_i6bhm")

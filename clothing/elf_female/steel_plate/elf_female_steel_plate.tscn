@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmh473jvwfy7j"]
+
+[ext_resource type="SpriteFrames" uid="uid://bt50igbudq2yr" path="res://clothing/elf_female/steel_plate/elf_female_steel_plate.tres" id="1_t6da6"]
+
+[node name="elf_female_blouse" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_t6da6")
+animation = &"idle_east"
+offset = Vector2(1, -39)

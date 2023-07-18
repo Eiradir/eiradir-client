@@ -1,0 +1,13 @@
+<Project Sdk="Godot.NET.Sdk/4.0.3">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DotNetty.Buffers" Version="0.7.5" />
+    <PackageReference Include="DotNetty.Codecs" Version="0.7.5" />
+    <PackageReference Include="DotNetty.Common" Version="0.7.5" />
+    <PackageReference Include="DotNetty.Handlers" Version="0.7.5" />
+    <PackageReference Include="DotNetty.Transport" Version="0.7.5" />
+  </ItemGroup>
+</Project>

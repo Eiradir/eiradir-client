@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://crxlerake21es"]
+
+[ext_resource type="Texture2D" uid="uid://cmuf10dsb7ljm" path="res://items/tools/woodplane.png" id="1_aixs2"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_aixs2")

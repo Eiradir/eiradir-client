@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://boa4yctjt5ep0"]
+
+[ext_resource type="Texture2D" uid="uid://bvk3sk2pwl1t5" path="res://items/misc/feather.png" id="1_ydpha"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ydpha")

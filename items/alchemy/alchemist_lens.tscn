@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://chwgxmb2yr8qo"]
+
+[ext_resource type="Texture2D" uid="uid://d0r2t1c1sqgek" path="res://items/alchemy/alchemist_lens.png" id="1_g2kvf"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_g2kvf")

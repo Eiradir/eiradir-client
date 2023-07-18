@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxxjy0lk85q5k"]
+
+[ext_resource type="SpriteFrames" uid="uid://cqbtd7xcd4of7" path="res://clothing/dwarf_male/full_leather_armor/dwarf_male_full_leather_armor.tres" id="1_4io4m"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_4io4m")
+animation = &"idle_east"
+offset = Vector2(-4, -24)

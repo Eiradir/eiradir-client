@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c046goure5ujy"]
+
+[ext_resource type="Texture2D" uid="uid://4vcxdo2l1qyh" path="res://items/crops/rye_crop/rye_crop_stage_02.png" id="1_55gut"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_55gut")

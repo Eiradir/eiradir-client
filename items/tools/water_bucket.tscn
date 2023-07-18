@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://da5r0ijhv8p1g"]
+
+[ext_resource type="Texture2D" uid="uid://br0gcii23u8cl" path="res://items/tools/water_bucket.png" id="1_raxdq"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_raxdq")

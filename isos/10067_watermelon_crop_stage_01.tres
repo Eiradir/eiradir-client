@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://doxbrd3dxhdjo"]
+
+[ext_resource type="PackedScene" uid="uid://5wucidfh5u42" path="res://items/crops/watermelon_crop/watermelon_crop_stage_01.tscn" id="1_asd7s"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_cdk1f"]
+[ext_resource type="Texture2D" uid="uid://do14x0ocn5sa3" path="res://items/crops/watermelon_crop/watermelon_crop_stage_01.png" id="3_qtg7e"]
+
+[resource]
+script = ExtResource("2_cdk1f")
+scene = ExtResource("1_asd7s")
+texture = ExtResource("3_qtg7e")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://dt5voaakf2s0a"]
+
+[ext_resource type="AudioStream" uid="uid://bgbri03xm1vh0" path="res://music/eiradir.ogg" id="1_aq1k8"]
+[ext_resource type="PackedScene" uid="uid://dc38u0c2np62y" path="res://interface/start/title.tscn" id="2_dnnhn"]
+[ext_resource type="Script" path="res://interface/start/title.gd" id="3_lec7v"]
+
+[node name="main" type="Node"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_aq1k8")
+volume_db = -15.0
+autoplay = true
+
+[node name="TitleScreen" parent="." instance=ExtResource("2_dnnhn")]
+script = ExtResource("3_lec7v")

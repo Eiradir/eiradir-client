@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://b0d10d824c1v"]
+
+[ext_resource type="Texture2D" uid="uid://dtwf3mne3soxm" path="res://items/statues/bladewing_fountain_active.png" id="1_dn1ot"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5rkb4"]
+atlas = ExtResource("1_dn1ot")
+region = Rect2(0, 0, 166, 156)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7lirw"]
+atlas = ExtResource("1_dn1ot")
+region = Rect2(166, 0, 166, 156)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jmipo"]
+atlas = ExtResource("1_dn1ot")
+region = Rect2(332, 0, 166, 156)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ux4v8"]
+atlas = ExtResource("1_dn1ot")
+region = Rect2(498, 0, 166, 156)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5rkb4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7lirw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jmipo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ux4v8")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

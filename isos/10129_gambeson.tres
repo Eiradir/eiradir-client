@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://b607o46kvb57b"]
+
+[ext_resource type="PackedScene" uid="uid://c0q5kqrgfnm3m" path="res://items/equipment/armor/gambeson.tscn" id="1_qvm0a"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_gk3wg"]
+[ext_resource type="Texture2D" uid="uid://cadp1e734p6oy" path="res://items/equipment/armor/gambeson.png" id="3_xa8xp"]
+
+[resource]
+script = ExtResource("2_gk3wg")
+scene = ExtResource("1_qvm0a")
+texture = ExtResource("3_xa8xp")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

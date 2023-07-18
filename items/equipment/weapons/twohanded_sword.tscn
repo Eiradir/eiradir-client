@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://btl8wyi077ckr"]
+
+[ext_resource type="Texture2D" uid="uid://b6xdl1j60tpi8" path="res://items/equipment/weapons/twohanded_sword.png" id="1_t7a6l"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_t7a6l")

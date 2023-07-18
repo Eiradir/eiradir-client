@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://blill8volit52"]
+
+[ext_resource type="Texture2D" uid="uid://c7xdhl73pkga1" path="res://items/equipment/weapons/trigadi_signweaver.png" id="1_qdpi5"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_qdpi5")

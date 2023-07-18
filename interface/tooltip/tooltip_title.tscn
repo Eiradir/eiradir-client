@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://npibd6rytet8"]
+
+[ext_resource type="Theme" uid="uid://ff8ufmacq6dq" path="res://interface/theme/default.tres" id="1_3tr76"]
+
+[node name="tooltip_title" type="Label"]
+theme = ExtResource("1_3tr76")
+theme_type_variation = &"HeaderMedium"

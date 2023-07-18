@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://2kfkl24nkl6i"]
+
+[ext_resource type="PackedScene" uid="uid://bkf2ybgqsvs32" path="res://items/furniture/alchemy/alchemical_apparatus_w.tscn" id="1_6mmcu"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_2mdn2"]
+[ext_resource type="Texture2D" uid="uid://bs82cjb15bbkb" path="res://items/furniture/alchemy/alchemical_apparatus_w.png" id="3_n0klg"]
+
+[resource]
+script = ExtResource("2_2mdn2")
+scene = ExtResource("1_6mmcu")
+texture = ExtResource("3_n0klg")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

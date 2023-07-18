@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://4t852vkpw0l2"]
+
+[ext_resource type="Script" path="res://interface/menu/menu.gd" id="1_7tpxd"]
+
+[node name="item_menu" type="PopupMenu"]
+size = Vector2i(100, 8)
+visible = true
+mouse_passthrough = true
+script = ExtResource("1_7tpxd")
+
+[connection signal="index_pressed" from="." to="." method="_on_index_pressed"]

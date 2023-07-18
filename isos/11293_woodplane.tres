@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bj1ebrafaoml7"]
+
+[ext_resource type="PackedScene" uid="uid://crxlerake21es" path="res://items/tools/woodplane.tscn" id="1_vm1r2"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_itcer"]
+[ext_resource type="Texture2D" uid="uid://cmuf10dsb7ljm" path="res://items/tools/woodplane.png" id="3_b5xka"]
+
+[resource]
+script = ExtResource("2_itcer")
+scene = ExtResource("1_vm1r2")
+texture = ExtResource("3_b5xka")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

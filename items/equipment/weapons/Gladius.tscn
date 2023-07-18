@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b07t4mujl55l3"]
+
+[ext_resource type="Texture2D" uid="uid://c3uae6w1odn26" path="res://items/equipment/weapons/Gladius.png" id="1_dd133"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_dd133")

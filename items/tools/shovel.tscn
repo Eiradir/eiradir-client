@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmjy7im18se1r"]
+
+[ext_resource type="Texture2D" uid="uid://brs51orwyv0to" path="res://items/tools/shovel.png" id="1_cojsa"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_cojsa")

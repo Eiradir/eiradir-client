@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="IconDefinition" load_steps=3 format=3 uid="uid://b72te3wen1ntr"]
+
+[ext_resource type="Script" path="res://registry/data/icon_definition.gd" id="1_evjbt"]
+[ext_resource type="Texture2D" uid="uid://df36bbi1wk4y3" path="res://icons/poison.png" id="2_1tgym"]
+
+[resource]
+script = ExtResource("1_evjbt")
+texture = ExtResource("2_1tgym")

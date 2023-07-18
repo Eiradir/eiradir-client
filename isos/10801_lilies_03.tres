@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://l3nskieqnfqp"]
+
+[ext_resource type="PackedScene" uid="uid://kxcvcanyrlkh" path="res://items/nature/plants/lilies/lilies_03.tscn" id="1_83xgu"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_41exs"]
+[ext_resource type="Texture2D" uid="uid://n4thgw4lint1" path="res://items/nature/plants/lilies/lilies_03.png" id="3_bjd8e"]
+
+[resource]
+script = ExtResource("2_41exs")
+scene = ExtResource("1_83xgu")
+texture = ExtResource("3_bjd8e")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

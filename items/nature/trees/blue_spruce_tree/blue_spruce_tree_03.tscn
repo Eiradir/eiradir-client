@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://csarivj00tbm3"]
+
+[ext_resource type="Texture2D" uid="uid://bf1dc3lf8a4br" path="res://items/nature/trees/blue_spruce_tree/blue_spruce_tree_03.png" id="1_alng4"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_alng4")
+offset = Vector2(42, -110)

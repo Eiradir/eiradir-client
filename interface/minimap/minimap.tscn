@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://byu8qi8j4p5e2"]
+
+[ext_resource type="Texture2D" uid="uid://tmsgtm51r2t0" path="res://interface/minimap/minimap.png" id="1_e23ur"]
+[ext_resource type="Script" path="res://interface/minimap/minimap.gd" id="1_ou7gb"]
+
+[node name="minimap" type="Control"]
+custom_minimum_size = Vector2(173, 172)
+layout_mode = 3
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -173.0
+offset_bottom = 172.0
+grow_horizontal = 0
+script = ExtResource("1_ou7gb")
+
+[node name="Content" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Border" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_e23ur")

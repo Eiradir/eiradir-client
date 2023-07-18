@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cs4eadowyn0ka"]
+
+[ext_resource type="SpriteFrames" uid="uid://dh2iyowi5uajp" path="res://items/admin/admin_manipulation.tres" id="1_r5wck"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_r5wck")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://07s2ep1uelyu"]
+
+[ext_resource type="Texture2D" uid="uid://dd8fnvi2fdmbm" path="res://items/equipment/armor/archers_fingerless_gloves.png" id="1_5ewxr"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_5ewxr")

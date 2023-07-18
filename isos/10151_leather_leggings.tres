@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=5 format=3 uid="uid://crui6tkui5ehl"]
+
+[ext_resource type="PackedScene" uid="uid://g6jhf6ioqv4h" path="res://items/equipment/armor/leather_leggings.tscn" id="1_o2bdd"]
+[ext_resource type="Resource" uid="uid://casmwcxgtfet4" path="res://paperdolls/10011_trousers.tres" id="1_uwf0b"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_b5axj"]
+[ext_resource type="Texture2D" uid="uid://cpul4obw60ea2" path="res://items/equipment/armor/leather_leggings.png" id="3_aehua"]
+
+[resource]
+script = ExtResource("2_b5axj")
+scene = ExtResource("1_o2bdd")
+texture = ExtResource("3_aehua")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+paperdoll = ExtResource("1_uwf0b")
+tags = Array[String]([])

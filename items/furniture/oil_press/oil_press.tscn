@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cccd532vgno6b"]
+
+[ext_resource type="Texture2D" uid="uid://dqy4sjbs8jlym" path="res://items/furniture/oil_press/oil_press.png" id="1_4bc7v"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_4bc7v")

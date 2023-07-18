@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://syvsp2sbn7t4"]
+
+[ext_resource type="PackedScene" uid="uid://bu7al2qfsmmb" path="res://items/campfire/campfire.tscn" id="1_e2bp6"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_c3mbb"]
+[ext_resource type="Texture2D" uid="uid://3a1h7c2uyqw4" path="res://items/campfire/campfire.png" id="3_simjt"]
+
+[resource]
+script = ExtResource("2_c3mbb")
+scene = ExtResource("1_e2bp6")
+texture = ExtResource("3_simjt")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

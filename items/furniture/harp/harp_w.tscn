@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dc11enrgg5mfc"]
+
+[ext_resource type="Texture2D" uid="uid://b77h5c2gs8i4a" path="res://items/furniture/harp/harp_w.png" id="1_hfjdh"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_hfjdh")

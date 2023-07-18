@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://ouem8u3wgy52"]
+
+[ext_resource type="PackedScene" uid="uid://hfqatsdx2eet" path="res://items/equipment/weapons/slingshot.tscn" id="1_ofha8"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_6ewaa"]
+[ext_resource type="Texture2D" uid="uid://blxasxgdbyr14" path="res://items/equipment/weapons/slingshot.png" id="3_x2kal"]
+
+[resource]
+script = ExtResource("2_6ewaa")
+scene = ExtResource("1_ofha8")
+texture = ExtResource("3_x2kal")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cspcj3yd513ny"]
+
+[ext_resource type="Texture2D" uid="uid://41gtmmibp8ei" path="res://items/tools/flint.png" id="1_6ru8v"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_6ru8v")

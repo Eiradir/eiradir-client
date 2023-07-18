@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bntchxg2q2sw1"]
+
+[ext_resource type="Texture2D" uid="uid://5wf7asdp8pyj" path="res://items/equipment/armor/padded_gambeson.png" id="1_ui6tq"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ui6tq")

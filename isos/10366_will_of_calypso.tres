@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bns38g3xrevfb"]
+
+[ext_resource type="PackedScene" uid="uid://briphttbs4j3t" path="res://items/equipment/weapons/will_of_calypso.tscn" id="1_bs8xl"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_5y2df"]
+[ext_resource type="Texture2D" uid="uid://ttnf35ljfoqs" path="res://items/equipment/weapons/will_of_calypso.png" id="3_obxop"]
+
+[resource]
+script = ExtResource("2_5y2df")
+scene = ExtResource("1_bs8xl")
+texture = ExtResource("3_obxop")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

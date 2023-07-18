@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2uiw8gx1as8s"]
+
+[ext_resource type="Texture2D" uid="uid://dxad4usib5ma3" path="res://items/equipment/weapons/improved_elven_blade.png" id="1_btgqq"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_btgqq")

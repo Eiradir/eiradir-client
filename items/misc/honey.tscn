@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cf1mkne4yqqsy"]
+
+[ext_resource type="Texture2D" uid="uid://5vy8j25nw02x" path="res://items/misc/honey.png" id="1_474r3"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_474r3")

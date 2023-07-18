@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://wyreh6udocmo"]
+
+[ext_resource type="PackedScene" uid="uid://cc7ibkpt45rnq" path="res://items/equipment/armor/death_plate.tscn" id="1_ljfbd"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_qrlms"]
+[ext_resource type="Texture2D" uid="uid://52e646s1ijdp" path="res://items/equipment/armor/death_plate.png" id="3_yebkv"]
+
+[resource]
+script = ExtResource("2_qrlms")
+scene = ExtResource("1_ljfbd")
+texture = ExtResource("3_yebkv")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

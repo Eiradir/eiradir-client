@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8t5pijbkv8xn"]
+
+[ext_resource type="Texture2D" uid="uid://dwaojavsr0r5e" path="res://items/nature/trees/maple_tree/maple_tree_cut_w.png" id="1_a5bfd"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_a5bfd")
+offset = Vector2(-62, 38)

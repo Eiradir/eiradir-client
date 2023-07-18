@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3lp0aq2pt46t"]
+
+[ext_resource type="Texture2D" uid="uid://bdds5ek8ewtog" path="res://items/equipment/armor/chain_gloves.png" id="1_vpu87"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_vpu87")

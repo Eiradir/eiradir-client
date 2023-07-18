@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cqwv2qlb7t20r"]
+
+[ext_resource type="Texture2D" uid="uid://dg18ctktf6bd5" path="res://items/rings/malphite_ring.png" id="1_lia68"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_lia68")

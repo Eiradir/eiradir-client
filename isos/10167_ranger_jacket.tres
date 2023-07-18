@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c8n2q56f1mkix"]
+
+[ext_resource type="PackedScene" uid="uid://dw286vhdh3347" path="res://items/equipment/armor/ranger_jacket.tscn" id="1_qo4os"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_yr6uo"]
+[ext_resource type="Texture2D" uid="uid://cjh4bgwgp7iqr" path="res://items/equipment/armor/ranger_jacket.png" id="3_2d87o"]
+
+[resource]
+script = ExtResource("2_yr6uo")
+scene = ExtResource("1_qo4os")
+texture = ExtResource("3_2d87o")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

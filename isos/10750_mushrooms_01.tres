@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cx2vquynf7ykk"]
+
+[ext_resource type="PackedScene" uid="uid://v2r4bjbrv7ar" path="res://items/nature/mushrooms/mushrooms_01.tscn" id="1_12x01"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_gfoxs"]
+[ext_resource type="Texture2D" uid="uid://dmm1sjll2vppy" path="res://items/nature/mushrooms/mushrooms_01.png" id="3_gxipq"]
+
+[resource]
+script = ExtResource("2_gfoxs")
+scene = ExtResource("1_12x01")
+texture = ExtResource("3_gxipq")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

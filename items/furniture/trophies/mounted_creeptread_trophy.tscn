@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqy00ptgexvkj"]
+
+[ext_resource type="Texture2D" uid="uid://bbv8xhy7rx258" path="res://items/furniture/trophies/mounted_creeptread_trophy.png" id="1_q6con"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_q6con")

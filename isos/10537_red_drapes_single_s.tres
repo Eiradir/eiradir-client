@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bprq5xmaedivj"]
+
+[ext_resource type="PackedScene" uid="uid://ccifeopqo121k" path="res://items/furniture/drapes/red_drapes_single_s.tscn" id="1_y7sa6"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_2uc3p"]
+[ext_resource type="Texture2D" uid="uid://uf2wntavx5qc" path="res://items/furniture/drapes/red_drapes_single_s.png" id="3_143vp"]
+
+[resource]
+script = ExtResource("2_2uc3p")
+scene = ExtResource("1_y7sa6")
+texture = ExtResource("3_143vp")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

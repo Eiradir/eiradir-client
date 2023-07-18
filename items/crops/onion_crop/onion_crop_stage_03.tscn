@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://58edbutwcw5b"]
+
+[ext_resource type="Texture2D" uid="uid://dgegwqbfiwpu1" path="res://items/crops/onion_crop/onion_crop_stage_03.png" id="1_6gwq8"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_6gwq8")

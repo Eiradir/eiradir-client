@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkaodjy4r4crt"]
+
+[ext_resource type="Texture2D" uid="uid://bf0p1qd0c1xwd" path="res://items/fish/roach.png" id="1_27d57"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_27d57")

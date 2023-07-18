@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c18qi8pqkce4q"]
+
+[ext_resource type="Texture2D" uid="uid://dbn02kdndciv4" path="res://items/blood/blood_e.png" id="1_c67uf"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_c67uf")

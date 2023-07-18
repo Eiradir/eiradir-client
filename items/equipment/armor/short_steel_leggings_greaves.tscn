@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5gqaucaegw1j"]
+
+[ext_resource type="Texture2D" uid="uid://cvbeoojuo2bev" path="res://items/equipment/armor/short_steel_leggings_greaves.png" id="1_1y1sx"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_1y1sx")

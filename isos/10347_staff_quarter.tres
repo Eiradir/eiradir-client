@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c1rjmxo8brfi0"]
+
+[ext_resource type="PackedScene" uid="uid://ci237jjaamsbl" path="res://items/equipment/weapons/staff_quarter.tscn" id="1_jpdly"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_fuywd"]
+[ext_resource type="Texture2D" uid="uid://h4kvo4umifx0" path="res://items/equipment/weapons/staff_quarter.png" id="3_2yvf4"]
+
+[resource]
+script = ExtResource("2_fuywd")
+scene = ExtResource("1_jpdly")
+texture = ExtResource("3_2yvf4")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

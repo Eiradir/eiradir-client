@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bht05bpcrbu8w"]
+
+[ext_resource type="Texture2D" uid="uid://ckujqt0dcdfvm" path="res://items/tools/needle.png" id="1_avmoa"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_avmoa")

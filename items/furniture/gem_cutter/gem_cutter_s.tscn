@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://5cfkv6o78m3u"]
+
+[ext_resource type="Texture2D" uid="uid://td0rp82upvx4" path="res://items/furniture/gem_cutter/gem_cutter_s.png" id="1_6tnhj"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_6tnhj")

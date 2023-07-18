@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c4vg6b0mq3nyv"]
+
+[ext_resource type="PackedScene" uid="uid://nmcw7jgmhs" path="res://items/furniture/altars/heraphis_altar_full.tscn" id="1_sagy5"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_kw553"]
+[ext_resource type="Texture2D" uid="uid://dj886w41yuox1" path="res://items/furniture/altars/heraphis_altar_full.png" id="3_eoail"]
+
+[resource]
+script = ExtResource("2_kw553")
+scene = ExtResource("1_sagy5")
+texture = ExtResource("3_eoail")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

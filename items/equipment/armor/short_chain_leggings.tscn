@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bhy23b1p8aumk"]
+
+[ext_resource type="Texture2D" uid="uid://bcg0q7t81wsx1" path="res://items/equipment/armor/short_chain_leggings.png" id="1_4dr52"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_4dr52")

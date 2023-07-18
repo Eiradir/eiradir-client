@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://chwuclbuv2ga8"]
+
+[ext_resource type="Texture2D" uid="uid://y8rk7hjix5r5" path="res://items/misc/raw_leather.png" id="1_01rbn"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_01rbn")

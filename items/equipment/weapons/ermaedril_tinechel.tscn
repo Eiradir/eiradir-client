@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bd6kkkkrko45n"]
+
+[ext_resource type="Texture2D" uid="uid://bjh1k00lhj5hj" path="res://items/equipment/weapons/ermaedril_tinechel.png" id="1_u47jc"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_u47jc")

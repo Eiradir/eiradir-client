@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cpj2shhtt5xv2"]
+
+[ext_resource type="PackedScene" uid="uid://18eja53lfn0q" path="res://items/equipment/weapons/improved_war_hammer.tscn" id="1_obq22"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_f2n26"]
+[ext_resource type="Texture2D" uid="uid://cmf6624g5707p" path="res://items/equipment/weapons/improved_war_hammer.png" id="3_jtay5"]
+
+[resource]
+script = ExtResource("2_f2n26")
+scene = ExtResource("1_obq22")
+texture = ExtResource("3_jtay5")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

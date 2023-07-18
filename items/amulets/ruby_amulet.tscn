@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://hd3frabskttt"]
+
+[ext_resource type="Texture2D" uid="uid://dll5ima8ky1gl" path="res://items/amulets/ruby_amulet.png" id="1_mhpu3"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_mhpu3")

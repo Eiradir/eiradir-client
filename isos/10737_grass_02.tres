@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bp3fcyfnnx1sv"]
+
+[ext_resource type="PackedScene" uid="uid://b6usjmftedk8m" path="res://items/nature/grass/grass_02.tscn" id="1_dcn0o"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_mb860"]
+[ext_resource type="Texture2D" uid="uid://c5l673vjut1w6" path="res://items/nature/grass/grass_02.png" id="3_opi5q"]
+
+[resource]
+script = ExtResource("2_mb860")
+scene = ExtResource("1_dcn0o")
+texture = ExtResource("3_opi5q")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

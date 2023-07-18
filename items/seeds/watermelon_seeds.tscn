@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyqhyajmi27eh"]
+
+[ext_resource type="Texture2D" uid="uid://bfmjsjwid2dr4" path="res://items/seeds/watermelon_seeds.png" id="1_6n5ho"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_6n5ho")

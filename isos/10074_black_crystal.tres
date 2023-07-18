@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c201s6sjub4pq"]
+
+[ext_resource type="PackedScene" uid="uid://di08lryayds8j" path="res://items/crystals/black_crystal.tscn" id="1_u5bnm"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_bru2k"]
+[ext_resource type="Texture2D" uid="uid://nogq2fd72edf" path="res://items/crystals/black_crystal.png" id="3_gyypf"]
+
+[resource]
+script = ExtResource("2_bru2k")
+scene = ExtResource("1_u5bnm")
+texture = ExtResource("3_gyypf")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

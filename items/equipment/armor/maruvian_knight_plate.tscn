@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c0dx24jffrik3"]
+
+[ext_resource type="Texture2D" uid="uid://ccpom5gfskh8i" path="res://items/equipment/armor/maruvian_knight_plate.png" id="1_gqgmd"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_gqgmd")

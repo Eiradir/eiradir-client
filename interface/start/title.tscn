@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://dc38u0c2np62y"]
+
+[ext_resource type="Theme" uid="uid://ff8ufmacq6dq" path="res://interface/theme/default.tres" id="1_scuar"]
+[ext_resource type="Texture2D" uid="uid://c66nsaimoefiy" path="res://interface/theme/textures/title.jpg" id="2_v05xm"]
+
+[node name="TitleScreen" type="Control"]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_scuar")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 787.752
+grow_horizontal = 2
+texture = ExtResource("2_v05xm")
+expand_mode = 5
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -103.0
+offset_top = 31.0
+offset_right = 103.0
+offset_bottom = 116.0
+grow_horizontal = 2
+theme_type_variation = &"HeaderLarge"
+text = "Eiradir"

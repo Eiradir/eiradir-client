@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cey4a4gmcm8v3"]
+
+[ext_resource type="Texture2D" uid="uid://cy0buqo51cx3f" path="res://items/equipment/armor/dark_elf_armor.png" id="1_0qlnl"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_0qlnl")

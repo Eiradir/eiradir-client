@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://wl7r13naq02n"]
+
+[ext_resource type="PackedScene" uid="uid://ds6wm3tj80tcl" path="res://items/nature/trees/crooked_dwarftop_tree/crooked_dwarftop_02.tscn" id="1_e6urj"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_wxtwk"]
+[ext_resource type="Texture2D" uid="uid://c6t6r42fqr1f6" path="res://items/nature/trees/crooked_dwarftop_tree/crooked_dwarftop_02.png" id="3_utebb"]
+
+[resource]
+script = ExtResource("2_wxtwk")
+scene = ExtResource("1_e6urj")
+texture = ExtResource("3_utebb")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

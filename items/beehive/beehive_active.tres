@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://5uywjdqv3bo3"]
+
+[ext_resource type="Texture2D" uid="uid://c24rb7lsxt0yf" path="res://items/beehive/beehive_active.png" id="1_rt3pb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ohjjj"]
+atlas = ExtResource("1_rt3pb")
+region = Rect2(0, 0, 37, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lgx4o"]
+atlas = ExtResource("1_rt3pb")
+region = Rect2(37, 0, 37, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kdc4v"]
+atlas = ExtResource("1_rt3pb")
+region = Rect2(74, 0, 37, 40)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ohjjj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lgx4o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kdc4v")
+}],
+"loop": true,
+"name": &"default",
+"speed": 6.0
+}]

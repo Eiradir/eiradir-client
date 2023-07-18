@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dcymn6rpm7qac"]
+
+[ext_resource type="Texture2D" uid="uid://dfy5w57bo4erv" path="res://items/nature/trees/lemon_tree/lemon_tree_01_full.png" id="1_6rbcr"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_6rbcr")
+offset = Vector2(39, -107)

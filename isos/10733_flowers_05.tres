@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://b3o3216indf"]
+
+[ext_resource type="PackedScene" uid="uid://dc56jhslw4xk" path="res://items/nature/flowers/flowers_05.tscn" id="1_7g002"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_chmhx"]
+[ext_resource type="Texture2D" uid="uid://dpxniildhuvvc" path="res://items/nature/flowers/flowers_05.png" id="3_v5vyv"]
+
+[resource]
+script = ExtResource("2_chmhx")
+scene = ExtResource("1_7g002")
+texture = ExtResource("3_v5vyv")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

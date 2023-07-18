@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbuvcgse5h4no"]
+
+[ext_resource type="Texture2D" uid="uid://chmean1pnaqoq" path="res://items/equipment/armor/invari_assassin_armor.png" id="1_pisui"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_pisui")

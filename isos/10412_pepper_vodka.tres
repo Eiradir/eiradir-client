@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://deq8mulnsn306"]
+
+[ext_resource type="PackedScene" uid="uid://dxv7x1tjmeui4" path="res://items/food/pepper_vodka.tscn" id="1_2s3ai"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_yj57o"]
+[ext_resource type="Texture2D" uid="uid://f32rfkycn3hq" path="res://items/food/pepper_vodka.png" id="3_7crks"]
+
+[resource]
+script = ExtResource("2_yj57o")
+scene = ExtResource("1_2s3ai")
+texture = ExtResource("3_7crks")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

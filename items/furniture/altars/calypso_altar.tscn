@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxyj4yaemr6eo"]
+
+[ext_resource type="Texture2D" uid="uid://d31myfgtwixdx" path="res://items/furniture/altars/calypso_altar.png" id="1_28wi1"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_28wi1")

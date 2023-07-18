@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2tdnuotx4xas"]
+
+[ext_resource type="Texture2D" uid="uid://bcqqqansa6lfd" path="res://items/structure/cave/mud_wall_01.png" id="1_owvob"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_owvob")
+offset = Vector2(0, -58)

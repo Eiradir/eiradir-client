@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://d3bk3ec2mlat2"]
+
+[ext_resource type="PackedScene" uid="uid://b8o51dia6unlt" path="res://items/misc/potion.tscn" id="1_i2dgp"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_2x7b0"]
+[ext_resource type="Texture2D" uid="uid://gix47xplsvxi" path="res://items/misc/potion.png" id="3_0qox2"]
+
+[resource]
+script = ExtResource("2_2x7b0")
+scene = ExtResource("1_i2dgp")
+texture = ExtResource("3_0qox2")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

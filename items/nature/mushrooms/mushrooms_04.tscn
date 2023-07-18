@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxced4vq1i2bn"]
+
+[ext_resource type="Texture2D" uid="uid://ciah1unme3rar" path="res://items/nature/mushrooms/mushrooms_04.png" id="1_bb5pq"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_bb5pq")

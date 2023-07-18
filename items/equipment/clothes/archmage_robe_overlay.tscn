@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfvxo6agv3kpn"]
+
+[ext_resource type="Texture2D" uid="uid://uej1jahf5bnw" path="res://items/equipment/clothes/archmage_robe_overlay.png" id="1_2lebu"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_2lebu")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dy8r1amgkpbt4"]
+
+[ext_resource type="Texture2D" uid="uid://co7uv00bg6aca" path="res://items/equipment/weapons/lightning_sword.png" id="1_u2aje"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_u2aje")

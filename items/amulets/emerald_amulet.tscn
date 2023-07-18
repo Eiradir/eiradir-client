@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://et7r1h6e2pob"]
+
+[ext_resource type="Texture2D" uid="uid://s2daumamrsq3" path="res://items/amulets/emerald_amulet.png" id="1_nlmsj"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_nlmsj")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bafhkojusum3"]
+
+[ext_resource type="Texture2D" uid="uid://c5r34r3r1darv" path="res://items/equipment/weapons/vormaedril_lytathrassel.png" id="1_dt2wt"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_dt2wt")

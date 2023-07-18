@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://onwwulqliiq5"]
+
+[ext_resource type="Texture2D" uid="uid://sl3afxln2k1l" path="res://items/herbs/pig_parsley.png" id="1_spmbi"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_spmbi")

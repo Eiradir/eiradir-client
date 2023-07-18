@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b8i1fy6s77a6t"]
+
+[ext_resource type="Texture2D" uid="uid://dfkyaf0mos7ie" path="res://items/nature/trees/palm_tree/palm_tree_03.png" id="1_hw6fh"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_hw6fh")
+offset = Vector2(46, -94)

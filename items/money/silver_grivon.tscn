@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdhhaacuqdc2h"]
+
+[ext_resource type="Texture2D" uid="uid://bpfwk2ov3byat" path="res://items/money/silver_grivon.png" id="1_cicd4"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_cicd4")

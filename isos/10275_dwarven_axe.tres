@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://baoxklrpsxwk8"]
+
+[ext_resource type="PackedScene" uid="uid://dntcvm1mn357p" path="res://items/equipment/weapons/dwarven_axe.tscn" id="1_7gn54"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_3bobj"]
+[ext_resource type="Texture2D" uid="uid://d2c2h1ew1qoy5" path="res://items/equipment/weapons/dwarven_axe.png" id="3_704cn"]
+
+[resource]
+script = ExtResource("2_3bobj")
+scene = ExtResource("1_7gn54")
+texture = ExtResource("3_704cn")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

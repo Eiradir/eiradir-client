@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://hi5jq8bdt7jh"]
+
+[ext_resource type="PackedScene" uid="uid://qnibn0504kw7" path="res://items/equipment/armor/kassar_skullhound_bascinet.tscn" id="1_gciiw"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_om0ru"]
+[ext_resource type="Texture2D" uid="uid://derxktwts3n11" path="res://items/equipment/armor/kassar_skullhound_bascinet.png" id="3_2cc0k"]
+
+[resource]
+script = ExtResource("2_om0ru")
+scene = ExtResource("1_gciiw")
+texture = ExtResource("3_2cc0k")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://v12jfleqe21o"]
+
+[ext_resource type="Texture2D" uid="uid://dhh3ummjfkwdd" path="res://items/structure/cave/cave_wall_01.png" id="1_o8qhh"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_o8qhh")
+offset = Vector2(0, -58)

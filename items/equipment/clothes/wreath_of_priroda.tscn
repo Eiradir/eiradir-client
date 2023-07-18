@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://8uadi8ey8jx"]
+
+[ext_resource type="Texture2D" uid="uid://bn8vo7id35lhi" path="res://items/equipment/clothes/wreath_of_priroda.png" id="1_s4tbm"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_s4tbm")

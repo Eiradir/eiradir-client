@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bw4l4034db5cc"]
+
+[ext_resource type="Texture2D" uid="uid://fijbi6tsgaka" path="res://items/herbs/azure_thistle.png" id="1_myv2y"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_myv2y")

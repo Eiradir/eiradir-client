@@ -1,0 +1,56 @@
+[gd_scene load_steps=11 format=3 uid="uid://cmq36r73jaoj2"]
+
+[ext_resource type="Script" path="res://game/game.gd" id="1_mfs1j"]
+[ext_resource type="Script" path="res://game/camera/camera.gd" id="4_j34vv"]
+[ext_resource type="Script" path="res://game/camera/showcase_camera.gd" id="5_0a7lk"]
+[ext_resource type="Script" path="res://game/camera/follow_camera.gd" id="5_j3b2i"]
+[ext_resource type="Script" path="res://game/chunk_culling.gd" id="6_5qgoh"]
+[ext_resource type="Script" path="res://game/camera/editor_camera.gd" id="6_iw24f"]
+[ext_resource type="Script" path="res://game/entity_manager.gd" id="7_7ikcj"]
+[ext_resource type="Script" path="res://game/interaction_manager.gd" id="10_8jxn6"]
+[ext_resource type="Script" path="res://game/player_controller.gd" id="10_617rl"]
+[ext_resource type="PackedScene" path="res://interface/game/hud.tscn" id="13_4lnny"]
+
+[node name="game" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_mfs1j")
+
+[node name="Camera" type="Camera2D" parent="."]
+unique_name_in_owner = true
+script = ExtResource("4_j34vv")
+
+[node name="ShowcaseCamera" type="Node" parent="Camera"]
+script = ExtResource("5_0a7lk")
+
+[node name="EditorCamera" type="Node" parent="Camera"]
+script = ExtResource("6_iw24f")
+
+[node name="FollowCamera" type="Node" parent="Camera"]
+script = ExtResource("5_j3b2i")
+
+[node name="ChunkCulling" type="Node" parent="Camera"]
+script = ExtResource("6_5qgoh")
+
+[node name="EntityManager" type="Node2D" parent="."]
+unique_name_in_owner = true
+y_sort_enabled = true
+script = ExtResource("7_7ikcj")
+
+[node name="TileMaps" type="Node2D" parent="."]
+unique_name_in_owner = true
+y_sort_enabled = true
+
+[node name="PlayerController" type="Node" parent="."]
+script = ExtResource("10_617rl")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+
+[node name="HUD" parent="CanvasLayer" instance=ExtResource("13_4lnny")]
+unique_name_in_owner = true
+
+[node name="InteractionManager" type="Node" parent="."]
+script = ExtResource("10_8jxn6")
+
+[connection signal="map_position_changed" from="Camera" to="Camera/ChunkCulling" method="_on_camera_map_position_changed"]
+[connection signal="focus_entered" from="CanvasLayer/HUD" to="Camera" method="_on_hud_focus_entered"]

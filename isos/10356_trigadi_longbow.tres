@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cqgwk45smd2hj"]
+
+[ext_resource type="PackedScene" uid="uid://dkxei7xox7xtf" path="res://items/equipment/weapons/trigadi_longbow.tscn" id="1_nsqii"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_2uoly"]
+[ext_resource type="Texture2D" uid="uid://itotk2cr4k5w" path="res://items/equipment/weapons/trigadi_longbow.png" id="3_vpokt"]
+
+[resource]
+script = ExtResource("2_2uoly")
+scene = ExtResource("1_nsqii")
+texture = ExtResource("3_vpokt")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dl0pgu1o4p7nj"]
+
+[ext_resource type="PackedScene" uid="uid://tmhyyyyatppw" path="res://items/equipment/weapons/magical_twohanded_sword.tscn" id="1_kbima"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_e6n5l"]
+[ext_resource type="Texture2D" uid="uid://bs1bk6phww3hi" path="res://items/equipment/weapons/magical_twohanded_sword.png" id="3_wmavq"]
+
+[resource]
+script = ExtResource("2_e6n5l")
+scene = ExtResource("1_kbima")
+texture = ExtResource("3_wmavq")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

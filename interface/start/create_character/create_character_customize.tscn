@@ -1,0 +1,174 @@
+[gd_scene load_steps=5 format=3 uid="uid://ddf1lyq2nywaw"]
+
+[ext_resource type="Theme" uid="uid://ff8ufmacq6dq" path="res://interface/theme/default.tres" id="1_1r2qu"]
+[ext_resource type="Script" path="res://interface/start/create_character/create_character_customize.gd" id="2_s12f4"]
+[ext_resource type="PackedScene" uid="uid://c5p8hqrnoolta" path="res://interface/start/create_character/create_character_color.tscn" id="3_apgut"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_f4mkg"]
+content_margin_right = 10.0
+
+[node name="create_character_customize" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_1r2qu")
+script = ExtResource("2_s12f4")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_f4mkg")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="SkinColorLabel" type="Label" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Skin Color"
+
+[node name="SkinColor" type="ItemList" parent="ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+auto_height = true
+max_columns = 20
+same_column_width = true
+
+[node name="HairLabel" type="Label" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Hair"
+
+[node name="Hair" type="ItemList" parent="ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+auto_height = true
+max_columns = 9
+same_column_width = true
+
+[node name="HairColor" parent="ScrollContainer/VBoxContainer" instance=ExtResource("3_apgut")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="BeardLabel" type="Label" parent="ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Beard"
+
+[node name="Beard" type="ItemList" parent="ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+auto_height = true
+max_columns = 9
+same_column_width = true
+
+[node name="BeardColor" parent="ScrollContainer/VBoxContainer" instance=ExtResource("3_apgut")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="ShirtsLabel" type="Label" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"HeaderMedium"
+text = "Chest"
+
+[node name="Shirts" type="ItemList" parent="ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+auto_height = true
+max_columns = 9
+same_column_width = true
+
+[node name="ShirtColor" parent="ScrollContainer/VBoxContainer" instance=ExtResource("3_apgut")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="PantsLabel" type="Label" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Legs"
+
+[node name="Pants" type="ItemList" parent="ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+auto_height = true
+max_columns = 9
+same_column_width = true
+
+[node name="PantsColor" parent="ScrollContainer/VBoxContainer" instance=ExtResource("3_apgut")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="ShoesLabel" type="Label" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Footwear"
+
+[node name="Shoes" type="ItemList" parent="ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+auto_height = true
+max_columns = 9
+same_column_width = true
+
+[node name="ShoesColor" parent="ScrollContainer/VBoxContainer" instance=ExtResource("3_apgut")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="HatsLabel" type="Label" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Headwear"
+
+[node name="Hats" type="ItemList" parent="ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+auto_height = true
+max_columns = 9
+same_column_width = true
+
+[node name="HatColor" parent="ScrollContainer/VBoxContainer" instance=ExtResource("3_apgut")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="RobesLabel" type="Label" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Robes"
+
+[node name="Robes" type="ItemList" parent="ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+auto_height = true
+max_columns = 9
+same_column_width = true
+
+[node name="RobeColor" parent="ScrollContainer/VBoxContainer" instance=ExtResource("3_apgut")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[connection signal="item_selected" from="ScrollContainer/VBoxContainer/SkinColor" to="." method="_on_skin_color_item_selected"]
+[connection signal="item_selected" from="ScrollContainer/VBoxContainer/Hair" to="." method="_on_hair_item_selected"]
+[connection signal="color_changed" from="ScrollContainer/VBoxContainer/HairColor" to="." method="_on_hair_color_color_changed"]
+[connection signal="item_selected" from="ScrollContainer/VBoxContainer/Beard" to="." method="_on_beard_item_selected"]
+[connection signal="color_changed" from="ScrollContainer/VBoxContainer/BeardColor" to="." method="_on_beard_color_color_changed"]
+[connection signal="item_selected" from="ScrollContainer/VBoxContainer/Shirts" to="." method="_on_shirts_item_selected"]
+[connection signal="color_changed" from="ScrollContainer/VBoxContainer/ShirtColor" to="." method="_on_shirt_color_color_changed"]
+[connection signal="item_selected" from="ScrollContainer/VBoxContainer/Pants" to="." method="_on_pants_item_selected"]
+[connection signal="color_changed" from="ScrollContainer/VBoxContainer/PantsColor" to="." method="_on_pants_color_color_changed"]
+[connection signal="item_selected" from="ScrollContainer/VBoxContainer/Shoes" to="." method="_on_shoes_item_selected"]
+[connection signal="color_changed" from="ScrollContainer/VBoxContainer/ShoesColor" to="." method="_on_shoes_color_color_changed"]
+[connection signal="item_selected" from="ScrollContainer/VBoxContainer/Hats" to="." method="_on_hats_item_selected"]
+[connection signal="color_changed" from="ScrollContainer/VBoxContainer/HatColor" to="." method="_on_hat_color_color_changed"]
+[connection signal="item_selected" from="ScrollContainer/VBoxContainer/Robes" to="." method="_on_robes_item_selected"]
+[connection signal="color_changed" from="ScrollContainer/VBoxContainer/RobeColor" to="." method="_on_robe_color_color_changed"]

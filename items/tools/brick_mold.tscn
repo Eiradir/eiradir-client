@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmgudmq28lwjm"]
+
+[ext_resource type="Texture2D" uid="uid://crxes2lk57wwl" path="res://items/tools/brick_mold.png" id="1_msjqp"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_msjqp")

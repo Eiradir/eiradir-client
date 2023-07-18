@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bbb4v852sf1cf"]
+
+[ext_resource type="PackedScene" uid="uid://codwuih2rlagc" path="res://items/nature/trees/apple_tree/apple_tree_03.tscn" id="1_bp3oy"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_58jx3"]
+[ext_resource type="Texture2D" uid="uid://by2sxk8f1c413" path="res://items/nature/trees/apple_tree/apple_tree_03.png" id="3_m0864"]
+
+[resource]
+script = ExtResource("2_58jx3")
+scene = ExtResource("1_bp3oy")
+texture = ExtResource("3_m0864")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

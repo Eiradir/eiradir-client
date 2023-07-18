@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://pijuxloel0me"]
+
+[ext_resource type="PackedScene" uid="uid://brdov0yu001bx" path="res://items/equipment/weapons/magical_fire_longsword.tscn" id="1_mh2xe"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_d6wuj"]
+[ext_resource type="Texture2D" uid="uid://d2k6dcoa6rmvy" path="res://items/equipment/weapons/magical_fire_longsword.png" id="3_72o4k"]
+
+[resource]
+script = ExtResource("2_d6wuj")
+scene = ExtResource("1_mh2xe")
+texture = ExtResource("3_72o4k")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

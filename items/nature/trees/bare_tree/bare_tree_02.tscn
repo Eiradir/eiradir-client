@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmr6k1nw3gad5"]
+
+[ext_resource type="Texture2D" uid="uid://b5xdphxdym35d" path="res://items/nature/trees/bare_tree/bare_tree_02.png" id="1_phul1"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_phul1")
+offset = Vector2(46, -112)

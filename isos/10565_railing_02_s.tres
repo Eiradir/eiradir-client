@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://w7h14ufvgc2o"]
+
+[ext_resource type="PackedScene" uid="uid://5g4dcnseva6j" path="res://items/furniture/railings/railing_02_s.tscn" id="1_yq5ql"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_kftym"]
+[ext_resource type="Texture2D" uid="uid://p7p0xpfd27f5" path="res://items/furniture/railings/railing_02_s.png" id="3_ay5sr"]
+
+[resource]
+script = ExtResource("2_kftym")
+scene = ExtResource("1_yq5ql")
+texture = ExtResource("3_ay5sr")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

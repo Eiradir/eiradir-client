@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://86iss0aeh7ai"]
+
+[ext_resource type="Texture2D" uid="uid://cy7y0wt8bct84" path="res://items/equipment/clothes/priest_robe.png" id="1_cryph"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_cryph")

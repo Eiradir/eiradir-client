@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfjxd0jh03xi8"]
+
+[ext_resource type="Texture2D" uid="uid://7h4l23bnnxpb" path="res://items/equipment/weapons/longbill.png" id="1_hm6rw"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_hm6rw")

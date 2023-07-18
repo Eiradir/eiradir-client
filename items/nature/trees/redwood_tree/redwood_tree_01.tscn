@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bcrb5r88yf0m3"]
+
+[ext_resource type="Texture2D" uid="uid://b7dujho5a3afq" path="res://items/nature/trees/redwood_tree/redwood_tree_01.png" id="1_a76ky"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_a76ky")
+offset = Vector2(34, -123)

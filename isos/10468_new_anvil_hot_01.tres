@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bntb35l74ssft"]
+
+[ext_resource type="PackedScene" uid="uid://oorg30wt0hkn" path="res://items/furniture/anvils/new_anvil_hot_01.tscn" id="1_38ldm"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_b0mcd"]
+[ext_resource type="Texture2D" uid="uid://tqeb758y5xcq" path="res://items/furniture/anvils/new_anvil_hot_01.png" id="3_t2jpv"]
+
+[resource]
+script = ExtResource("2_b0mcd")
+scene = ExtResource("1_38ldm")
+texture = ExtResource("3_t2jpv")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

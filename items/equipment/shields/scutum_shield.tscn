@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bcpbwke5puv8h"]
+
+[ext_resource type="Texture2D" uid="uid://bjknyod6y6o08" path="res://items/equipment/shields/scutum_shield.png" id="1_qn58e"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_qn58e")

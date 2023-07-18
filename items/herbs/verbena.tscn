@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bs802th85wmum"]
+
+[ext_resource type="Texture2D" uid="uid://b1cqqsfbua3im" path="res://items/herbs/verbena.png" id="1_prvbo"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_prvbo")

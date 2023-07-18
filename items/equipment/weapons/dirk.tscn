@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bsxwkh0pj30x7"]
+
+[ext_resource type="Texture2D" uid="uid://b0oofxqtovxqr" path="res://items/equipment/weapons/dirk.png" id="1_imfvo"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_imfvo")

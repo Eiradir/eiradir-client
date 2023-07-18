@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cuuj1jeussknd"]
+
+[ext_resource type="Texture2D" uid="uid://buajf4r7l77a7" path="res://items/rings/gold_ring.png" id="1_24ga3"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_24ga3")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8hgmqwf4o0si"]
+
+[ext_resource type="Texture2D" uid="uid://dks3hqd62y1vg" path="res://items/tools/mortar_and_pestle.png" id="1_0q1fj"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_0q1fj")

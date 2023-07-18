@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://d16wvewdx8731"]
+
+[ext_resource type="PackedScene" uid="uid://hng0cyurj64t" path="res://items/equipment/armor/orc_marauder_armor.tscn" id="1_h3dad"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_ecejm"]
+[ext_resource type="Texture2D" uid="uid://jgndvxbixhww" path="res://items/equipment/armor/orc_marauder_armor.png" id="3_p8gnt"]
+
+[resource]
+script = ExtResource("2_ecejm")
+scene = ExtResource("1_h3dad")
+texture = ExtResource("3_p8gnt")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

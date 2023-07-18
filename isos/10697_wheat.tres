@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://b552d4ujovmf2"]
+
+[ext_resource type="PackedScene" uid="uid://d31f7s5e7tsxi" path="res://items/misc/wheat.tscn" id="1_hmvkm"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_178gn"]
+[ext_resource type="Texture2D" uid="uid://darbdhhlj3upa" path="res://items/misc/wheat.png" id="3_712mr"]
+
+[resource]
+script = ExtResource("2_178gn")
+scene = ExtResource("1_hmvkm")
+texture = ExtResource("3_712mr")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

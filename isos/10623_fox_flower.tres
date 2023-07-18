@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dw0ce0af2806v"]
+
+[ext_resource type="PackedScene" uid="uid://d3td67lemnjp0" path="res://items/herbs/fox_flower.tscn" id="1_1fr6a"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_vuh0b"]
+[ext_resource type="Texture2D" uid="uid://b2omt7hqy48lr" path="res://items/herbs/fox_flower.png" id="3_x3kob"]
+
+[resource]
+script = ExtResource("2_vuh0b")
+scene = ExtResource("1_1fr6a")
+texture = ExtResource("3_x3kob")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

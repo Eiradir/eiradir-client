@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2treyjgctu4o"]
+
+[ext_resource type="Texture2D" uid="uid://cpvmk0omesb7q" path="res://items/scrolls/scroll.png" id="1_toq5v"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_toq5v")

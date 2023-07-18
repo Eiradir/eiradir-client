@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dtwg0wsb8j66w"]
+
+[ext_resource type="Texture2D" uid="uid://dsvpmwih286w7" path="res://items/furniture/stone_grinder/stone_grinder.png" id="1_llxvy"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_llxvy")

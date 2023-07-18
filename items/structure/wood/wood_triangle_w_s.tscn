@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dje8a1lxlb77d"]
+
+[ext_resource type="Texture2D" uid="uid://dj4t4awew6d6s" path="res://items/structure/wood/wood_triangle_w_s.png" id="1_35ohn"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_35ohn")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://t0s711a6shtp"]
+
+[ext_resource type="PackedScene" uid="uid://7qua5nlr5sxt" path="res://items/nature/plants/fern/marsh_fern_01.tscn" id="1_g0j4b"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_urpi0"]
+[ext_resource type="Texture2D" uid="uid://dkx80sfbyvh5o" path="res://items/nature/plants/fern/marsh_fern_01.png" id="3_jm032"]
+
+[resource]
+script = ExtResource("2_urpi0")
+scene = ExtResource("1_g0j4b")
+texture = ExtResource("3_jm032")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

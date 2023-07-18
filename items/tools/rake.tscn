@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b8j1fkfbqsc6h"]
+
+[ext_resource type="Texture2D" uid="uid://coelqbiy85on5" path="res://items/tools/rake.png" id="1_d2e61"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_d2e61")

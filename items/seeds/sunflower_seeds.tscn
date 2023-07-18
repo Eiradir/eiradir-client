@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bd7fm3fct6o6i"]
+
+[ext_resource type="Texture2D" uid="uid://b1bj0l5lq33a0" path="res://items/seeds/sunflower_seeds.png" id="1_rb7n4"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_rb7n4")

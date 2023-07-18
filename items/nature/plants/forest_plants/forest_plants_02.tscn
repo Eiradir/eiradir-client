@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://db1ivlhcylb6"]
+
+[ext_resource type="Texture2D" uid="uid://ds5m21kbbqlmy" path="res://items/nature/plants/forest_plants/forest_plants_02.png" id="1_ds7yr"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ds7yr")

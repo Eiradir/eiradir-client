@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=5 format=3 uid="uid://c8r7cego5g4po"]
+
+[ext_resource type="PackedScene" uid="uid://can3nmdlayuur" path="res://items/equipment/armor/arme_helmet.tscn" id="1_2xqpi"]
+[ext_resource type="Resource" uid="uid://cqkfml078yr64" path="res://paperdolls/10009_sallet.tres" id="1_jvxhf"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_4ulms"]
+[ext_resource type="Texture2D" uid="uid://y43glojg8uk2" path="res://items/equipment/armor/arme_helmet.png" id="3_x4n6n"]
+
+[resource]
+script = ExtResource("2_4ulms")
+scene = ExtResource("1_2xqpi")
+texture = ExtResource("3_x4n6n")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+paperdoll = ExtResource("1_jvxhf")
+tags = Array[String]([])

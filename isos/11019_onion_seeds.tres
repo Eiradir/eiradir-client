@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dly3obq7rjqkq"]
+
+[ext_resource type="PackedScene" uid="uid://dog5a3curb8ad" path="res://items/seeds/onion_seeds.tscn" id="1_7r317"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_nf6ds"]
+[ext_resource type="Texture2D" uid="uid://rm3afelgedm8" path="res://items/seeds/onion_seeds.png" id="3_pepfo"]
+
+[resource]
+script = ExtResource("2_nf6ds")
+scene = ExtResource("1_7r317")
+texture = ExtResource("3_pepfo")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://d0ibxi7hvhsnn"]
+
+[node name="chat_line" type="RichTextLabel"]
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 1.0
+offset_right = 1.0
+offset_bottom = 26.0
+grow_horizontal = 2
+focus_mode = 2
+bbcode_enabled = true
+text = "Welcome to Eiradir"
+fit_content = true
+scroll_active = false
+selection_enabled = true

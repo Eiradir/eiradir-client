@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://vq0yl63ub1pe"]
+
+[ext_resource type="Texture2D" uid="uid://coqw2ycx8ub5b" path="res://items/graves/headstone_02.png" id="1_hlwfi"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_hlwfi")

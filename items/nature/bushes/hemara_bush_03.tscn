@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://6g0r2blom8yh"]
+
+[ext_resource type="Texture2D" uid="uid://c3snq8epvy67v" path="res://items/nature/bushes/hemara_bush_03.png" id="1_wj7b4"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_wj7b4")

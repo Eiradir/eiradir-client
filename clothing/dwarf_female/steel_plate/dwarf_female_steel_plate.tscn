@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://x1an2ndpused"]
+
+[ext_resource type="SpriteFrames" uid="uid://c0ip875yhwla4" path="res://clothing/dwarf_female/steel_plate/dwarf_female_steel_plate.tres" id="1_tc38g"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_tc38g")
+animation = &"walking_southwest"
+offset = Vector2(2, -27)

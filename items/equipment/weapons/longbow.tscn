@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://w5pq15q38gx2"]
+
+[ext_resource type="Texture2D" uid="uid://digvwylbnbpuy" path="res://items/equipment/weapons/longbow.png" id="1_p1bn1"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_p1bn1")

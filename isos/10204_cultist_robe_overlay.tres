@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dah8mx6qobglc"]
+
+[ext_resource type="PackedScene" uid="uid://dkxjg66orglip" path="res://items/equipment/clothes/cultist_robe_overlay.tscn" id="1_hwjqe"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_y6uqk"]
+[ext_resource type="Texture2D" uid="uid://6ldwx35uts4c" path="res://items/equipment/clothes/cultist_robe_overlay.png" id="3_y56fj"]
+
+[resource]
+script = ExtResource("2_y6uqk")
+scene = ExtResource("1_hwjqe")
+texture = ExtResource("3_y56fj")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

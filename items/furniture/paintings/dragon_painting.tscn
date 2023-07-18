@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://pufygocebacb"]
+
+[ext_resource type="Texture2D" uid="uid://bhhaq14t2wxh8" path="res://items/furniture/paintings/dragon_painting.png" id="1_dcf04"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_dcf04")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://v5a71mgxlt2f"]
+
+[ext_resource type="PackedScene" uid="uid://bkh6s24w0254i" path="res://items/equipment/armor/dwarven_plated_chain.tscn" id="1_vlyrk"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_t2dpl"]
+[ext_resource type="Texture2D" uid="uid://ccd1xxl437ixm" path="res://items/equipment/armor/dwarven_plated_chain.png" id="3_xyjnv"]
+
+[resource]
+script = ExtResource("2_t2dpl")
+scene = ExtResource("1_vlyrk")
+texture = ExtResource("3_xyjnv")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkxjg66orglip"]
+
+[ext_resource type="Texture2D" uid="uid://6ldwx35uts4c" path="res://items/equipment/clothes/cultist_robe_overlay.png" id="1_5grr3"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_5grr3")

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8nq2yn21j4sk"]
+
+[ext_resource type="Texture2D" uid="uid://dt55pdjchk76h" path="res://items/nature/trees/oak_tree/caeril_oak_tree_01.png" id="1_iclgx"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_iclgx")
+offset = Vector2(29, -104)

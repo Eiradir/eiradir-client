@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://jexqhybal011"]
+
+[ext_resource type="Texture2D" uid="uid://dbjibvds7wfif" path="res://items/furniture/archery_target/archery_target_w.png" id="1_7nes7"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_7nes7")

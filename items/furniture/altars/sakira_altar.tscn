@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbl7fycv271g3"]
+
+[ext_resource type="Texture2D" uid="uid://gn3rtpyub5m" path="res://items/furniture/altars/sakira_altar.png" id="1_qysr4"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_qysr4")

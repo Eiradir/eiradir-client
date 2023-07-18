@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://u8rdhth856ft"]
+
+[ext_resource type="PackedScene" uid="uid://btl8wyi077ckr" path="res://items/equipment/weapons/twohanded_sword.tscn" id="1_kk6dx"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_au27u"]
+[ext_resource type="Texture2D" uid="uid://b6xdl1j60tpi8" path="res://items/equipment/weapons/twohanded_sword.png" id="3_3rh45"]
+
+[resource]
+script = ExtResource("2_au27u")
+scene = ExtResource("1_kk6dx")
+texture = ExtResource("3_3rh45")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

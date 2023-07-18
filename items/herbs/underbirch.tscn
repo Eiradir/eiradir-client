@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bd8donll50023"]
+
+[ext_resource type="Texture2D" uid="uid://bf1ldjd8rp8xt" path="res://items/herbs/underbirch.png" id="1_34w8c"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_34w8c")

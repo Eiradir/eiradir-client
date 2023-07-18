@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cdhog40cffble"]
+
+[ext_resource type="PackedScene" uid="uid://cy6a3eylwql7g" path="res://items/equipment/armor/plated_chain_gloves.tscn" id="1_6k8ld"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_kfud5"]
+[ext_resource type="Texture2D" uid="uid://b0b33o74bq7m2" path="res://items/equipment/armor/plated_chain_gloves.png" id="3_jvbfj"]
+
+[resource]
+script = ExtResource("2_kfud5")
+scene = ExtResource("1_6k8ld")
+texture = ExtResource("3_jvbfj")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

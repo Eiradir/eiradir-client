@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://8c6heom51867"]
+
+[ext_resource type="Texture2D" uid="uid://fa6ohb88oqdf" path="res://items/equipment/armor/elven_chain_shirt.png" id="1_2v5l5"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_2v5l5")

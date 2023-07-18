@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ds8vq7xqt50tn"]
+
+[ext_resource type="Texture2D" uid="uid://bui82sltkx4a1" path="res://items/herbs/willow_tears.png" id="1_7bfsr"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_7bfsr")

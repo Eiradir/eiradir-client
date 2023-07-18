@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6hokwtdcqoki"]
+
+[ext_resource type="Texture2D" uid="uid://cwptmfnir5ind" path="res://items/furniture/tables/white_round_table.png" id="1_lclig"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_lclig")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://lc2cqbw5yn0k"]
+
+[ext_resource type="Texture2D" uid="uid://cetxgrd54h04s" path="res://items/signs/wooden_sign_pole_e.png" id="1_l1ffs"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_l1ffs")

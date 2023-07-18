@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dl2c88mxckbo7"]
+
+[ext_resource type="PackedScene" uid="uid://c0dx24jffrik3" path="res://items/equipment/armor/maruvian_knight_plate.tscn" id="1_hq2kw"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_6c3o4"]
+[ext_resource type="Texture2D" uid="uid://ccpom5gfskh8i" path="res://items/equipment/armor/maruvian_knight_plate.png" id="3_x61u1"]
+
+[resource]
+script = ExtResource("2_6c3o4")
+scene = ExtResource("1_hq2kw")
+texture = ExtResource("3_x61u1")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

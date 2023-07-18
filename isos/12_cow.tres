@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=3 format=3 uid="uid://mgolxbxjbwo"]
+
+[ext_resource type="PackedScene" uid="uid://dnjekfsoqp2m2" path="res://characters/cow/cow.tscn" id="1_g0hay"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_cgvh4"]
+
+[resource]
+script = ExtResource("2_cgvh4")
+scene = ExtResource("1_g0hay")
+elevation = 0
+is_solid = true
+is_bridge = false
+disallow_drag = true
+eager_tooltip = true
+tags = Array[String]([])

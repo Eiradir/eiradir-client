@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://du3jy64twkt5c"]
+
+[ext_resource type="Texture2D" uid="uid://dt8gq8txe2wyb" path="res://items/gems/cut_ruby.png" id="1_cspdh"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_cspdh")

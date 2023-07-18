@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dq6jhu5d8t8v0"]
+
+[ext_resource type="Texture2D" uid="uid://d0t3xjrq6f0b3" path="res://items/statues/knight_statue_w.png" id="1_i0x1m"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_i0x1m")

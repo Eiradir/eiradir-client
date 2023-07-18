@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://jv8jhuexv38j"]
+
+[ext_resource type="Texture2D" uid="uid://dgfrcxh1306vb" path="res://items/furniture/tables/bar_counter_long_s.png" id="1_8asy5"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_8asy5")

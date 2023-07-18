@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3wicr60elkaf"]
+
+[ext_resource type="Texture2D" uid="uid://bcus05e0hfwri" path="res://items/tools/rolling_pin.png" id="1_t61n4"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_t61n4")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dj1kj3miml8es"]
+
+[ext_resource type="SpriteFrames" uid="uid://b2kpnbrxdpu8c" path="res://clothing/orc_male/full_leather_armor/orc_male_full_leather_armor.tres" id="1_k05je"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_k05je")
+animation = &"idle_east"
+offset = Vector2(6, -34)

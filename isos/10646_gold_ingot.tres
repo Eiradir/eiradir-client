@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://b32nwfdggiu6f"]
+
+[ext_resource type="PackedScene" uid="uid://rqw8wqy8kecn" path="res://items/ingots/gold_ingot.tscn" id="1_s4bne"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_m8552"]
+[ext_resource type="Texture2D" uid="uid://c4c7cjow64jm1" path="res://items/ingots/gold_ingot.png" id="3_vvgxi"]
+
+[resource]
+script = ExtResource("2_m8552")
+scene = ExtResource("1_s4bne")
+texture = ExtResource("3_vvgxi")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

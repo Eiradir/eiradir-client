@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://u118wj5mvgo4"]
+
+[ext_resource type="Texture2D" uid="uid://dp4daynvxivq0" path="res://items/equipment/weapons/warhammer.png" id="1_xpx55"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_xpx55")

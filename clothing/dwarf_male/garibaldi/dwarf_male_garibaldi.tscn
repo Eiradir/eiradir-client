@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://c57cucqp1icp2"]
+
+[ext_resource type="SpriteFrames" uid="uid://of35xu48ecu7" path="res://clothing/dwarf_male/garibaldi/dwarf_male_garibaldi.tres" id="1_mdsv4"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_mdsv4")
+animation = &"idle_east"
+offset = Vector2(-4, -24)

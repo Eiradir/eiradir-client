@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2pyyb0yexx03"]
+
+[ext_resource type="Texture2D" uid="uid://4tj3s2qy1fib" path="res://items/tools/cauldron.png" id="1_ws6pf"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ws6pf")

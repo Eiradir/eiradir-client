@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c1ybmmpjcxsm5"]
+
+[ext_resource type="Texture2D" uid="uid://cmg4ntgeklvwi" path="res://items/structure/brick/brick_door_n.png" id="1_dyygu"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_dyygu")

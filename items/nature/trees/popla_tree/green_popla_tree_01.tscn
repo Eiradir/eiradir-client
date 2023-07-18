@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://72le8ewooiru"]
+
+[ext_resource type="Texture2D" uid="uid://bb8acye87efoe" path="res://items/nature/trees/popla_tree/green_popla_tree_01.png" id="1_mu3ks"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_mu3ks")
+offset = Vector2(45, -110)

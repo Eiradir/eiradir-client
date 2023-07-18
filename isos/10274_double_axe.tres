@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://h54f3gosox2u"]
+
+[ext_resource type="PackedScene" uid="uid://juvrj2pl5k0h" path="res://items/equipment/weapons/double_axe.tscn" id="1_bnjci"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_f5p1o"]
+[ext_resource type="Texture2D" uid="uid://c7ut84cm43c47" path="res://items/equipment/weapons/double_axe.png" id="3_u4u47"]
+
+[resource]
+script = ExtResource("2_f5p1o")
+scene = ExtResource("1_bnjci")
+texture = ExtResource("3_u4u47")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

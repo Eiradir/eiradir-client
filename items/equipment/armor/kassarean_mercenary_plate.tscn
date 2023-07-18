@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c10ni6gduqsux"]
+
+[ext_resource type="Texture2D" uid="uid://bbforlyaopuic" path="res://items/equipment/armor/kassarean_mercenary_plate.png" id="1_f1c1i"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_f1c1i")

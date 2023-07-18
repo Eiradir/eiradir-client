@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxrk037a27ybi"]
+
+[ext_resource type="Texture2D" uid="uid://7i3r7o2s8m6y" path="res://items/nature/bushes/bare_bush_01.png" id="1_jkhfc"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_jkhfc")

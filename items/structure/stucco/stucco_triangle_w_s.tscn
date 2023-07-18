@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyybw6fgpfnw4"]
+
+[ext_resource type="Texture2D" uid="uid://o2230s7x1v3c" path="res://items/structure/stucco/stucco_triangle_w_s.png" id="1_c13ho"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_c13ho")

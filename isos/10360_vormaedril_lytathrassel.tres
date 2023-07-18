@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dumoq8pn4d5k4"]
+
+[ext_resource type="PackedScene" uid="uid://bafhkojusum3" path="res://items/equipment/weapons/vormaedril_lytathrassel.tscn" id="1_c6mje"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_8u073"]
+[ext_resource type="Texture2D" uid="uid://c5r34r3r1darv" path="res://items/equipment/weapons/vormaedril_lytathrassel.png" id="3_yvlrp"]
+
+[resource]
+script = ExtResource("2_8u073")
+scene = ExtResource("1_c6mje")
+texture = ExtResource("3_yvlrp")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

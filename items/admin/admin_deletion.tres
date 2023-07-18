@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://6rig8dpmqrwy"]
+
+[ext_resource type="Texture2D" uid="uid://chitd74qc8uqm" path="res://items/admin/admin_deletion.png" id="1_ppoko"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fyq7n"]
+atlas = ExtResource("1_ppoko")
+region = Rect2(0, 0, 45, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u61q5"]
+atlas = ExtResource("1_ppoko")
+region = Rect2(45, 0, 45, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q4ri4"]
+atlas = ExtResource("1_ppoko")
+region = Rect2(90, 0, 45, 45)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fyq7n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u61q5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q4ri4")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

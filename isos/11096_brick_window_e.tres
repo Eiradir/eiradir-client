@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c36ha25eqectq"]
+
+[ext_resource type="PackedScene" uid="uid://bnqosavdb83mt" path="res://items/structure/brick/brick_window_e.tscn" id="1_e3dby"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_2mytf"]
+[ext_resource type="Texture2D" uid="uid://ru2dpm1ap4gj" path="res://items/structure/brick/brick_window_e.png" id="3_1eyee"]
+
+[resource]
+script = ExtResource("2_2mytf")
+scene = ExtResource("1_e3dby")
+texture = ExtResource("3_1eyee")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

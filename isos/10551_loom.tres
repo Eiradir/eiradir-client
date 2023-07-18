@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bn0uxyllsoo80"]
+
+[ext_resource type="PackedScene" uid="uid://bvindhoey4107" path="res://items/furniture/loom/loom.tscn" id="1_57kgc"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_wvjdq"]
+[ext_resource type="Texture2D" uid="uid://jhvb6mofndv5" path="res://items/furniture/loom/loom.png" id="3_d8whc"]
+
+[resource]
+script = ExtResource("2_wvjdq")
+scene = ExtResource("1_57kgc")
+texture = ExtResource("3_d8whc")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

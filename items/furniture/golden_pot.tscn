@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bov45fj43h3ty"]
+
+[ext_resource type="Texture2D" uid="uid://cm04syrw2vtia" path="res://items/furniture/golden_pot.png" id="1_8fe1l"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_8fe1l")

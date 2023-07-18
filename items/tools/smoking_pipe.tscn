@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cqs7rrekis4f3"]
+
+[ext_resource type="Texture2D" uid="uid://nk3slk11mno5" path="res://items/tools/smoking_pipe.png" id="1_74w7p"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_74w7p")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://pcnj5avghlew"]
+
+[ext_resource type="PackedScene" uid="uid://b8j1fkfbqsc6h" path="res://items/tools/rake.tscn" id="1_nhv38"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_mexn5"]
+[ext_resource type="Texture2D" uid="uid://coelqbiy85on5" path="res://items/tools/rake.png" id="3_62u8i"]
+
+[resource]
+script = ExtResource("2_mexn5")
+scene = ExtResource("1_nhv38")
+texture = ExtResource("3_62u8i")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

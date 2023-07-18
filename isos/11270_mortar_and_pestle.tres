@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://da4sigsdnkfr5"]
+
+[ext_resource type="PackedScene" uid="uid://c8hgmqwf4o0si" path="res://items/tools/mortar_and_pestle.tscn" id="1_k8l7m"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_81o2g"]
+[ext_resource type="Texture2D" uid="uid://dks3hqd62y1vg" path="res://items/tools/mortar_and_pestle.png" id="3_lx0ry"]
+
+[resource]
+script = ExtResource("2_81o2g")
+scene = ExtResource("1_k8l7m")
+texture = ExtResource("3_lx0ry")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

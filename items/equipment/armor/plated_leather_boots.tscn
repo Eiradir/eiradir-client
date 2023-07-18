@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ce6qamjwev32p"]
+
+[ext_resource type="Texture2D" uid="uid://85cm2b5y8ab8" path="res://items/equipment/armor/plated_leather_boots.png" id="1_6k3j8"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_6k3j8")

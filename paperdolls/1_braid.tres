@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="PaperdollDefinition" load_steps=6 format=3 uid="uid://blrvv7supv3os"]
+
+[ext_resource type="Resource" uid="uid://7svfub1q6ggt" path="res://isos/4_elf_female.tres" id="1_8jjc7"]
+[ext_resource type="PackedScene" uid="uid://bouq6xk61eodp" path="res://clothing/elf_female/braid/elf_female_braid.tscn" id="2_lcg0s"]
+[ext_resource type="Script" path="res://registry/data/paperdoll_mapping.gd" id="3_aif8q"]
+[ext_resource type="Script" path="res://registry/data/paperdoll_definition.gd" id="4_lcns8"]
+
+[sub_resource type="Resource" id="Resource_kaoaw"]
+script = ExtResource("3_aif8q")
+iso = ExtResource("1_8jjc7")
+scene = ExtResource("2_lcg0s")
+
+[resource]
+script = ExtResource("4_lcns8")
+mappings = Array[ExtResource("3_aif8q")]([SubResource("Resource_kaoaw")])

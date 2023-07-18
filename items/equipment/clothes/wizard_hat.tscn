@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://drehckkycu0g2"]
+
+[ext_resource type="Texture2D" uid="uid://cc6fls46ry3o5" path="res://items/equipment/clothes/wizard_hat.png" id="1_61bam"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_61bam")

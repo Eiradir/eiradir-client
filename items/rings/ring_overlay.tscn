@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dm6i2ijdxfdls"]
+
+[ext_resource type="Texture2D" uid="uid://5ttfu5pwvq4p" path="res://items/rings/ring_overlay.png" id="1_ps6nb"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ps6nb")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvo6qh2ifci6f"]
+
+[ext_resource type="Texture2D" uid="uid://hi3n6loa8euy" path="res://items/furniture/trophies/mounted_cow_trophy.png" id="1_0kpdg"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_0kpdg")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://xshyxpn7g3uv"]
+
+[ext_resource type="SpriteFrames" uid="uid://yvjy1mqnceca" path="res://clothing/dwarf_male/heavy_plate/dwarf_male_heavy_plate.tres" id="1_6ov7c"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_6ov7c")
+animation = &"idle_east"
+offset = Vector2(-4, -24)

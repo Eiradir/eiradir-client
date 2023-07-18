@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://djousnlatpow4"]
+
+[ext_resource type="Texture2D" uid="uid://cxh8r3rtdgxvc" path="res://items/nature/trees/green_aspen_tree/green_aspen_tree_05.png" id="1_p7k3s"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_p7k3s")
+offset = Vector2(62, -121)

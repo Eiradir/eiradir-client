@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cyh7bnyhexe0s"]
+
+[ext_resource type="PackedScene" uid="uid://csiibh2qq7ej1" path="res://items/equipment/clothes/archmage_robe.tscn" id="1_f1mmr"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_njx3i"]
+[ext_resource type="Texture2D" uid="uid://b7def4ngprdko" path="res://items/equipment/clothes/archmage_robe.png" id="3_osy64"]
+
+[resource]
+script = ExtResource("2_njx3i")
+scene = ExtResource("1_f1mmr")
+texture = ExtResource("3_osy64")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

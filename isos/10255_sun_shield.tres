@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dnbc4patrdr3g"]
+
+[ext_resource type="PackedScene" uid="uid://44r5n7255uu0" path="res://items/equipment/shields/sun_shield.tscn" id="1_qy41n"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_m4csv"]
+[ext_resource type="Texture2D" uid="uid://d1bv8rtd8d0s7" path="res://items/equipment/shields/sun_shield.png" id="3_vsm04"]
+
+[resource]
+script = ExtResource("2_m4csv")
+scene = ExtResource("1_qy41n")
+texture = ExtResource("3_vsm04")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

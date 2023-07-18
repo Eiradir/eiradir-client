@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://huej3o40iip7"]
+
+[ext_resource type="PackedScene" uid="uid://crrt68aenx517" path="res://items/equipment/armor/pigface_basinet.tscn" id="1_vgs8m"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_and07"]
+[ext_resource type="Texture2D" uid="uid://dn7wxqmlsmyjc" path="res://items/equipment/armor/pigface_basinet.png" id="3_fpb80"]
+
+[resource]
+script = ExtResource("2_and07")
+scene = ExtResource("1_vgs8m")
+texture = ExtResource("3_fpb80")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c3uock7rbobmn"]
+
+[ext_resource type="Texture2D" uid="uid://vjgu8drh4wf3" path="res://items/furniture/furnace/furnace_w.png" id="1_fsxvn"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_fsxvn")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dlnjf3ehq2g3r"]
+
+[ext_resource type="Texture2D" uid="uid://d0t0kg7vudy3u" path="res://items/cups/clay_mug.png" id="1_lxwpb"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_lxwpb")

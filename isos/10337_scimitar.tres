@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://ca6721djqq18g"]
+
+[ext_resource type="PackedScene" uid="uid://5ttuee431r6w" path="res://items/equipment/weapons/scimitar.tscn" id="1_pa75g"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_qlmdv"]
+[ext_resource type="Texture2D" uid="uid://cadj6gubcbof1" path="res://items/equipment/weapons/scimitar.png" id="3_iwcb5"]
+
+[resource]
+script = ExtResource("2_qlmdv")
+scene = ExtResource("1_pa75g")
+texture = ExtResource("3_iwcb5")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

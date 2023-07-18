@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cp7oqrcjxhgl2"]
+
+[ext_resource type="PackedScene" uid="uid://blfxq83j5os2t" path="res://items/misc/rye_dough.tscn" id="1_vxpic"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_pwqe7"]
+[ext_resource type="Texture2D" uid="uid://tgrag3sw86ld" path="res://items/misc/rye_dough.png" id="3_xb5ka"]
+
+[resource]
+script = ExtResource("2_pwqe7")
+scene = ExtResource("1_vxpic")
+texture = ExtResource("3_xb5ka")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

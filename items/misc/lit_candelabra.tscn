@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1x6n2rkvxkly"]
+
+[ext_resource type="SpriteFrames" uid="uid://ccha7e01p1slv" path="res://items/misc/lit_candelabra.tres" id="1_pd7jv"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_pd7jv")

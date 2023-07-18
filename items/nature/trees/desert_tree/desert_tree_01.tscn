@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ca400qjtljvdc"]
+
+[ext_resource type="Texture2D" uid="uid://hn2pgid0txxa" path="res://items/nature/trees/desert_tree/desert_tree_01.png" id="1_cmi4m"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_cmi4m")
+offset = Vector2(26, -80)

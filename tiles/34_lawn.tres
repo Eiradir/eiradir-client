@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="TileDefinition" load_steps=2 format=3 uid="uid://bk5baeq1wipmy"]
+
+[ext_resource type="Script" path="res://registry/data/tile_definition.gd" id="1_u4dj6"]
+
+[resource]
+script = ExtResource("1_u4dj6")
+source_id = 0
+variants = Array[Vector2i]([Vector2i(22, 5), Vector2i(23, 5), Vector2i(24, 5)])
+refuses_transitions = false
+cannot_transition = false
+color = Color(0.0823529, 0.741176, 0.0823529, 1)

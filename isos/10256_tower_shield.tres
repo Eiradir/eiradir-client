@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://b8krr5gph0xy4"]
+
+[ext_resource type="PackedScene" uid="uid://c5itwg4ebj0m6" path="res://items/equipment/shields/tower_shield.tscn" id="1_v2wf1"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_8h8t7"]
+[ext_resource type="Texture2D" uid="uid://cecvveblo5cy0" path="res://items/equipment/shields/tower_shield.png" id="3_llsg7"]
+
+[resource]
+script = ExtResource("2_8h8t7")
+scene = ExtResource("1_v2wf1")
+texture = ExtResource("3_llsg7")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

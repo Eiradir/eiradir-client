@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://okbxw4kjd8yy"]
+
+[ext_resource type="Texture2D" uid="uid://cqxpxueoinrr7" path="res://items/equipment/clothes/long_cloak.png" id="1_uvp44"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_uvp44")

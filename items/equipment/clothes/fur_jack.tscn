@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bcopaxnvhg4bf"]
+
+[ext_resource type="Texture2D" uid="uid://cmqf83p3f12la" path="res://items/equipment/clothes/fur_jack.png" id="1_2kf7s"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_2kf7s")

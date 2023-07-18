@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dnvpokesbyjd8"]
+
+[ext_resource type="Texture2D" uid="uid://q2hcglgv5bci" path="res://items/nature/trees/tropical_tree/tropical_tree_01.png" id="1_4go1r"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_4go1r")
+offset = Vector2(35, -82)

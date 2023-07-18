@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dt8u0eyb3b7s4"]
+
+[ext_resource type="SpriteFrames" uid="uid://b1xvu8p86lasr" path="res://items/alchemy/colendulum_potion_base.tres" id="1_vx084"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_vx084")

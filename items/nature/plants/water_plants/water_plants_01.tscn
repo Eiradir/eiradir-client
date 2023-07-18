@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwlcecb2lmcvj"]
+
+[ext_resource type="Texture2D" uid="uid://dki8i32bw7k7q" path="res://items/nature/plants/water_plants/water_plants_01.png" id="1_7yfkw"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_7yfkw")

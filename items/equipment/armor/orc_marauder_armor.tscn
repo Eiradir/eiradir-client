@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://hng0cyurj64t"]
+
+[ext_resource type="Texture2D" uid="uid://jgndvxbixhww" path="res://items/equipment/armor/orc_marauder_armor.png" id="1_fo7rs"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_fo7rs")

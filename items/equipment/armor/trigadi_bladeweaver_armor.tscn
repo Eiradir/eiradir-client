@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dena6ywh5m1cq"]
+
+[ext_resource type="Texture2D" uid="uid://bnn3jyv7jefxl" path="res://items/equipment/armor/trigadi_bladeweaver_armor.png" id="1_icd8t"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_icd8t")

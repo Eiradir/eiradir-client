@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://2drgbce3csrh"]
+
+[ext_resource type="Texture2D" uid="uid://mfq1oh24cftp" path="res://items/nature/mushrooms/mushroom_circle/mushroom_circle_02.png" id="1_awhl7"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_awhl7")

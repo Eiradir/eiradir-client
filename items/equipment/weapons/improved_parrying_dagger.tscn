@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cas3pnypwvsjk"]
+
+[ext_resource type="Texture2D" uid="uid://csu4tlwxgfdce" path="res://items/equipment/weapons/improved_parrying_dagger.png" id="1_scgon"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_scgon")

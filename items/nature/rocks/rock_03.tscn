@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bv8jam4i4446o"]
+
+[ext_resource type="Texture2D" uid="uid://b5xihx7437lxw" path="res://items/nature/rocks/rock_03.png" id="1_7pmqw"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_7pmqw")

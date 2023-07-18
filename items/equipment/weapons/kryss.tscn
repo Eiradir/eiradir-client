@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://kwxw2tg851pu"]
+
+[ext_resource type="Texture2D" uid="uid://cb7jiiqkkgcff" path="res://items/equipment/weapons/kryss.png" id="1_0kk5w"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_0kk5w")

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bm8yx7cl8relj"]
+
+[ext_resource type="Texture2D" uid="uid://8cth0neqkfi7" path="res://items/nature/trees/arbutus_tree/arbutus_tree_01.png" id="1_ljfay"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ljfay")
+offset = Vector2(-6, -92)

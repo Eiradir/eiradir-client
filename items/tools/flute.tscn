@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://6ividofecfem"]
+
+[ext_resource type="Texture2D" uid="uid://doghv2im1su0y" path="res://items/tools/flute.png" id="1_faw8g"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_faw8g")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c0q5kqrgfnm3m"]
+
+[ext_resource type="Texture2D" uid="uid://cadp1e734p6oy" path="res://items/equipment/armor/gambeson.png" id="1_15klt"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_15klt")

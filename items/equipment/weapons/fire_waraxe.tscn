@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://t6nf5hwj30ym"]
+
+[ext_resource type="Texture2D" uid="uid://dwoyo2awlcp28" path="res://items/equipment/weapons/fire_waraxe.png" id="1_dx8t8"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_dx8t8")

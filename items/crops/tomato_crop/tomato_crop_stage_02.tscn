@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://d05m2d86utbfj"]
+
+[ext_resource type="Texture2D" uid="uid://8pwakfljm137" path="res://items/crops/tomato_crop/tomato_crop_stage_02.png" id="1_rq0j8"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_rq0j8")

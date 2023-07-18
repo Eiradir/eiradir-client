@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://brttqyfvpl0a6"]
+
+[ext_resource type="Texture2D" uid="uid://bmo2hsp1h4uv0" path="res://items/equipment/weapons/improved_long_knife.png" id="1_gqa0c"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_gqa0c")

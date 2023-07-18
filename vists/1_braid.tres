@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="VistDefinition" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://registry/data/vist_definition.gd" id="1_0pj0v"]
+[ext_resource type="Resource" uid="uid://blrvv7supv3os" path="res://paperdolls/1_braid.tres" id="1_862el"]
+
+[resource]
+script = ExtResource("1_0pj0v")
+paperdoll = ExtResource("1_862el")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bq3udt77u40jb"]
+
+[ext_resource type="PackedScene" uid="uid://cxm08onarper3" path="res://items/nature/trees/birch_tree/birch_tree_01.tscn" id="1_gi34t"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_ebqvj"]
+[ext_resource type="Texture2D" uid="uid://dex1vpt4boxf5" path="res://items/nature/trees/birch_tree/birch_tree_01.png" id="3_50y7b"]
+
+[resource]
+script = ExtResource("2_ebqvj")
+scene = ExtResource("1_gi34t")
+texture = ExtResource("3_50y7b")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

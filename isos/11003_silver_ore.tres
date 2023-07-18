@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://btq6ki84bpmvl"]
+
+[ext_resource type="PackedScene" uid="uid://vaj25p5k7owa" path="res://items/ores/silver_ore.tscn" id="1_4553i"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_bs2ib"]
+[ext_resource type="Texture2D" uid="uid://jsd1kguek401" path="res://items/ores/silver_ore.png" id="3_4m0oo"]
+
+[resource]
+script = ExtResource("2_bs2ib")
+scene = ExtResource("1_4553i")
+texture = ExtResource("3_4m0oo")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bos1o35ghsyfd"]
+
+[ext_resource type="PackedScene" uid="uid://byjl7isnkw3xq" path="res://items/signs/wooden_sign_pole_n.tscn" id="1_1lubk"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_4qrqq"]
+[ext_resource type="Texture2D" uid="uid://cq0vy0ry8tk22" path="res://items/signs/wooden_sign_pole_n.png" id="3_273yj"]
+
+[resource]
+script = ExtResource("2_4qrqq")
+scene = ExtResource("1_1lubk")
+texture = ExtResource("3_273yj")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

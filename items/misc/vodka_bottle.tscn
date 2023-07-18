@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://8lm5xx2gpmr1"]
+
+[ext_resource type="Texture2D" uid="uid://borf8p66h3sg4" path="res://items/misc/vodka_bottle.png" id="1_chboj"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_chboj")

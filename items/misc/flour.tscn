@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://kl3f8t5r8cax"]
+
+[ext_resource type="Texture2D" uid="uid://bmb2cq5wjcb3a" path="res://items/misc/flour.png" id="1_2bpam"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_2bpam")

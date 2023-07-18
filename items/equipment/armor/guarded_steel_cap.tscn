@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dh3omq7i2o2la"]
+
+[ext_resource type="Texture2D" uid="uid://nxdeobme7yyq" path="res://items/equipment/armor/guarded_steel_cap.png" id="1_075s0"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_075s0")

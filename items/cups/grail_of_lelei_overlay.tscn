@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxri64q12op5v"]
+
+[ext_resource type="Texture2D" uid="uid://chb46q6va08ms" path="res://items/cups/grail_of_lelei_overlay.png" id="1_uw77f"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_uw77f")

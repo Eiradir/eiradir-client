@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://qjrw58ycipwe"]
+
+[ext_resource type="PackedScene" uid="uid://nm6pbsuwj3jp" path="res://items/ores/malphite_ore.tscn" id="1_66ham"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_xdiod"]
+[ext_resource type="Texture2D" uid="uid://bsifmoobrwr82" path="res://items/ores/malphite_ore.png" id="3_kwic0"]
+
+[resource]
+script = ExtResource("2_xdiod")
+scene = ExtResource("1_66ham")
+texture = ExtResource("3_kwic0")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

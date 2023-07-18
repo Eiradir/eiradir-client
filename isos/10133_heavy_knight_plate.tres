@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=5 format=3 uid="uid://bp8k2ufkjx71w"]
+
+[ext_resource type="PackedScene" uid="uid://j48mb5sfbaxt" path="res://items/equipment/armor/heavy_knight_plate.tscn" id="1_jdn3j"]
+[ext_resource type="Resource" uid="uid://drykuy4rklplo" path="res://paperdolls/10004_heavy_plate.tres" id="1_toxsm"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_p1m0p"]
+[ext_resource type="Texture2D" uid="uid://d3a8rfd3ye6qc" path="res://items/equipment/armor/heavy_knight_plate.png" id="3_sjiq1"]
+
+[resource]
+script = ExtResource("2_p1m0p")
+scene = ExtResource("1_jdn3j")
+texture = ExtResource("3_sjiq1")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+paperdoll = ExtResource("1_toxsm")
+tags = Array[String]([])

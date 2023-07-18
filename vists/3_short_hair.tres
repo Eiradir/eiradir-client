@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="VistDefinition" load_steps=3 format=3 uid="uid://76e2gkjbqoov"]
+
+[ext_resource type="Script" path="res://registry/data/vist_definition.gd" id="1_ehqda"]
+[ext_resource type="Resource" uid="uid://2ytxre0unkud" path="res://paperdolls/3_short_hair.tres" id="1_gxips"]
+
+[resource]
+script = ExtResource("1_ehqda")
+paperdoll = ExtResource("1_gxips")

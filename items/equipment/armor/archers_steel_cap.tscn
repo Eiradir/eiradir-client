@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://wy1fco63fhb2"]
+
+[ext_resource type="Texture2D" uid="uid://u58ct0e7esaq" path="res://items/equipment/armor/archers_steel_cap.png" id="1_p5r1e"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_p5r1e")

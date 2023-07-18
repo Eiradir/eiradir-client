@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://3fu8ldpcsb7p"]
+
+[ext_resource type="Texture2D" uid="uid://dp1ilxiamimst" path="res://items/furniture/altars/priroda_altar_full.png" id="1_0p2vf"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_0p2vf")

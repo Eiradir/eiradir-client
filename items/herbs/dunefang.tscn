@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://muronl7by6k8"]
+
+[ext_resource type="Texture2D" uid="uid://sdny6uj1hjtr" path="res://items/herbs/dunefang.png" id="1_yhf07"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_yhf07")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://d24i0gniew6me"]
+
+[ext_resource type="PackedScene" uid="uid://6ividofecfem" path="res://items/tools/flute.tscn" id="1_a7bkd"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_7fcpq"]
+[ext_resource type="Texture2D" uid="uid://doghv2im1su0y" path="res://items/tools/flute.png" id="3_ucibk"]
+
+[resource]
+script = ExtResource("2_7fcpq")
+scene = ExtResource("1_a7bkd")
+texture = ExtResource("3_ucibk")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

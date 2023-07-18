@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbtyrt55pun26"]
+
+[ext_resource type="Texture2D" uid="uid://cu5cfihbdrmq" path="res://items/nature/trees/oak_tree/grandfather_oak_tree_01.png" id="1_lje4w"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_lje4w")
+offset = Vector2(18, -93)

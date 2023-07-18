@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://be4yjyh5q8kfc"]
+
+[ext_resource type="PackedScene" uid="uid://clddcv7ydxrf5" path="res://items/statues/lelei_statue_n.tscn" id="1_pywnv"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_r1fep"]
+[ext_resource type="Texture2D" uid="uid://bn8am5ob4w81" path="res://items/statues/lelei_statue_n.png" id="3_qc5t2"]
+
+[resource]
+script = ExtResource("2_r1fep")
+scene = ExtResource("1_pywnv")
+texture = ExtResource("3_qc5t2")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

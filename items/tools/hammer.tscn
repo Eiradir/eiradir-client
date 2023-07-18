@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://snbrd6vt8bub"]
+
+[ext_resource type="Texture2D" uid="uid://cw5r1nvn2i63n" path="res://items/tools/hammer.png" id="1_jlxq2"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_jlxq2")

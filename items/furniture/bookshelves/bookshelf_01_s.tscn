@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwlvgnvbsupux"]
+
+[ext_resource type="Texture2D" uid="uid://b2vqerx7h8eg0" path="res://items/furniture/bookshelves/bookshelf_01_s.png" id="1_yyv6p"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_yyv6p")

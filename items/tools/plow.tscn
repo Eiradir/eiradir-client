@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://kq71hjr5ungm"]
+
+[ext_resource type="Texture2D" uid="uid://qw1lsbmg2e8g" path="res://items/tools/plow.png" id="1_kfblj"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_kfblj")

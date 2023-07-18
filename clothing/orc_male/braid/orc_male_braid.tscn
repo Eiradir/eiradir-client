@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dhkdjnxe4dv4n"]
+
+[ext_resource type="SpriteFrames" path="res://clothing/orc_male/braid/orc_male_braid.tres" id="1_6qjq5"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_6qjq5")
+animation = &"idle_east"
+offset = Vector2(6, -34)

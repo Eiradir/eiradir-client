@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://sqhd322c7ys2"]
+
+[ext_resource type="Texture2D" uid="uid://ccumslcrl3mpc" path="res://items/food/spicy_kernabu_soup.png" id="1_7clt6"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_7clt6")

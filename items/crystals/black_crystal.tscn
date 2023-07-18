@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://di08lryayds8j"]
+
+[ext_resource type="Texture2D" uid="uid://nogq2fd72edf" path="res://items/crystals/black_crystal.png" id="1_mt02c"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_mt02c")

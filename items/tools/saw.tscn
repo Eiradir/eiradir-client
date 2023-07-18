@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dncv5yjxh6nvt"]
+
+[ext_resource type="Texture2D" uid="uid://scfxcy884axn" path="res://items/tools/saw.png" id="1_s1sxh"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_s1sxh")

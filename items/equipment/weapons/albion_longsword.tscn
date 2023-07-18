@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dx0hbandw0jb3"]
+
+[ext_resource type="Texture2D" uid="uid://b24h0ualq847d" path="res://items/equipment/weapons/albion_longsword.png" id="1_3unv7"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_3unv7")

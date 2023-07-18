@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dlct7vbiq4crk"]
+
+[ext_resource type="PackedScene" uid="uid://c0buwg47auf2" path="res://items/equipment/clothes/master_wizard_hat.tscn" id="1_4bb13"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_3q0ol"]
+[ext_resource type="Texture2D" uid="uid://c0r1kc5dtx6tr" path="res://items/equipment/clothes/master_wizard_hat.png" id="3_f53k6"]
+
+[resource]
+script = ExtResource("2_3q0ol")
+scene = ExtResource("1_4bb13")
+texture = ExtResource("3_f53k6")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

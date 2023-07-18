@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c65ghhdqo8nt7"]
+
+[ext_resource type="Texture2D" uid="uid://bcodluya44tfk" path="res://items/equipment/shields/wooden_shield.png" id="1_1n4hh"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_1n4hh")

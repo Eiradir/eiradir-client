@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://u0f870r88tb7"]
+
+[ext_resource type="Texture2D" uid="uid://cyfkrsy4kj5bq" path="res://items/food/onion_soup.png" id="1_snc6v"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_snc6v")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ci8t71yds1dni"]
+
+[ext_resource type="Texture2D" uid="uid://ff1aikjp7etk" path="res://items/tools/tongs.png" id="1_qw3hx"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_qw3hx")

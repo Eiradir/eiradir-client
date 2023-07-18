@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmuntkdmhlnm8"]
+
+[ext_resource type="Texture2D" uid="uid://cuha1sktvwgbl" path="res://items/structure/raw_stone/raw_stone_triangle_n_w.png" id="1_40em0"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_40em0")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfl80pku8oo2o"]
+
+[ext_resource type="Texture2D" uid="uid://don04vfnjp6yj" path="res://items/statues/bishop_fountain.png" id="1_88smw"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_88smw")

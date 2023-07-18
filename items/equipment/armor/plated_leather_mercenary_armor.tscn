@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://d06243d71qpt6"]
+
+[ext_resource type="Texture2D" uid="uid://bfx4udnifmi08" path="res://items/equipment/armor/plated_leather_mercenary_armor.png" id="1_sq56y"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_sq56y")

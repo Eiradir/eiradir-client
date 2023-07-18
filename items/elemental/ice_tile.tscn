@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bilwkk30kl4o8"]
+
+[ext_resource type="Texture2D" uid="uid://b73uoy2vjbwpm" path="res://items/elemental/ice_tile.png" id="1_hkcta"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_hkcta")

@@ -1,0 +1,6 @@
+[gd_resource type="Resource" script_class="HudDefinition" load_steps=2 format=3 uid="uid://bhw58cx4ivsje"]
+
+[ext_resource type="Script" path="res://registry/data/hud_definition.gd" id="1_bpgte"]
+
+[resource]
+script = ExtResource("1_bpgte")

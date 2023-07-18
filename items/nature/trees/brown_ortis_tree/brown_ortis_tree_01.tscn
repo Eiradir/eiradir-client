@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://deyjps5mbch8f"]
+
+[ext_resource type="Texture2D" uid="uid://bra3c2voahl3g" path="res://items/nature/trees/brown_ortis_tree/brown_ortis_tree_01.png" id="1_ug6n2"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ug6n2")
+offset = Vector2(54, -131)

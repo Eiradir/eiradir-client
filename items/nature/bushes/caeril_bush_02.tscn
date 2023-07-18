@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5xq4tpata4e2"]
+
+[ext_resource type="Texture2D" uid="uid://cyrcvyfut1r2" path="res://items/nature/bushes/caeril_bush_02.png" id="1_hf3u6"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_hf3u6")

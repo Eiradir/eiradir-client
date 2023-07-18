@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bcjwqtxcou0sw"]
+
+[ext_resource type="Texture2D" uid="uid://dtt5t021pci4h" path="res://items/equipment/clothes/peasant_hat.png" id="1_m8b34"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_m8b34")

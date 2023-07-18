@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwmeci1a65d1h"]
+
+[ext_resource type="Texture2D" uid="uid://ocyyp60lrva4" path="res://items/equipment/clothes/scholar_robe.png" id="1_cmyt0"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_cmyt0")

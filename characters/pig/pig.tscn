@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://yuyqc7w0nl3o"]
+
+[ext_resource type="SpriteFrames" uid="uid://cwqt80xyxfaok" path="res://characters/pig/pig.tres" id="1_j6vu3"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_j6vu3")
+animation = &"idle_east"
+offset = Vector2(-1, -9)

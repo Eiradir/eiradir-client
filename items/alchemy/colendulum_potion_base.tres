@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://b1xvu8p86lasr"]
+
+[ext_resource type="Texture2D" uid="uid://86n532amod4h" path="res://items/alchemy/colendulum_potion_base.png" id="1_qi2w3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_afasy"]
+atlas = ExtResource("1_qi2w3")
+region = Rect2(0, 0, 16, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hegna"]
+atlas = ExtResource("1_qi2w3")
+region = Rect2(16, 0, 16, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lyqyy"]
+atlas = ExtResource("1_qi2w3")
+region = Rect2(32, 0, 16, 26)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_afasy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hegna")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lyqyy")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

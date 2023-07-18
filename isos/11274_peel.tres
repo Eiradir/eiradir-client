@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://lmdcqpb407q2"]
+
+[ext_resource type="PackedScene" uid="uid://bm22gmwwct43n" path="res://items/tools/peel.tscn" id="1_neshr"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_rjkgr"]
+[ext_resource type="Texture2D" uid="uid://k76fufpq43ch" path="res://items/tools/peel.png" id="3_3i7pf"]
+
+[resource]
+script = ExtResource("2_rjkgr")
+scene = ExtResource("1_neshr")
+texture = ExtResource("3_3i7pf")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

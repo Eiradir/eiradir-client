@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cyvc2qt1eqx5a"]
+
+[ext_resource type="PackedScene" uid="uid://ck0kgjhujge02" path="res://items/herbs/blassar_leaf.tscn" id="1_525dg"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_v7tc7"]
+[ext_resource type="Texture2D" uid="uid://cjp7vh3j0v30u" path="res://items/herbs/blassar_leaf.png" id="3_x43s0"]
+
+[resource]
+script = ExtResource("2_v7tc7")
+scene = ExtResource("1_525dg")
+texture = ExtResource("3_x43s0")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

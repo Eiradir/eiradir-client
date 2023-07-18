@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://454fsn3ba6mo"]
+
+[ext_resource type="PackedScene" uid="uid://btvpmnr6jhoe8" path="res://items/equipment/weapons/lightbringer.tscn" id="1_abp0e"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_wd8a4"]
+[ext_resource type="Texture2D" uid="uid://e2x7kt2kh8n5" path="res://items/equipment/weapons/lightbringer.png" id="3_10ux7"]
+
+[resource]
+script = ExtResource("2_wd8a4")
+scene = ExtResource("1_abp0e")
+texture = ExtResource("3_10ux7")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

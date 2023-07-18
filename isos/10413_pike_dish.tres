@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cbt3i8q8xx701"]
+
+[ext_resource type="PackedScene" uid="uid://b8tdknn85fjci" path="res://items/food/pike_dish.tscn" id="1_y5nqy"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_h77ig"]
+[ext_resource type="Texture2D" uid="uid://b2sr8hppsue05" path="res://items/food/pike_dish.png" id="3_baylm"]
+
+[resource]
+script = ExtResource("2_h77ig")
+scene = ExtResource("1_y5nqy")
+texture = ExtResource("3_baylm")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

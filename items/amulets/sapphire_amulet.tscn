@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b72jwnqdaxw6r"]
+
+[ext_resource type="Texture2D" uid="uid://bjuk23583gyuw" path="res://items/amulets/sapphire_amulet.png" id="1_6swyp"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_6swyp")

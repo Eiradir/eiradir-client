@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://btyrfv3dqt10d"]
+
+[ext_resource type="Texture2D" uid="uid://w0jg4ix83hvc" path="res://items/furniture/chairs/office_chair_n.png" id="1_js0ke"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_js0ke")

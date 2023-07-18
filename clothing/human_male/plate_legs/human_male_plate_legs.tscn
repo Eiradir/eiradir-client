@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7yl1smvcyv6g"]
+
+[ext_resource type="SpriteFrames" uid="uid://cngmo7rwohyim" path="res://clothing/human_male/plate_legs/human_male_plate_legs.tres" id="1_ny62e"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_ny62e")
+animation = &"idle_east"
+offset = Vector2(2, -37)

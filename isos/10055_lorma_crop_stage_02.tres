@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c1usan3d7bi"]
+
+[ext_resource type="PackedScene" uid="uid://bjb47ywfcb2qt" path="res://items/crops/lorma_crop/lorma_crop_stage_02.tscn" id="1_onilu"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_6ov25"]
+[ext_resource type="Texture2D" uid="uid://bme2bj67mpdb2" path="res://items/crops/lorma_crop/lorma_crop_stage_02.png" id="3_qucsm"]
+
+[resource]
+script = ExtResource("2_6ov25")
+scene = ExtResource("1_onilu")
+texture = ExtResource("3_qucsm")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

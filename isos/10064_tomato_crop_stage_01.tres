@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://boj6if2nn46m1"]
+
+[ext_resource type="PackedScene" uid="uid://cs6tc28efnhvi" path="res://items/crops/tomato_crop/tomato_crop_stage_01.tscn" id="1_qchwf"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_anl4f"]
+[ext_resource type="Texture2D" uid="uid://bdhqbgsudm1qa" path="res://items/crops/tomato_crop/tomato_crop_stage_01.png" id="3_f3mm8"]
+
+[resource]
+script = ExtResource("2_anl4f")
+scene = ExtResource("1_qchwf")
+texture = ExtResource("3_f3mm8")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

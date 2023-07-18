@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c60fauljmrwmj"]
+
+[ext_resource type="Texture2D" uid="uid://swt8p4t2juju" path="res://items/fish/trout.png" id="1_574jo"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_574jo")

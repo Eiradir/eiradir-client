@@ -1,0 +1,76 @@
+[gd_resource type="Resource" script_class="PaperdollDefinition" load_steps=32 format=3 uid="uid://drykuy4rklplo"]
+
+[ext_resource type="Script" path="res://registry/data/paperdoll_definition.gd" id="1_752xm"]
+[ext_resource type="Resource" uid="uid://xiog7uc67rxu" path="res://isos/1_human_male.tres" id="1_iso0"]
+[ext_resource type="Resource" uid="uid://curj7fc7aisf6" path="res://isos/2_human_female.tres" id="1_iso1"]
+[ext_resource type="Resource" uid="uid://bxx11bnnuanxt" path="res://isos/3_elf_male.tres" id="1_iso2"]
+[ext_resource type="Resource" uid="uid://7svfub1q6ggt" path="res://isos/4_elf_female.tres" id="1_iso3"]
+[ext_resource type="Resource" uid="uid://bgvkmf45reai0" path="res://isos/5_dwarf_male.tres" id="1_iso4"]
+[ext_resource type="Resource" uid="uid://c5f5fy3l3ddoe" path="res://isos/6_dwarf_female.tres" id="1_iso5"]
+[ext_resource type="Resource" uid="uid://di1fhorqb8p" path="res://isos/7_orc_male.tres" id="1_iso6"]
+[ext_resource type="Resource" uid="uid://clnvk7j8kxtvr" path="res://isos/8_orc_female.tres" id="1_iso7"]
+[ext_resource type="Resource" uid="uid://bxty5jrrl3yd4" path="res://isos/9_silve_male.tres" id="1_iso8"]
+[ext_resource type="Resource" uid="uid://d0qopprkb4bgj" path="res://isos/10_silve_female.tres" id="1_iso9"]
+[ext_resource type="PackedScene" uid="uid://brkxkd31jlvj8" path="res://clothing/human_male/heavy_plate/human_male_heavy_plate.tscn" id="2_scn0"]
+[ext_resource type="PackedScene" uid="uid://bkc1vho80at5q" path="res://clothing/human_female/heavy_plate/human_female_heavy_plate.tscn" id="2_scn1"]
+[ext_resource type="PackedScene" uid="uid://d3ef45e7r6m7w" path="res://clothing/elf_male/heavy_plate/elf_male_heavy_plate.tscn" id="2_scn2"]
+[ext_resource type="PackedScene" uid="uid://6tecvhgson5y" path="res://clothing/elf_female/heavy_plate/elf_female_heavy_plate.tscn" id="2_scn3"]
+[ext_resource type="PackedScene" uid="uid://xshyxpn7g3uv" path="res://clothing/dwarf_male/heavy_plate/dwarf_male_heavy_plate.tscn" id="2_scn4"]
+[ext_resource type="PackedScene" uid="uid://cu3j6okucclq1" path="res://clothing/dwarf_female/heavy_plate/dwarf_female_heavy_plate.tscn" id="2_scn5"]
+[ext_resource type="PackedScene" uid="uid://cxpa18iq8cyxu" path="res://clothing/orc_male/heavy_plate/orc_male_heavy_plate.tscn" id="2_scn6"]
+[ext_resource type="PackedScene" uid="uid://r4pii2v5mywy" path="res://clothing/orc_female/heavy_plate/orc_female_heavy_plate.tscn" id="2_scn7"]
+[ext_resource type="PackedScene" path="res://clothing/silve_male/heavy_plate/silve_male_heavy_plate.tscn" id="2_scn8"]
+[ext_resource type="Script" path="res://registry/data/paperdoll_mapping.gd" id="3_64mpp"]
+
+[sub_resource type="Resource" id="Resource_pm0"]
+script = ExtResource("3_64mpp")
+iso = ExtResource("1_iso0")
+scene = ExtResource("2_scn0")
+
+[sub_resource type="Resource" id="Resource_pm1"]
+script = ExtResource("3_64mpp")
+iso = ExtResource("1_iso1")
+scene = ExtResource("2_scn1")
+
+[sub_resource type="Resource" id="Resource_pm2"]
+script = ExtResource("3_64mpp")
+iso = ExtResource("1_iso2")
+scene = ExtResource("2_scn2")
+
+[sub_resource type="Resource" id="Resource_pm3"]
+script = ExtResource("3_64mpp")
+iso = ExtResource("1_iso3")
+scene = ExtResource("2_scn3")
+
+[sub_resource type="Resource" id="Resource_pm4"]
+script = ExtResource("3_64mpp")
+iso = ExtResource("1_iso4")
+scene = ExtResource("2_scn4")
+
+[sub_resource type="Resource" id="Resource_pm5"]
+script = ExtResource("3_64mpp")
+iso = ExtResource("1_iso5")
+scene = ExtResource("2_scn5")
+
+[sub_resource type="Resource" id="Resource_pm6"]
+script = ExtResource("3_64mpp")
+iso = ExtResource("1_iso6")
+scene = ExtResource("2_scn6")
+
+[sub_resource type="Resource" id="Resource_pm7"]
+script = ExtResource("3_64mpp")
+iso = ExtResource("1_iso7")
+scene = ExtResource("2_scn7")
+
+[sub_resource type="Resource" id="Resource_pm8"]
+script = ExtResource("3_64mpp")
+iso = ExtResource("1_iso8")
+scene = ExtResource("2_scn8")
+
+[sub_resource type="Resource" id="Resource_pm9"]
+script = ExtResource("3_64mpp")
+iso = ExtResource("1_iso9")
+
+[resource]
+script = ExtResource("1_752xm")
+mappings = Array[ExtResource("3_64mpp")]([SubResource("Resource_pm0"), SubResource("Resource_pm1"), SubResource("Resource_pm2"), SubResource("Resource_pm3"), SubResource("Resource_pm4"), SubResource("Resource_pm5"), SubResource("Resource_pm6"), SubResource("Resource_pm7"), SubResource("Resource_pm8"), SubResource("Resource_pm9")])

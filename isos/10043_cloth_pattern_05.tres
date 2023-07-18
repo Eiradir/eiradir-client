@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://oh3yj0y6wsuo"]
+
+[ext_resource type="PackedScene" uid="uid://bgy5eiemxoiha" path="res://items/cloth/cloth_pattern_05.tscn" id="1_4lujx"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_1527p"]
+[ext_resource type="Texture2D" uid="uid://dhjbhs6gdpv5d" path="res://items/cloth/cloth_pattern_05.png" id="3_3p0mc"]
+
+[resource]
+script = ExtResource("2_1527p")
+scene = ExtResource("1_4lujx")
+texture = ExtResource("3_3p0mc")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

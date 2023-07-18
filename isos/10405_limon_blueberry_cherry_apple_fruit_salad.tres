@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://daqcnlho2fiim"]
+
+[ext_resource type="PackedScene" uid="uid://chj71yhsv07mn" path="res://items/food/limon_blueberry_cherry_apple_fruit_salad.tscn" id="1_bsbos"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_4foh4"]
+[ext_resource type="Texture2D" uid="uid://baf73u6ouh0k0" path="res://items/food/limon_blueberry_cherry_apple_fruit_salad.png" id="3_lqskg"]
+
+[resource]
+script = ExtResource("2_4foh4")
+scene = ExtResource("1_bsbos")
+texture = ExtResource("3_lqskg")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

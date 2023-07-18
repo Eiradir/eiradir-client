@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c1dt2wo3ntilw"]
+
+[ext_resource type="Texture2D" uid="uid://dahx0nf4wblvl" path="res://items/equipment/armor/studded_mercenary_armor.png" id="1_onstf"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_onstf")

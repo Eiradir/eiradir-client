@@ -1,0 +1,286 @@
+[gd_scene load_steps=3 format=3 uid="uid://c45gwedygx6bf"]
+
+[ext_resource type="Theme" uid="uid://ff8ufmacq6dq" path="res://interface/theme/default.tres" id="1_e7ni5"]
+[ext_resource type="Script" path="res://interface/start/create_character/create_character_origin.gd" id="2_glw7l"]
+
+[node name="create_character_origin" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_e7ni5")
+script = ExtResource("2_glw7l")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="LeftPanel" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/LeftPanel"]
+layout_mode = 2
+
+[node name="AgeLabel" type="Label" parent="HBoxContainer/LeftPanel/VBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Age"
+
+[node name="Age" type="SpinBox" parent="HBoxContainer/LeftPanel/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+min_value = 18.0
+max_value = 99.0
+value = 18.0
+
+[node name="Birthday" type="Label" parent="HBoxContainer/LeftPanel"]
+visible = false
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Birth Month"
+
+[node name="BirthdayContainer" type="HBoxContainer" parent="HBoxContainer/LeftPanel"]
+visible = false
+layout_mode = 2
+
+[node name="BirthMonth" type="OptionButton" parent="HBoxContainer/LeftPanel/BirthdayContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+item_count = 10
+selected = 0
+popup/item_0/text = "Thros"
+popup/item_0/id = 0
+popup/item_1/text = "Calas"
+popup/item_1/id = 1
+popup/item_2/text = "Sakos"
+popup/item_2/id = 2
+popup/item_3/text = "Prias"
+popup/item_3/id = 3
+popup/item_4/text = "Lelis"
+popup/item_4/id = 4
+popup/item_5/text = "Herus"
+popup/item_5/id = 5
+popup/item_6/text = "Voros"
+popup/item_6/id = 6
+popup/item_7/text = "Nephus"
+popup/item_7/id = 7
+popup/item_8/text = "Mes"
+popup/item_8/id = 8
+popup/item_9/text = "Kos"
+popup/item_9/id = 9
+
+[node name="BirthDay" type="SpinBox" parent="HBoxContainer/LeftPanel/BirthdayContainer"]
+layout_mode = 2
+
+[node name="HomelandLabel" type="Label" parent="HBoxContainer/LeftPanel"]
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Geographical Origin"
+
+[node name="Homeland" type="OptionButton" parent="HBoxContainer/LeftPanel"]
+unique_name_in_owner = true
+layout_mode = 2
+item_count = 1
+popup/item_0/text = "Arid Desert"
+popup/item_0/id = 0
+
+[node name="BackgroundLabel" type="Label" parent="HBoxContainer/LeftPanel"]
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Social Background"
+
+[node name="Background" type="OptionButton" parent="HBoxContainer/LeftPanel"]
+unique_name_in_owner = true
+layout_mode = 2
+item_count = 1
+popup/item_0/text = "Noble Born"
+popup/item_0/id = 0
+
+[node name="TradeLabel" type="Label" parent="HBoxContainer/LeftPanel"]
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Prior Trade"
+
+[node name="Trade" type="OptionButton" parent="HBoxContainer/LeftPanel"]
+unique_name_in_owner = true
+layout_mode = 2
+item_count = 1
+popup/item_0/text = "Hunter"
+popup/item_0/id = 0
+
+[node name="LocationLabel" type="Label" parent="HBoxContainer/LeftPanel"]
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Arrival"
+
+[node name="Location" type="OptionButton" parent="HBoxContainer/LeftPanel"]
+unique_name_in_owner = true
+layout_mode = 2
+item_count = 1
+popup/item_0/text = "Port Malvior"
+popup/item_0/id = 0
+
+[node name="RightPanel" type="Panel" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/RightPanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="ScrollContainer" type="ScrollContainer" parent="HBoxContainer/RightPanel/MarginContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="AgeTitle" type="Label" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Pretty Fucking Old"
+
+[node name="AgeDescription" type="RichTextLabel" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+bbcode_enabled = true
+text = "You are 132 years old. Pretty old even for an elf, you've likely witnessed many blablabla konrad will write this later"
+fit_content = true
+
+[node name="HomelandTitle" type="Label" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Arid Desert"
+
+[node name="HomelandDescription" type="RichTextLabel" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+bbcode_enabled = true
+text = "Growing up in an arid desert you ate lots of sand (yum). 
+"
+fit_content = true
+
+[node name="HomelandGoodTraits" type="RichTextLabel" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+modulate = Color(0, 0.752941, 0.0941176, 1)
+layout_mode = 2
+bbcode_enabled = true
+text = "[ul]
+Affinity for sand
+[/ul]"
+fit_content = true
+
+[node name="HomelandBadTraits" type="RichTextLabel" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+modulate = Color(1, 0, 0, 1)
+layout_mode = 2
+bbcode_enabled = true
+text = "[ul]
+Very thirsty
+[/ul]"
+fit_content = true
+
+[node name="BackgroundTitle" type="Label" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Noble Born"
+
+[node name="BackgroundDescription" type="RichTextLabel" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+bbcode_enabled = true
+text = "As a rich motherfucker you learnt how to navigate the expectations set for nobility I don't even know I'm just typing some placeholder text to convey the idea of having an adaptive character description on this panel"
+fit_content = true
+
+[node name="BackgroundGoodTraits" type="RichTextLabel" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+modulate = Color(0, 0.752941, 0.0941176, 1)
+layout_mode = 2
+bbcode_enabled = true
+text = "[ul]
+You spawn with a golden spoon that you can eat with
+[/ul]"
+fit_content = true
+
+[node name="BackgroundBadTraits" type="RichTextLabel" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+modulate = Color(1, 0, 0, 1)
+layout_mode = 2
+bbcode_enabled = true
+text = "[ul]
+No one likes you for who you are
+[/ul]"
+fit_content = true
+
+[node name="TradeTitle" type="Label" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Hunter"
+
+[node name="TradeDescription" type="RichTextLabel" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+bbcode_enabled = true
+text = "You learnt the trade of the HUNT and know animals and stuff (like how to kill them)"
+fit_content = true
+
+[node name="TradeGoodTraits" type="RichTextLabel" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+modulate = Color(0, 0.752941, 0.0941176, 1)
+layout_mode = 2
+bbcode_enabled = true
+text = "[ul]
+Hunting Proficiency
+[/ul]"
+fit_content = true
+
+[node name="TradeBadTraits" type="RichTextLabel" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+modulate = Color(1, 0, 0, 1)
+layout_mode = 2
+bbcode_enabled = true
+text = "[ul]
+No one likes you for who you are
+[/ul]"
+fit_content = true
+
+[node name="LocationTitle" type="Label" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Arrival: Port Malvior"
+
+[node name="LocationDescription" type="RichTextLabel" parent="HBoxContainer/RightPanel/MarginContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+bbcode_enabled = true
+text = "You will arrive in Port Malvior, the central blab blab alblabla uwu blalbasl yes
+"
+fit_content = true
+
+[connection signal="value_changed" from="HBoxContainer/LeftPanel/VBoxContainer/Age" to="." method="_on_age_value_changed"]
+[connection signal="item_selected" from="HBoxContainer/LeftPanel/Homeland" to="." method="_on_homeland_item_selected"]
+[connection signal="item_selected" from="HBoxContainer/LeftPanel/Background" to="." method="_on_background_item_selected"]
+[connection signal="item_selected" from="HBoxContainer/LeftPanel/Trade" to="." method="_on_trade_item_selected"]
+[connection signal="item_selected" from="HBoxContainer/LeftPanel/Location" to="." method="_on_location_item_selected"]

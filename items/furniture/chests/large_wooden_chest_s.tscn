@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dv3ey1a481aw6"]
+
+[ext_resource type="Texture2D" uid="uid://sxwgw4s3ito3" path="res://items/furniture/chests/large_wooden_chest_s.png" id="1_vgjp3"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_vgjp3")

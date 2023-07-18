@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ud3u0ui034y"]
+
+[ext_resource type="Texture2D" uid="uid://bdvtykujx06jf" path="res://items/nature/trees/dead_tree/dead_tree_02.png" id="1_fn28e"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_fn28e")
+offset = Vector2(31, -89)

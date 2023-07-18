@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b2cucgdjlp3lj"]
+
+[ext_resource type="Texture2D" uid="uid://d3idyo53vuhs2" path="res://items/equipment/weapons/magical_short_sword.png" id="1_obbyp"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_obbyp")

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=5 format=3 uid="uid://dp3qofhw3k6gt"]
+
+[ext_resource type="Resource" uid="uid://cpape0t8ax3ii" path="res://paperdolls/10006_mercenary_armor.tres" id="1_hr2tl"]
+[ext_resource type="PackedScene" uid="uid://c1dt2wo3ntilw" path="res://items/equipment/armor/studded_mercenary_armor.tscn" id="1_p7boh"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_gcapd"]
+[ext_resource type="Texture2D" uid="uid://dahx0nf4wblvl" path="res://items/equipment/armor/studded_mercenary_armor.png" id="3_g4m0o"]
+
+[resource]
+script = ExtResource("2_gcapd")
+scene = ExtResource("1_p7boh")
+texture = ExtResource("3_g4m0o")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+paperdoll = ExtResource("1_hr2tl")
+tags = Array[String]([])

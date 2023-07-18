@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dkvh1bqy2k2j4"]
+
+[ext_resource type="PackedScene" uid="uid://cbjpkfbkp07qs" path="res://items/equipment/weapons/magical_war_mace.tscn" id="1_5e46y"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_avycl"]
+[ext_resource type="Texture2D" uid="uid://bngod000p5y1y" path="res://items/equipment/weapons/magical_war_mace.png" id="3_fg31f"]
+
+[resource]
+script = ExtResource("2_avycl")
+scene = ExtResource("1_5e46y")
+texture = ExtResource("3_fg31f")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

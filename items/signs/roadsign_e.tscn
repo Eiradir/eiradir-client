@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bi1ypsvw3wfh7"]
+
+[ext_resource type="Texture2D" uid="uid://dxevw52idq8v" path="res://items/signs/roadsign_e.png" id="1_ia7jf"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ia7jf")

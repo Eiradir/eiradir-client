@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ip0hb2cnpjel"]
+
+[ext_resource type="Texture2D" uid="uid://cuykn7vyd3pp7" path="res://items/money/gold_dinari.png" id="1_flt1i"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_flt1i")

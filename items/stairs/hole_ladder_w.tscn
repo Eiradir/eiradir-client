@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dtfy8mjxi1udl"]
+
+[ext_resource type="Texture2D" uid="uid://dw0iqc8b7i35x" path="res://items/stairs/hole_ladder_w.png" id="1_5rjqa"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_5rjqa")

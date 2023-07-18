@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dntfk1jsdwofe"]
+
+[ext_resource type="PackedScene" uid="uid://dmt5j073iuj5m" path="res://items/structure/brick/brick_corner_sw.tscn" id="1_qsl5a"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_of604"]
+[ext_resource type="Texture2D" uid="uid://dmg04ogqwiwwm" path="res://items/structure/brick/brick_corner_sw.png" id="3_egfvk"]
+
+[resource]
+script = ExtResource("2_of604")
+scene = ExtResource("1_qsl5a")
+texture = ExtResource("3_egfvk")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

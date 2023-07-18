@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="HudDefinition" load_steps=3 format=3 uid="uid://3gc62vugng65"]
+
+[ext_resource type="Script" path="res://registry/data/hud_definition.gd" id="1_5l1td"]
+[ext_resource type="PackedScene" uid="uid://byu8qi8j4p5e2" path="res://interface/minimap/minimap.tscn" id="1_tqf23"]
+
+[resource]
+script = ExtResource("1_5l1td")
+scene = ExtResource("1_tqf23")

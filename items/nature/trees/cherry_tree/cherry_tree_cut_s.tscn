@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dpa7p8vt1se1c"]
+
+[ext_resource type="Texture2D" uid="uid://delwntso85omm" path="res://items/nature/trees/cherry_tree/cherry_tree_cut_s.png" id="1_qvick"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_qvick")
+offset = Vector2(57, 31)

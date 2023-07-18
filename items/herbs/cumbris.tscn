@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://4dujerotvyqn"]
+
+[ext_resource type="Texture2D" uid="uid://b4agc80ukxyx6" path="res://items/herbs/cumbris.png" id="1_m73on"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_m73on")

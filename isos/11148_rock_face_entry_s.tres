@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dbwyfip23qpoq"]
+
+[ext_resource type="PackedScene" uid="uid://v0o2iv2uwadm" path="res://items/structure/rock/rock_face_entry_s.tscn" id="1_lj1ff"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_xuff2"]
+[ext_resource type="Texture2D" uid="uid://dpq41ygpd00q4" path="res://items/structure/rock/rock_face_entry_s.png" id="3_y51x2"]
+
+[resource]
+script = ExtResource("2_xuff2")
+scene = ExtResource("1_lj1ff")
+texture = ExtResource("3_y51x2")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

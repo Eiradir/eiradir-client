@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="HudDefinition" load_steps=3 format=3 uid="uid://b2qm5dxlv5mpx"]
+
+[ext_resource type="PackedScene" uid="uid://dbwpvd5sdypta" path="res://game/cursor/cursor.tscn" id="1_gqyhc"]
+[ext_resource type="Script" path="res://registry/data/hud_definition.gd" id="2_lfau2"]
+
+[resource]
+script = ExtResource("2_lfau2")
+scene = ExtResource("1_gqyhc")

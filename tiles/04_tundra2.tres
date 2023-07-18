@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="TileDefinition" load_steps=2 format=3 uid="uid://uet812nyexmu"]
+
+[ext_resource type="Script" path="res://registry/data/tile_definition.gd" id="1_oxaai"]
+
+[resource]
+script = ExtResource("1_oxaai")
+source_id = 0
+variants = Array[Vector2i]([Vector2i(12, 0), Vector2i(13, 0), Vector2i(14, 0), Vector2i(15, 0), Vector2i(16, 0), Vector2i(17, 0), Vector2i(18, 0)])
+refuses_transitions = false
+cannot_transition = false
+color = Color(0.764706, 0.764706, 0.764706, 1)

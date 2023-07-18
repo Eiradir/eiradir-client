@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ciggu1vlk6ogi"]
+
+[ext_resource type="Texture2D" uid="uid://dv7vewldoan8j" path="res://items/equipment/weapons/rapier.png" id="1_xc0h3"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_xc0h3")

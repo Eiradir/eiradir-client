@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://vgdurxlusmkl"]
+
+[ext_resource type="Texture2D" uid="uid://brr8n18onaf71" path="res://items/furniture/oven/oven_active_w.png" id="1_cl3jc"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_cl3jc")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://clal2xn4m0c7u"]
+
+[ext_resource type="PackedScene" uid="uid://ctfvb614wpgeo" path="res://items/equipment/clothes/wizard_hood.tscn" id="1_taf8y"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_t3odr"]
+[ext_resource type="Texture2D" uid="uid://bs3xcyebwcauo" path="res://items/equipment/clothes/wizard_hood.png" id="3_ydhxo"]
+
+[resource]
+script = ExtResource("2_t3odr")
+scene = ExtResource("1_taf8y")
+texture = ExtResource("3_ydhxo")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

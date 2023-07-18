@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cwp1iwysg1m21"]
+
+[ext_resource type="Texture2D" uid="uid://d4bv4t3xnpdsb" path="res://items/gems/cut_dragonid.png" id="1_eqqk5"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_eqqk5")

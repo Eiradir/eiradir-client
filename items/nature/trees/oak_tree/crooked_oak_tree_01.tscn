@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c677f4cy40qow"]
+
+[ext_resource type="Texture2D" uid="uid://dk4r0c86s55ts" path="res://items/nature/trees/oak_tree/crooked_oak_tree_01.png" id="1_ocpru"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ocpru")
+offset = Vector2(44, -87)

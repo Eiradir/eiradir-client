@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bgsmh2ha7jo5s"]
+
+[ext_resource type="Texture2D" uid="uid://ciye0kiu81l8p" path="res://items/furniture/alchemy/alchemical_transmuter.png" id="1_ndlq1"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ndlq1")

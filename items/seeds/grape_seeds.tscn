@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://k0c3coif343q"]
+
+[ext_resource type="Texture2D" uid="uid://k8udvjwro7i7" path="res://items/seeds/grape_seeds.png" id="1_rmann"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_rmann")

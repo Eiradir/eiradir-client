@@ -1,0 +1,98 @@
+[gd_scene load_steps=7 format=3 uid="uid://bhd6d472gm5fe"]
+
+[ext_resource type="Script" path="res://interface/start/select_character.gd" id="1_few0r"]
+[ext_resource type="Theme" uid="uid://ff8ufmacq6dq" path="res://interface/theme/default.tres" id="2_esa7o"]
+[ext_resource type="Texture2D" uid="uid://lk8f5upfp7go" path="res://interface/theme/textures/window_h.png" id="3_ngsv2"]
+[ext_resource type="Texture2D" uid="uid://bay6a8mpujwr8" path="res://icons/eiradir.png" id="4_t0d4v"]
+[ext_resource type="Texture2D" uid="uid://bnpirxunsy1hm" path="res://icons/eiradev.png" id="5_uq0kf"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_02yfj"]
+texture = ExtResource("3_ngsv2")
+texture_margin_left = 23.0
+texture_margin_top = 31.0
+texture_margin_right = 23.0
+texture_margin_bottom = 31.0
+
+[node name="SelectCharacter" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -220.5
+offset_top = -87.5
+offset_right = 220.5
+offset_bottom = 117.5
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_few0r")
+
+[node name="Window" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -220.5
+offset_top = -102.5
+offset_right = 220.5
+offset_bottom = 102.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_esa7o")
+theme_override_styles/panel = SubResource("StyleBoxTexture_02yfj")
+
+[node name="MarginContainer" type="MarginContainer" parent="Window"]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_right = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Window/MarginContainer"]
+layout_mode = 2
+
+[node name="SelectServerLabel" type="Label" parent="Window/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Select Server"
+horizontal_alignment = 1
+
+[node name="Server" type="OptionButton" parent="Window/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+item_count = 2
+selected = 0
+popup/item_0/text = "Eiradir Server"
+popup/item_0/icon = ExtResource("4_t0d4v")
+popup/item_0/id = 0
+popup/item_1/text = "Local Server"
+popup/item_1/icon = ExtResource("5_uq0kf")
+popup/item_1/id = 1
+
+[node name="HSeparator" type="HSeparator" parent="Window/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="SelectCharacterLabel" type="Label" parent="Window/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Select Character"
+horizontal_alignment = 1
+
+[node name="LoadingCharactersLabel" type="Label" parent="Window/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Loading characters..."
+horizontal_alignment = 1
+
+[node name="CharacterButtons" type="VBoxContainer" parent="Window/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="CreateCharacterButton" type="Button" parent="Window/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Create Character"
+
+[connection signal="item_selected" from="Window/MarginContainer/VBoxContainer/Server" to="." method="_on_server_item_selected"]
+[connection signal="pressed" from="Window/MarginContainer/VBoxContainer/CreateCharacterButton" to="." method="_on_create_character_button_pressed"]

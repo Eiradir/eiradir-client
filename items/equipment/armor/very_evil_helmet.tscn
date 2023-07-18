@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://i05y88ek8d52"]
+
+[ext_resource type="Texture2D" uid="uid://lpr8qqanox6" path="res://items/equipment/armor/very_evil_helmet.png" id="1_xohpc"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_xohpc")

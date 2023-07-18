@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://uarmxsh3putv"]
+
+[ext_resource type="Texture2D" uid="uid://87v4j05c4ic7" path="res://items/ores/iron_ore.png" id="1_0xjp4"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_0xjp4")

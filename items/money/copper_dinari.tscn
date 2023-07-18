@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://orxjjtnu5j87"]
+
+[ext_resource type="Texture2D" uid="uid://ll6jxi3whnh" path="res://items/money/copper_dinari.png" id="1_2wesx"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_2wesx")

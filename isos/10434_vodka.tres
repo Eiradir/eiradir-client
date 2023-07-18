@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dhvq6aey7dcxb"]
+
+[ext_resource type="PackedScene" uid="uid://unrs83s1j613" path="res://items/food/vodka.tscn" id="1_dtfm1"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_majx2"]
+[ext_resource type="Texture2D" uid="uid://clrn55v18vouo" path="res://items/food/vodka.png" id="3_d17hn"]
+
+[resource]
+script = ExtResource("2_majx2")
+scene = ExtResource("1_dtfm1")
+texture = ExtResource("3_d17hn")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

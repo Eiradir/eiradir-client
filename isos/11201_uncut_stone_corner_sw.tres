@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://1q6im8d5sd7d"]
+
+[ext_resource type="PackedScene" uid="uid://dcgabu2xut3cy" path="res://items/structure/uncut_stone/uncut_stone_corner_sw.tscn" id="1_1smdm"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_cwipx"]
+[ext_resource type="Texture2D" uid="uid://cjsnlewtjhd7o" path="res://items/structure/uncut_stone/uncut_stone_corner_sw.png" id="3_ax0dk"]
+
+[resource]
+script = ExtResource("2_cwipx")
+scene = ExtResource("1_1smdm")
+texture = ExtResource("3_ax0dk")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

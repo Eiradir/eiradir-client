@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6bv0ya8hyh0y"]
+
+[ext_resource type="Texture2D" uid="uid://jsyb2rm6y31o" path="res://items/structure/wood/wood_trim_s.png" id="1_ajcsr"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ajcsr")

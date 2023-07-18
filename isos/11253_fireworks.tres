@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://baw3sxij2uksq"]
+
+[ext_resource type="PackedScene" uid="uid://p5y12mut5kqb" path="res://items/tools/fireworks.tscn" id="1_8qq0o"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_32ygt"]
+[ext_resource type="Texture2D" uid="uid://b4xhibub5tjkv" path="res://items/tools/fireworks.png" id="3_xy6iu"]
+
+[resource]
+script = ExtResource("2_32ygt")
+scene = ExtResource("1_8qq0o")
+texture = ExtResource("3_xy6iu")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

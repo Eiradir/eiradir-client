@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dcw74lt2tfgt4"]
+
+[ext_resource type="PackedScene" uid="uid://ce6qamjwev32p" path="res://items/equipment/armor/plated_leather_boots.tscn" id="1_e8whd"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_nfh7h"]
+[ext_resource type="Texture2D" uid="uid://85cm2b5y8ab8" path="res://items/equipment/armor/plated_leather_boots.png" id="3_c2d2p"]
+
+[resource]
+script = ExtResource("2_nfh7h")
+scene = ExtResource("1_e8whd")
+texture = ExtResource("3_c2d2p")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

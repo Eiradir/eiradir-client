@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dyjtvigdxmsej"]
+
+[ext_resource type="Texture2D" uid="uid://cqe74uhe334ej" path="res://items/equipment/armor/teutonic_helmet.png" id="1_5ieox"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_5ieox")

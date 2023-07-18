@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://vrscf0707dwn"]
+
+[ext_resource type="SpriteFrames" uid="uid://6ar20kt8vor3" path="res://characters/human_male/human_male.tres" id="1_8o4sl"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_8o4sl")
+animation = &"idle_east"
+offset = Vector2(2, -37)

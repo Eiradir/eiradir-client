@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cln46rxl3eug"]
+
+[ext_resource type="Texture2D" uid="uid://v1aswk8lk6uq" path="res://items/nature/plants/fern/fern_02.png" id="1_rn2k4"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_rn2k4")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjg4vk14fbanh"]
+
+[ext_resource type="Texture2D" uid="uid://d13lsmrmc8580" path="res://items/equipment/shields/heraldic_shield.png" id="1_0byrw"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_0byrw")

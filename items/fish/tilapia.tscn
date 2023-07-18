@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwwpww1tl52uc"]
+
+[ext_resource type="Texture2D" uid="uid://bycjwik14js7b" path="res://items/fish/tilapia.png" id="1_rfu2i"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_rfu2i")

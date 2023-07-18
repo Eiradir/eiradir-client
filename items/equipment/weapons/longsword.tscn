@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://do52kqr354rjq"]
+
+[ext_resource type="Texture2D" uid="uid://c5bhv51koac87" path="res://items/equipment/weapons/longsword.png" id="1_y2q0p"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_y2q0p")

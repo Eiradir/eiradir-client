@@ -1,0 +1,65 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5p8hqrnoolta"]
+
+[ext_resource type="Script" path="res://interface/start/create_character/create_character_color.gd" id="1_r7w07"]
+
+[node name="MarginContainer" type="MarginContainer"]
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_bottom = 5
+script = ExtResource("1_r7w07")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Color"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Color" type="ItemList" parent="VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+auto_height = true
+max_columns = 20
+same_column_width = true
+
+[node name="ColorPickerPopup" type="Popup" parent="."]
+unique_name_in_owner = true
+transparent_bg = true
+initial_position = 2
+size = Vector2i(310, 327)
+
+[node name="Panel" type="Panel" parent="ColorPickerPopup"]
+custom_minimum_size = Vector2(300, 280)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -43.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="ColorPickerPopup/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorPicker" type="ColorPicker" parent="ColorPickerPopup/Panel/CenterContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+edit_alpha = false
+can_add_swatches = false
+sampler_visible = false
+color_modes_visible = false
+sliders_visible = false
+hex_visible = false
+presets_visible = false
+
+[connection signal="item_clicked" from="VBoxContainer/HBoxContainer/Color" to="." method="_on_color_item_clicked"]
+[connection signal="item_selected" from="VBoxContainer/HBoxContainer/Color" to="." method="_on_color_item_selected"]
+[connection signal="color_changed" from="ColorPickerPopup/Panel/CenterContainer/ColorPicker" to="." method="_on_color_picker_color_changed"]

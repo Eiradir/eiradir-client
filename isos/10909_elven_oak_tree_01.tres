@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c8yxs4turjt8m"]
+
+[ext_resource type="PackedScene" uid="uid://dgo51ttuhnt00" path="res://items/nature/trees/elven_oak_tree/elven_oak_tree_01.tscn" id="1_tuqbi"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_ykvtn"]
+[ext_resource type="Texture2D" uid="uid://dv23mvndpact4" path="res://items/nature/trees/elven_oak_tree/elven_oak_tree_01.png" id="3_u4up7"]
+
+[resource]
+script = ExtResource("2_ykvtn")
+scene = ExtResource("1_tuqbi")
+texture = ExtResource("3_u4up7")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

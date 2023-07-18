@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://wqptckqpm288"]
+
+[ext_resource type="Texture2D" uid="uid://cpd1cl1a1ps8r" path="res://items/nature/trees/birch_tree/southern_birch_tree_02.png" id="1_fxdpe"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_fxdpe")
+offset = Vector2(41, -127)

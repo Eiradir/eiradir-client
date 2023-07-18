@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bl2hl462anbdc"]
+
+[ext_resource type="Texture2D" uid="uid://cork7dqnv5ghm" path="res://items/herbs/princes_bliss.png" id="1_iyg0x"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_iyg0x")

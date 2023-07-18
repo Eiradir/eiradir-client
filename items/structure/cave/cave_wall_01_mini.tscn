@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bio5y7d5ro3ff"]
+
+[ext_resource type="Texture2D" uid="uid://bq54gjpkl7bax" path="res://items/structure/cave/cave_wall_01_mini.png" id="1_i5l35"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_i5l35")

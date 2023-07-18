@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgeelwv615bgw"]
+
+[ext_resource type="Texture2D" uid="uid://dsdgfbd40enjm" path="res://items/nature/trees/old_oak_tree/old_oak_tree_03.png" id="1_un1vm"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_un1vm")
+offset = Vector2(77, -121)

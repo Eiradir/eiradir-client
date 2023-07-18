@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bv7u5ef74fwfr"]
+
+[ext_resource type="Texture2D" uid="uid://cmnhth6817mru" path="res://items/equipment/weapons/composite_bow.png" id="1_qtamr"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_qtamr")

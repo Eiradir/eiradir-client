@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cphqop1tc3k0q"]
+
+[ext_resource type="PackedScene" uid="uid://b8i1fy6s77a6t" path="res://items/nature/trees/palm_tree/palm_tree_03.tscn" id="1_mltmh"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_212uu"]
+[ext_resource type="Texture2D" uid="uid://dfkyaf0mos7ie" path="res://items/nature/trees/palm_tree/palm_tree_03.png" id="3_fl5ik"]
+
+[resource]
+script = ExtResource("2_212uu")
+scene = ExtResource("1_mltmh")
+texture = ExtResource("3_fl5ik")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

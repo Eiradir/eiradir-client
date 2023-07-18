@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkh6s24w0254i"]
+
+[ext_resource type="Texture2D" uid="uid://ccd1xxl437ixm" path="res://items/equipment/armor/dwarven_plated_chain.png" id="1_mkiar"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_mkiar")

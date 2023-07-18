@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://rmx75iwvafip"]
+
+[ext_resource type="Texture2D" uid="uid://cl64kypsq27eh" path="res://items/money/copper_grivon.png" id="1_tpdx5"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_tpdx5")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bpp6mo6fyetfg"]
+
+[ext_resource type="PackedScene" uid="uid://c7o8qyguwctcr" path="res://items/statues/obsidian_gargoyle_s.tscn" id="1_jj6dk"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_pt4fc"]
+[ext_resource type="Texture2D" uid="uid://bxyosyun8bu2n" path="res://items/statues/obsidian_gargoyle_s.png" id="3_x4bhi"]
+
+[resource]
+script = ExtResource("2_pt4fc")
+scene = ExtResource("1_jj6dk")
+texture = ExtResource("3_x4bhi")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

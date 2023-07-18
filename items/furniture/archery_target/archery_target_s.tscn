@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bc5b5rddr6a27"]
+
+[ext_resource type="Texture2D" uid="uid://osw4lj25g88r" path="res://items/furniture/archery_target/archery_target_s.png" id="1_cbs31"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_cbs31")

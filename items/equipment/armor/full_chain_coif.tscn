@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ojdgy6aafp8g"]
+
+[ext_resource type="Texture2D" uid="uid://ooip7wtc0hya" path="res://items/equipment/armor/full_chain_coif.png" id="1_mevfk"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_mevfk")

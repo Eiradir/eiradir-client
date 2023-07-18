@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ckeljx7ng0tr3"]
+
+[ext_resource type="Texture2D" uid="uid://ewsxjyr53d4e" path="res://items/nature/trees/jungle_tree/jungle_tree_03.png" id="1_y52bb"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_y52bb")
+offset = Vector2(1, -127)

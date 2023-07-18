@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8uakk40xqo6p"]
+
+[ext_resource type="Texture2D" uid="uid://couhvxq8s0uyy" path="res://items/equipment/weapons/thunder_mace.png" id="1_ypayj"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ypayj")

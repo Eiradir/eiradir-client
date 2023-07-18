@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://um3ebcm0tsab"]
+
+[ext_resource type="PackedScene" uid="uid://cv8khlxbsc8m1" path="res://items/furniture/altars/lelei_altar.tscn" id="1_lxsm5"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_vvnku"]
+[ext_resource type="Texture2D" uid="uid://teojpd6splbm" path="res://items/furniture/altars/lelei_altar.png" id="3_cghof"]
+
+[resource]
+script = ExtResource("2_vvnku")
+scene = ExtResource("1_lxsm5")
+texture = ExtResource("3_cghof")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

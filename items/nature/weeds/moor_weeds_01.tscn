@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://rges88dmoxke"]
+
+[ext_resource type="Texture2D" uid="uid://cr5maogw42ntf" path="res://items/nature/weeds/moor_weeds_01.png" id="1_f427e"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_f427e")

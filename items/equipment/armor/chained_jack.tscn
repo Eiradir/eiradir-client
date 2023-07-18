@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://chrmxc4imbcru"]
+
+[ext_resource type="Texture2D" uid="uid://dejuxdj47jnfe" path="res://items/equipment/armor/chained_jack.png" id="1_h5v0b"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_h5v0b")

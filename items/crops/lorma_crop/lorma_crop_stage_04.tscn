@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://fmt6a48dlr2y"]
+
+[ext_resource type="Texture2D" uid="uid://c1mujvc7r7m5m" path="res://items/crops/lorma_crop/lorma_crop_stage_04.png" id="1_8a418"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_8a418")

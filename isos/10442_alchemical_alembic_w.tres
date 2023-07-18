@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://ilkyy06qkdar"]
+
+[ext_resource type="PackedScene" uid="uid://buja0q7grr8u8" path="res://items/furniture/alchemy/alchemical_alembic_w.tscn" id="1_ppy8k"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_ctner"]
+[ext_resource type="Texture2D" uid="uid://dh712gb4fthcb" path="res://items/furniture/alchemy/alchemical_alembic_w.png" id="3_iwq0b"]
+
+[resource]
+script = ExtResource("2_ctner")
+scene = ExtResource("1_ppy8k")
+texture = ExtResource("3_iwq0b")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

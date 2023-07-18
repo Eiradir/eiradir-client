@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://n17tu5j7kwfg"]
+
+[ext_resource type="Texture2D" uid="uid://c26c66jc642hx" path="res://items/nature/plants/desert_plants/desert_plant_06.png" id="1_g7uxq"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_g7uxq")

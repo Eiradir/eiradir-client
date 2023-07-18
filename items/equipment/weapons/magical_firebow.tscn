@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://maq50l4tla03"]
+
+[ext_resource type="Texture2D" uid="uid://dg8whlwr8233q" path="res://items/equipment/weapons/magical_firebow.png" id="1_nftla"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_nftla")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3y30tlwikj6k"]
+
+[ext_resource type="Texture2D" uid="uid://dnf8q7wcvq710" path="res://items/equipment/clothes/blouse_03.png" id="1_w4hdu"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_w4hdu")

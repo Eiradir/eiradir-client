@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bt2aa1vtm3ru7"]
+
+[ext_resource type="Texture2D" uid="uid://dcd42xeqn0y8n" path="res://items/statues/gold_throdin_statue_w.png" id="1_uk4we"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_uk4we")

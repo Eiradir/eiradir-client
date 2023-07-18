@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cogw84dh1vx00"]
+
+[ext_resource type="Texture2D" uid="uid://bxqoe1ejqc2an" path="res://items/structure/brick/brick_triangle_e_s.png" id="1_ubqxg"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ubqxg")

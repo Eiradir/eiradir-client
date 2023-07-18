@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b35r4ahrr6gj3"]
+
+[ext_resource type="Texture2D" uid="uid://5rob1h2d76ib" path="res://items/food/pork_dish.png" id="1_p18s3"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_p18s3")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://drljf0nqlfoi5"]
+
+[ext_resource type="Texture2D" uid="uid://iyuu855aeq26" path="res://items/crops/carrot_crop/carrot_crop_stage_01.png" id="1_yktym"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_yktym")

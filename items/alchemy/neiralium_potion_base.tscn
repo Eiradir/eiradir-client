@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://pj7rak6irino"]
+
+[ext_resource type="SpriteFrames" uid="uid://c7cvgulrqyd3d" path="res://items/alchemy/neiralium_potion_base.tres" id="1_vfc1e"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_vfc1e")

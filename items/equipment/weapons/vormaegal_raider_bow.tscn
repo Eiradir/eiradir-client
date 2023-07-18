@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkml5u15bvqi4"]
+
+[ext_resource type="Texture2D" uid="uid://bfkpij61sulg5" path="res://items/equipment/weapons/vormaegal_raider_bow.png" id="1_s62ff"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_s62ff")

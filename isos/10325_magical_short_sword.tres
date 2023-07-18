@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dr5y1gtw8xf0w"]
+
+[ext_resource type="PackedScene" uid="uid://b2cucgdjlp3lj" path="res://items/equipment/weapons/magical_short_sword.tscn" id="1_hce1m"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_kxvup"]
+[ext_resource type="Texture2D" uid="uid://d3idyo53vuhs2" path="res://items/equipment/weapons/magical_short_sword.png" id="3_i642s"]
+
+[resource]
+script = ExtResource("2_kxvup")
+scene = ExtResource("1_hce1m")
+texture = ExtResource("3_i642s")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

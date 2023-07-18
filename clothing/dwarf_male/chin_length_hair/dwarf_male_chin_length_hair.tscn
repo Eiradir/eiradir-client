@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bk8vgh1chp5pa"]
+
+[ext_resource type="SpriteFrames" uid="uid://yk8535lboknt" path="res://clothing/dwarf_male/chin_length_hair/dwarf_male_chin_length_hair.tres" id="1_xl8gu"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_xl8gu")
+animation = &"idle_east"
+offset = Vector2(-4, -24)

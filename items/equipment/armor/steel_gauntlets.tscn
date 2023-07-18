@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmvc4nne5wkm4"]
+
+[ext_resource type="Texture2D" uid="uid://d17obbr2j57sq" path="res://items/equipment/armor/steel_gauntlets.png" id="1_hmche"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_hmche")

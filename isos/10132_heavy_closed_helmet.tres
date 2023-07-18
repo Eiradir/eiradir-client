@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://mipps01pveyu"]
+
+[ext_resource type="PackedScene" uid="uid://ddq3pxlwbxpm8" path="res://items/equipment/armor/heavy_closed_helmet.tscn" id="1_qev56"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_ttrw7"]
+[ext_resource type="Texture2D" uid="uid://0lvkcaaw0efp" path="res://items/equipment/armor/heavy_closed_helmet.png" id="3_n5orr"]
+
+[resource]
+script = ExtResource("2_ttrw7")
+scene = ExtResource("1_qev56")
+texture = ExtResource("3_n5orr")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

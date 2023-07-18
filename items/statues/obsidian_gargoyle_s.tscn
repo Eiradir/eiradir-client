@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7o8qyguwctcr"]
+
+[ext_resource type="Texture2D" uid="uid://bxyosyun8bu2n" path="res://items/statues/obsidian_gargoyle_s.png" id="1_4a0qb"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_4a0qb")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bdcrtt2iu34hx"]
+
+[ext_resource type="PackedScene" uid="uid://dlpv3bls7fd3t" path="res://items/equipment/armor/leather_gloves.tscn" id="1_gqu7v"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_kknxo"]
+[ext_resource type="Texture2D" uid="uid://dsq45nk53kydi" path="res://items/equipment/armor/leather_gloves.png" id="3_pe0dr"]
+
+[resource]
+script = ExtResource("2_kknxo")
+scene = ExtResource("1_gqu7v")
+texture = ExtResource("3_pe0dr")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

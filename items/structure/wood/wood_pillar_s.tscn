@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://lrtds3av6d2j"]
+
+[ext_resource type="Texture2D" uid="uid://btq3u5wocvefs" path="res://items/structure/wood/wood_pillar_s.png" id="1_68wp5"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_68wp5")

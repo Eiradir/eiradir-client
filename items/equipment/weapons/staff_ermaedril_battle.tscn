@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://m247753g0lrp"]
+
+[ext_resource type="Texture2D" uid="uid://dnmvdywvu263w" path="res://items/equipment/weapons/staff_ermaedril_battle.png" id="1_6j6g3"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_6j6g3")

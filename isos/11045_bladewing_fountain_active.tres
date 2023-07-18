@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=3 format=3 uid="uid://3fhn6hifxj1w"]
+
+[ext_resource type="PackedScene" uid="uid://c6d5vci6srayj" path="res://items/statues/bladewing_fountain_active.tscn" id="1_u4n5b"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_14svd"]
+
+[resource]
+script = ExtResource("2_14svd")
+scene = ExtResource("1_u4n5b")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+paperdoll_id = 0
+tags = Array[String]([])

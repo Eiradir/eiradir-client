@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cubt5k21ttie7"]
+
+[ext_resource type="PackedScene" uid="uid://d2kq21bst10ll" path="res://items/blood/blood_sw.tscn" id="1_p76ti"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_etff0"]
+[ext_resource type="Texture2D" uid="uid://cdlf4duv07muc" path="res://items/blood/blood_sw.png" id="3_ek07m"]
+
+[resource]
+script = ExtResource("2_etff0")
+scene = ExtResource("1_p76ti")
+texture = ExtResource("3_ek07m")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

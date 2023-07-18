@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://vr0ht555owcr"]
+
+[ext_resource type="PackedScene" uid="uid://dinpgujfprtss" path="res://items/nature/trees/oak_tree/oak_tree_01.tscn" id="1_gks6b"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_r4ypy"]
+[ext_resource type="Texture2D" uid="uid://4emjubuh8mpy" path="res://items/nature/trees/oak_tree/oak_tree_01.png" id="3_jbpgv"]
+
+[resource]
+script = ExtResource("2_r4ypy")
+scene = ExtResource("1_gks6b")
+texture = ExtResource("3_jbpgv")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

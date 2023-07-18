@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dy218f1gpaphb"]
+
+[ext_resource type="SpriteFrames" path="res://clothing/elf_female/chainmail/elf_female_chainmail.tres" id="1_qp23w"]
+
+[node name="elf_female_blouse" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_qp23w")
+animation = &"idle_east"
+offset = Vector2(1, -39)

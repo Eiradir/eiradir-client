@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://5jhhyqwug6lm"]
+
+[ext_resource type="Texture2D" uid="uid://bwplbvemrabcw" path="res://items/equipment/armor/sugarloaf_helmet.png" id="1_x6cmd"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_x6cmd")

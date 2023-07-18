@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b8a3sxfobthmh"]
+
+[ext_resource type="Texture2D" uid="uid://bnnpv78f5bmn2" path="res://items/tools/crucible.png" id="1_sp4d7"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_sp4d7")

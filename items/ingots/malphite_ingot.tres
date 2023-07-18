@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cn0eh3otduysb"]
+
+[ext_resource type="Texture2D" uid="uid://bxe8x8tjflbxt" path="res://items/ingots/malphite_ingot.png" id="1_hb6lc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gf4ry"]
+atlas = ExtResource("1_hb6lc")
+region = Rect2(0, 0, 27, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1vdst"]
+atlas = ExtResource("1_hb6lc")
+region = Rect2(27, 0, 27, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_klu4s"]
+atlas = ExtResource("1_hb6lc")
+region = Rect2(54, 0, 27, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v4jjy"]
+atlas = ExtResource("1_hb6lc")
+region = Rect2(81, 0, 27, 19)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gf4ry")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1vdst")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_klu4s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v4jjy")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

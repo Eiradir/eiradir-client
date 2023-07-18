@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cs35bewqlcgxn"]
+
+[ext_resource type="Texture2D" uid="uid://ck0h2ghmq1f1h" path="res://items/misc/undead_guts.png" id="1_x5c4x"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_x5c4x")

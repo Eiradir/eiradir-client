@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b8ode6ml5gpku"]
+
+[ext_resource type="Texture2D" uid="uid://dt1bhhxxkbb68" path="res://items/equipment/armor/maruvian_crusader_helmet.png" id="1_48xsv"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_48xsv")

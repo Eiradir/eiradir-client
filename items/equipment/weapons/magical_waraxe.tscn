@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbn4rdpc8cpcx"]
+
+[ext_resource type="Texture2D" uid="uid://b5lwmryly1axj" path="res://items/equipment/weapons/magical_waraxe.png" id="1_pqbs3"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_pqbs3")

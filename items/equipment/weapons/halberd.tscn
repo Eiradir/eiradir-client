@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://beotpo6ad46jb"]
+
+[ext_resource type="Texture2D" uid="uid://b46fwsp3x584e" path="res://items/equipment/weapons/halberd.png" id="1_pr0xl"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_pr0xl")

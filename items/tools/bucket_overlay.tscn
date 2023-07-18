@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cog66t3gqlaqh"]
+
+[ext_resource type="Texture2D" uid="uid://b1bkcvooht20c" path="res://items/tools/bucket_overlay.png" id="1_k7vg0"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_k7vg0")

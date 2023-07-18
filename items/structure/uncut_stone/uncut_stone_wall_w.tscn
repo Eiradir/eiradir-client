@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://qssh7nhl5ttw"]
+
+[ext_resource type="Texture2D" uid="uid://27rr70eo6cbo" path="res://items/structure/uncut_stone/uncut_stone_wall_w.png" id="1_ubxdl"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_ubxdl")

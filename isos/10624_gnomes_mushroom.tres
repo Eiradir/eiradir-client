@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c85b4x12uvixs"]
+
+[ext_resource type="PackedScene" uid="uid://wrtqu0bjoyyt" path="res://items/herbs/gnomes_mushroom.tscn" id="1_0dy05"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_yndpr"]
+[ext_resource type="Texture2D" uid="uid://bldbggaipybmu" path="res://items/herbs/gnomes_mushroom.png" id="3_n2h3a"]
+
+[resource]
+script = ExtResource("2_yndpr")
+scene = ExtResource("1_0dy05")
+texture = ExtResource("3_n2h3a")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

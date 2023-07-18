@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c88kyffrybdc1"]
+
+[ext_resource type="PackedScene" uid="uid://dk1vt58r4sn24" path="res://items/nature/plants/desert_plants/desert_plant_02.tscn" id="1_eu1pj"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_lxvd0"]
+[ext_resource type="Texture2D" uid="uid://3c4icdfj5kaw" path="res://items/nature/plants/desert_plants/desert_plant_02.png" id="3_dunpk"]
+
+[resource]
+script = ExtResource("2_lxvd0")
+scene = ExtResource("1_eu1pj")
+texture = ExtResource("3_dunpk")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://uu7w1yaq164g"]
+
+[ext_resource type="Texture2D" uid="uid://tvkyc21l7nue" path="res://items/equipment/weapons/improved_war_mace.png" id="1_lbm54"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_lbm54")

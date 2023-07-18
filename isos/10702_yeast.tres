@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://ro8semk8h3iu"]
+
+[ext_resource type="PackedScene" uid="uid://cjp1w6bp245b5" path="res://items/misc/yeast.tscn" id="1_7me8w"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_8td5p"]
+[ext_resource type="Texture2D" uid="uid://dxyx15xfi3230" path="res://items/misc/yeast.png" id="3_muutv"]
+
+[resource]
+script = ExtResource("2_8td5p")
+scene = ExtResource("1_7me8w")
+texture = ExtResource("3_muutv")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

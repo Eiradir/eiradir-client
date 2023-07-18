@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://bvoujp2drnqw6"]
+
+[ext_resource type="Texture2D" uid="uid://u72o2vi3g5uc" path="res://items/statues/bishop_fountain_active.png" id="1_tq3j3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uggw6"]
+atlas = ExtResource("1_tq3j3")
+region = Rect2(0, 0, 96, 145)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2mf23"]
+atlas = ExtResource("1_tq3j3")
+region = Rect2(96, 0, 96, 145)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_87nwl"]
+atlas = ExtResource("1_tq3j3")
+region = Rect2(192, 0, 96, 145)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lm0ux"]
+atlas = ExtResource("1_tq3j3")
+region = Rect2(288, 0, 96, 145)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uggw6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2mf23")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_87nwl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lm0ux")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

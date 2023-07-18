@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://iecxe2scdxpq"]
+
+[ext_resource type="Texture2D" uid="uid://besa6bpt6marh" path="res://items/misc/candelabra.png" id="1_43hac"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_43hac")

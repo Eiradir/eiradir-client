@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cod074gr74p37"]
+
+[ext_resource type="Texture2D" uid="uid://bm0m7e8sqh3ud" path="res://items/carts/big_cart_n.png" id="1_u24vf"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_u24vf")

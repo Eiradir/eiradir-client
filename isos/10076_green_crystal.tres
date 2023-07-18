@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bmxpb46dutano"]
+
+[ext_resource type="PackedScene" uid="uid://bn0pltjju3ws" path="res://items/crystals/green_crystal.tscn" id="1_eodfs"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_w8jpq"]
+[ext_resource type="Texture2D" uid="uid://d2j5j0ti7ipfe" path="res://items/crystals/green_crystal.png" id="3_g0wv0"]
+
+[resource]
+script = ExtResource("2_w8jpq")
+scene = ExtResource("1_eodfs")
+texture = ExtResource("3_g0wv0")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

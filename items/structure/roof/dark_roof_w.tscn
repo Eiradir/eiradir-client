@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bko88w1o1vkq4"]
+
+[ext_resource type="Texture2D" uid="uid://dlaqfokg2ygio" path="res://items/structure/roof/dark_roof_w.png" id="1_wsw3b"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_wsw3b")

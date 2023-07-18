@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ch78m6n2kixxl"]
+
+[ext_resource type="Texture2D" uid="uid://yogis5u27xo5" path="res://items/equipment/weapons/throwing_star.png" id="1_3i7ge"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_3i7ge")

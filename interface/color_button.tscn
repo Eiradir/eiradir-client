@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://bw41oa675acj4"]
+
+[ext_resource type="Theme" uid="uid://ff8ufmacq6dq" path="res://interface/theme/default.tres" id="1_us13a"]
+[ext_resource type="Texture2D" uid="uid://cm4x1ruw0jbxa" path="res://interface/theme/textures/button_color_icon.png" id="1_wlc5i"]
+
+[node name="ColorButton" type="Button"]
+custom_minimum_size = Vector2(60, 60)
+theme = ExtResource("1_us13a")
+theme_type_variation = &"ColorButton"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("1_wlc5i")

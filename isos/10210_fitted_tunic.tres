@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dxueh13e4mftd"]
+
+[ext_resource type="PackedScene" uid="uid://d2i7aalebu2nf" path="res://items/equipment/clothes/fitted_tunic.tscn" id="1_aexpl"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_sek1b"]
+[ext_resource type="Texture2D" uid="uid://38x2a7golr4h" path="res://items/equipment/clothes/fitted_tunic.png" id="3_v76cd"]
+
+[resource]
+script = ExtResource("2_sek1b")
+scene = ExtResource("1_aexpl")
+texture = ExtResource("3_v76cd")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

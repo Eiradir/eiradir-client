@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://dpbw5nttwr4no"]
+
+[ext_resource type="Texture2D" uid="uid://duwv21snfcwrn" path="res://items/ingots/teranium_ingot.png" id="1_tyqvc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_et8qe"]
+atlas = ExtResource("1_tyqvc")
+region = Rect2(0, 0, 27, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qs8sx"]
+atlas = ExtResource("1_tyqvc")
+region = Rect2(27, 0, 27, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w533o"]
+atlas = ExtResource("1_tyqvc")
+region = Rect2(54, 0, 27, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3lysp"]
+atlas = ExtResource("1_tyqvc")
+region = Rect2(81, 0, 27, 19)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_et8qe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qs8sx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w533o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3lysp")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

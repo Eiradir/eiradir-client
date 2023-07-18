@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=5 format=3 uid="uid://cuafum0anw84p"]
+
+[ext_resource type="Resource" uid="uid://bqsxdgibyty13" path="res://paperdolls/10010_steel_plate.tres" id="1_5evnu"]
+[ext_resource type="PackedScene" uid="uid://1u8helmdoc4x" path="res://items/equipment/armor/light_plate_cuirass.tscn" id="1_m8urd"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_emntp"]
+[ext_resource type="Texture2D" uid="uid://dfgam6xt8e0ys" path="res://items/equipment/armor/light_plate_cuirass.png" id="3_vagtf"]
+
+[resource]
+script = ExtResource("2_emntp")
+scene = ExtResource("1_m8urd")
+texture = ExtResource("3_vagtf")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+paperdoll = ExtResource("1_5evnu")
+tags = Array[String]([])

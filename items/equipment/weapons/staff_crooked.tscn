@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ce11dn4l7d82y"]
+
+[ext_resource type="Texture2D" uid="uid://gl5ucxufm486" path="res://items/equipment/weapons/staff_crooked.png" id="1_norp5"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_norp5")

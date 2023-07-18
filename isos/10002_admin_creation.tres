@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=3 format=3 uid="uid://dfbjhve2ynhnd"]
+
+[ext_resource type="PackedScene" uid="uid://cok2fes6j8l5g" path="res://items/admin/admin_creation.tscn" id="1_nh82r"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_k0cpf"]
+
+[resource]
+script = ExtResource("2_k0cpf")
+scene = ExtResource("1_nh82r")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = false
+paperdoll_id = 0
+tags = Array[String]([])

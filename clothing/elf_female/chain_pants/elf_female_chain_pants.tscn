@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6q5bdpr2dmy2"]
+
+[ext_resource type="SpriteFrames" path="res://clothing/elf_female/chain_pants/elf_female_chain_pants.tres" id="1_adgah"]
+
+[node name="elf_female_blouse" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_adgah")
+animation = &"idle_east"
+offset = Vector2(1, -39)

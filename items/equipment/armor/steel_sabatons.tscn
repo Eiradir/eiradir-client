@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b4nvhws2yxfqf"]
+
+[ext_resource type="Texture2D" uid="uid://c2usrrvyrtl3c" path="res://items/equipment/armor/steel_sabatons.png" id="1_gbnud"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_gbnud")

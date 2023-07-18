@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvy3ufwepdjlk"]
+
+[ext_resource type="Texture2D" uid="uid://b04hkwtp8iw8f" path="res://items/nature/trees/butternut_tree/butternut_tree_02.png" id="1_0dqk7"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_0dqk7")
+offset = Vector2(53, -86)

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dapijbqofp7qs"]
+
+[ext_resource type="Texture2D" uid="uid://d03by8akmycea" path="res://items/furniture/oil_grinder/oil_grinder.png" id="1_wdbxj"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_wdbxj")

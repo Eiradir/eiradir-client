@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://50q8tikw3gqf"]
+
+[ext_resource type="Texture2D" uid="uid://b2u5eoksrudcs" path="res://items/equipment/armor/banded_chain_haubergeon.png" id="1_t6oor"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_t6oor")

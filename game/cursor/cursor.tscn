@@ -1,0 +1,38 @@
+[gd_scene load_steps=4 format=3 uid="uid://dbwpvd5sdypta"]
+
+[ext_resource type="Script" path="res://game/cursor/cursor.gd" id="1_3bjfl"]
+[ext_resource type="Script" path="res://hud_system/hud_inventories.gd" id="2_kr5ax"]
+[ext_resource type="Script" path="res://hud_system/hud_inventory.gd" id="3_6j7eh"]
+
+[node name="Cursor" type="Node"]
+script = ExtResource("1_3bjfl")
+
+[node name="Inventories" type="Node" parent="."]
+script = ExtResource("2_kr5ax")
+
+[node name="Inventory" type="Node" parent="Inventories"]
+script = ExtResource("3_6j7eh")
+
+[node name="CursorItem" type="TextureRect" parent="."]
+unique_name_in_owner = true
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+
+[node name="CursorItemCountLabel" type="Label" parent="CursorItem"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -23.0
+grow_horizontal = 0
+grow_vertical = 0
+horizontal_alignment = 2
+vertical_alignment = 2
+
+[connection signal="inventory_changed" from="Inventories/Inventory" to="." method="_on_inventory_inventory_changed"]
+[connection signal="inventory_slot_changed" from="Inventories/Inventory" to="." method="_on_inventory_inventory_slot_changed"]

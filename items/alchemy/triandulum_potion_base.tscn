@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cl2d5yy8ukoix"]
+
+[ext_resource type="SpriteFrames" uid="uid://cjququw2yveik" path="res://items/alchemy/triandulum_potion_base.tres" id="1_vgk1b"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_vgk1b")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dsylgr32xf2jd"]
+
+[ext_resource type="PackedScene" uid="uid://chboll7a0kx01" path="res://items/equipment/weapons/improved_longbow.tscn" id="1_aeapv"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_ldp2b"]
+[ext_resource type="Texture2D" uid="uid://bifljsyot2occ" path="res://items/equipment/weapons/improved_longbow.png" id="3_glv3w"]
+
+[resource]
+script = ExtResource("2_ldp2b")
+scene = ExtResource("1_aeapv")
+texture = ExtResource("3_glv3w")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=3 format=3 uid="uid://c87ocpsf3inx1"]
+
+[ext_resource type="PackedScene" uid="uid://c2rlnqu640chp" path="res://items/statues/bishop_fountain_active.tscn" id="1_vp3dw"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_vrflu"]
+
+[resource]
+script = ExtResource("2_vrflu")
+scene = ExtResource("1_vp3dw")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+paperdoll_id = 0
+tags = Array[String]([])

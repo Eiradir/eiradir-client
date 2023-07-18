@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dni663h74ks8b"]
+
+[ext_resource type="Texture2D" uid="uid://cqyxsgabpf0l6" path="res://items/equipment/armor/dwarven_hammerfist_heavy_plate.png" id="1_33mm7"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_33mm7")

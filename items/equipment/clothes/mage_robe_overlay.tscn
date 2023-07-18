@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ca4ojc0ol3521"]
+
+[ext_resource type="Texture2D" uid="uid://btorg3232gc0q" path="res://items/equipment/clothes/mage_robe_overlay.png" id="1_jia2m"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_jia2m")

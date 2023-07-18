@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ct3mxe4wqqnvp"]
+
+[ext_resource type="Texture2D" uid="uid://bxvgn571asdxu" path="res://items/nature/trees/apple_tree/apple_tree_02.png" id="1_t53vk"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_t53vk")
+offset = Vector2(10, -102)

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://cwljnc6dwa4ep"]
+
+[ext_resource type="PackedScene" uid="uid://3mirlbwvluyg" path="res://items/structure/wood/wood_pillar_nw.tscn" id="1_0tjtj"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_2rbbj"]
+[ext_resource type="Texture2D" uid="uid://bqhmvd147md1u" path="res://items/structure/wood/wood_pillar_nw.png" id="3_wlbdg"]
+
+[resource]
+script = ExtResource("2_2rbbj")
+scene = ExtResource("1_0tjtj")
+texture = ExtResource("3_wlbdg")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

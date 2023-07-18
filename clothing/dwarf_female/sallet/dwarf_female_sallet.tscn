@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://f5giawic3opn"]
+
+[ext_resource type="SpriteFrames" uid="uid://cgherfvu01huq" path="res://clothing/dwarf_female/sallet/dwarf_female_sallet.tres" id="1_bxii2"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_bxii2")
+animation = &"walking_southwest"
+offset = Vector2(2, -27)

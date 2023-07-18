@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfpc0bjeu3vqk"]
+
+[ext_resource type="SpriteFrames" uid="uid://bp4fkdwy6bo0g" path="res://clothing/silve_male/silve_male_sallet.tres" id="1_8mfnu"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_8mfnu")
+animation = &"idle_east"
+offset = Vector2(-3, -36)

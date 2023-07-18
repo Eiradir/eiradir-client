@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ck2pe78furdq3"]
+
+[ext_resource type="Texture2D" uid="uid://dprs6ve2q5cix" path="res://items/tools/lute.png" id="1_nxf4c"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_nxf4c")

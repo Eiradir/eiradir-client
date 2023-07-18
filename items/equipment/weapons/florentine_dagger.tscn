@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cma8d4p6t3udn"]
+
+[ext_resource type="Texture2D" uid="uid://dvg5tjk4hhmm8" path="res://items/equipment/weapons/florentine_dagger.png" id="1_a5dar"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_a5dar")

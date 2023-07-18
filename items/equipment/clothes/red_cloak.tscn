@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ub13hdg3qs77"]
+
+[ext_resource type="Texture2D" uid="uid://bg2nupniaunon" path="res://items/equipment/clothes/red_cloak.png" id="1_t03do"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_t03do")

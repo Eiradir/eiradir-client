@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://div02evuqxmhr"]
+
+[ext_resource type="Texture2D" uid="uid://bxl5vrom56fio" path="res://items/tools/horn.png" id="1_3vojk"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_3vojk")

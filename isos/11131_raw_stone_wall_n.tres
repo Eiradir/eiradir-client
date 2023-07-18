@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://bdi5p44ugd6bu"]
+
+[ext_resource type="PackedScene" uid="uid://dmwr1juvt1qi7" path="res://items/structure/raw_stone/raw_stone_wall_n.tscn" id="1_mxbe6"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_sdwet"]
+[ext_resource type="Texture2D" uid="uid://c0iq851xrdnx3" path="res://items/structure/raw_stone/raw_stone_wall_n.png" id="3_pvg52"]
+
+[resource]
+script = ExtResource("2_sdwet")
+scene = ExtResource("1_mxbe6")
+texture = ExtResource("3_pvg52")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

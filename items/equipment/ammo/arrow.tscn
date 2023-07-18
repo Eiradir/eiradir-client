@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://crewrdcb3rmqn"]
+
+[ext_resource type="Texture2D" uid="uid://bvuxd7rasd5qa" path="res://items/equipment/ammo/arrow.png" id="1_m5hwr"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_m5hwr")

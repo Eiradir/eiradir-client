@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://c4i41nbonwb8h"]
+
+[ext_resource type="PackedScene" uid="uid://b1a8gk1w2h6th" path="res://items/statues/priroda_statue_e.tscn" id="1_8t0ic"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_dvydg"]
+[ext_resource type="Texture2D" uid="uid://bhb7xx62uwedr" path="res://items/statues/priroda_statue_e.png" id="3_wgyav"]
+
+[resource]
+script = ExtResource("2_dvydg")
+scene = ExtResource("1_8t0ic")
+texture = ExtResource("3_wgyav")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

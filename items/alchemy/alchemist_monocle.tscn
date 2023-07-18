@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://blkf4j5wsf0k4"]
+
+[ext_resource type="Texture2D" uid="uid://ughbtrc5ybmf" path="res://items/alchemy/alchemist_monocle.png" id="1_lkpkk"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_lkpkk")

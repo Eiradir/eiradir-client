@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbu30kb0ax73b"]
+
+[ext_resource type="Texture2D" uid="uid://b002le57p6ye2" path="res://items/structure/wood/wood_window_s.png" id="1_jxuro"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_jxuro")

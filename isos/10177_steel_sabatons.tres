@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=5 format=3 uid="uid://dvjut5lw5cyqw"]
+
+[ext_resource type="Resource" uid="uid://jfl17qa6myu" path="res://paperdolls/10007_metal_shoes.tres" id="1_7cvwp"]
+[ext_resource type="PackedScene" uid="uid://b4nvhws2yxfqf" path="res://items/equipment/armor/steel_sabatons.tscn" id="1_hjjce"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_gtwcl"]
+[ext_resource type="Texture2D" uid="uid://c2usrrvyrtl3c" path="res://items/equipment/armor/steel_sabatons.png" id="3_fsakh"]
+
+[resource]
+script = ExtResource("2_gtwcl")
+scene = ExtResource("1_hjjce")
+texture = ExtResource("3_fsakh")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+paperdoll = ExtResource("1_7cvwp")
+tags = Array[String]([])

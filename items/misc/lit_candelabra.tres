@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://ccha7e01p1slv"]
+
+[ext_resource type="Texture2D" uid="uid://x413rfkiaftw" path="res://items/misc/lit_candelabra.png" id="1_ntfbr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f5woh"]
+atlas = ExtResource("1_ntfbr")
+region = Rect2(0, 0, 34, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ywo70"]
+atlas = ExtResource("1_ntfbr")
+region = Rect2(34, 0, 34, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5yu5t"]
+atlas = ExtResource("1_ntfbr")
+region = Rect2(68, 0, 34, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f5woh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ywo70")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5yu5t")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

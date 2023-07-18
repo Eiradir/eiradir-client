@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://rq21h0ot5ich"]
+
+[ext_resource type="Texture2D" uid="uid://dxqi0sww4rg5o" path="res://items/herbs/drowning_clover.png" id="1_81krp"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_81krp")

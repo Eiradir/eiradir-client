@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bb1sifg6muwuw"]
+
+[ext_resource type="Texture2D" uid="uid://dow8llmwwb0vf" path="res://items/tools/turnscrew_set.png" id="1_45i4n"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_45i4n")

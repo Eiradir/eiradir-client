@@ -1,0 +1,200 @@
+[gd_scene load_steps=7 format=3 uid="uid://cqu1aay01xa3c"]
+
+[ext_resource type="Script" path="res://interface/start/create_character/create_character.gd" id="1_pec0n"]
+[ext_resource type="Theme" uid="uid://ff8ufmacq6dq" path="res://interface/theme/default.tres" id="2_m21p2"]
+[ext_resource type="Texture2D" uid="uid://lk8f5upfp7go" path="res://interface/theme/textures/window_h.png" id="3_jjf0t"]
+[ext_resource type="ButtonGroup" uid="uid://dt8ed1g20jbbm" path="res://interface/start/create_character/create_character_sex.tres" id="4_if505"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_02yfj"]
+texture = ExtResource("3_jjf0t")
+texture_margin_left = 23.0
+texture_margin_top = 31.0
+texture_margin_right = 23.0
+texture_margin_bottom = 31.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_f8qbg"]
+texture = ExtResource("3_jjf0t")
+region_rect = Rect2(0, 213, 366, 31)
+
+[node name="CreateCharacter" type="Control"]
+custom_minimum_size = Vector2(1104, 707)
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -329.5
+offset_top = -240.0
+offset_right = 329.5
+offset_bottom = 240.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_pec0n")
+
+[node name="Container" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="LeftPanel" type="VBoxContainer" parent="Container"]
+layout_mode = 2
+
+[node name="BasicsAndPreview" type="PanelContainer" parent="Container/LeftPanel"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("2_m21p2")
+theme_override_styles/panel = SubResource("StyleBoxTexture_02yfj")
+
+[node name="MarginContainer" type="MarginContainer" parent="Container/LeftPanel/BasicsAndPreview"]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_right = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Container/LeftPanel/BasicsAndPreview/MarginContainer"]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="Container/LeftPanel/BasicsAndPreview/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Create Character"
+horizontal_alignment = 1
+
+[node name="CharName" type="LineEdit" parent="Container/LeftPanel/BasicsAndPreview/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+placeholder_text = "Name your character"
+
+[node name="Sex" type="HBoxContainer" parent="Container/LeftPanel/BasicsAndPreview/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="Male" type="CheckBox" parent="Container/LeftPanel/BasicsAndPreview/MarginContainer/VBoxContainer/Sex"]
+unique_name_in_owner = true
+layout_mode = 2
+button_pressed = true
+button_group = ExtResource("4_if505")
+text = "Male"
+
+[node name="Female" type="CheckBox" parent="Container/LeftPanel/BasicsAndPreview/MarginContainer/VBoxContainer/Sex"]
+unique_name_in_owner = true
+layout_mode = 2
+button_group = ExtResource("4_if505")
+text = "Female"
+
+[node name="Race" type="OptionButton" parent="Container/LeftPanel/BasicsAndPreview/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+item_count = 5
+selected = 0
+popup/item_0/text = "Human"
+popup/item_0/id = 1
+popup/item_1/text = "Elf"
+popup/item_1/id = 2
+popup/item_2/text = "Dwarf"
+popup/item_2/id = 3
+popup/item_3/text = "Orc"
+popup/item_3/id = 4
+popup/item_4/text = "Silve"
+popup/item_4/id = 5
+
+[node name="PreviewPanel" type="Panel" parent="Container/LeftPanel/BasicsAndPreview/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PreviewContainer" type="SubViewportContainer" parent="Container/LeftPanel/BasicsAndPreview/MarginContainer/VBoxContainer/PreviewPanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch = true
+
+[node name="Preview" type="SubViewport" parent="Container/LeftPanel/BasicsAndPreview/MarginContainer/VBoxContainer/PreviewPanel/PreviewContainer"]
+unique_name_in_owner = true
+transparent_bg = true
+handle_input_locally = false
+size = Vector2i(214, 293)
+render_target_update_mode = 4
+
+[node name="PreviewDirection" type="HSlider" parent="Container/LeftPanel/BasicsAndPreview/MarginContainer/VBoxContainer"]
+layout_mode = 2
+max_value = 16.0
+value = 8.0
+
+[node name="Actions" type="PanelContainer" parent="Container/LeftPanel"]
+custom_minimum_size = Vector2(0, 148)
+layout_mode = 2
+theme = ExtResource("2_m21p2")
+theme_override_styles/panel = SubResource("StyleBoxTexture_02yfj")
+
+[node name="MarginContainer" type="MarginContainer" parent="Container/LeftPanel/Actions"]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_right = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Container/LeftPanel/Actions/MarginContainer"]
+layout_mode = 2
+
+[node name="CreateCharacterButton" type="Button" parent="Container/LeftPanel/Actions/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+disabled = true
+text = "Create Character"
+
+[node name="CancelButton" type="Button" parent="Container/LeftPanel/Actions/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Cancel"
+
+[node name="RightPanel" type="VBoxContainer" parent="Container"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Tabs" type="PanelContainer" parent="Container/RightPanel"]
+custom_minimum_size = Vector2(600, 50)
+layout_mode = 2
+theme = ExtResource("2_m21p2")
+theme_override_styles/panel = SubResource("StyleBoxTexture_f8qbg")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Container/RightPanel/Tabs"]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppearanceButton" type="Button" parent="Container/RightPanel/Tabs/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Customize"
+
+[node name="AttributesButton" type="Button" parent="Container/RightPanel/Tabs/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Attributes"
+
+[node name="OriginButton" type="Button" parent="Container/RightPanel/Tabs/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Origin"
+
+[node name="ContentPane" type="PanelContainer" parent="Container/RightPanel"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("2_m21p2")
+theme_override_styles/panel = SubResource("StyleBoxTexture_02yfj")
+
+[connection signal="text_changed" from="Container/LeftPanel/BasicsAndPreview/MarginContainer/VBoxContainer/CharName" to="." method="_on_char_name_text_changed"]
+[connection signal="pressed" from="Container/LeftPanel/BasicsAndPreview/MarginContainer/VBoxContainer/Sex/Male" to="." method="_on_male_pressed"]
+[connection signal="pressed" from="Container/LeftPanel/BasicsAndPreview/MarginContainer/VBoxContainer/Sex/Female" to="." method="_on_female_pressed"]
+[connection signal="item_selected" from="Container/LeftPanel/BasicsAndPreview/MarginContainer/VBoxContainer/Race" to="." method="_on_race_item_selected"]
+[connection signal="value_changed" from="Container/LeftPanel/BasicsAndPreview/MarginContainer/VBoxContainer/PreviewDirection" to="." method="_on_direction_value_changed"]
+[connection signal="pressed" from="Container/LeftPanel/Actions/MarginContainer/VBoxContainer/CreateCharacterButton" to="." method="_on_create_character_button_pressed"]
+[connection signal="pressed" from="Container/LeftPanel/Actions/MarginContainer/VBoxContainer/CancelButton" to="." method="_on_cancel_button_pressed"]
+[connection signal="pressed" from="Container/RightPanel/Tabs/HBoxContainer/AppearanceButton" to="." method="_on_appearance_button_pressed"]
+[connection signal="pressed" from="Container/RightPanel/Tabs/HBoxContainer/AttributesButton" to="." method="_on_attributes_button_pressed"]
+[connection signal="pressed" from="Container/RightPanel/Tabs/HBoxContainer/OriginButton" to="." method="_on_origin_button_pressed"]

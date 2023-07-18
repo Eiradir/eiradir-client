@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bn75gmxt6p6fq"]
+
+[ext_resource type="Texture2D" uid="uid://bkvwqaljy3ipr" path="res://items/food/wheat_vodka.png" id="1_hho65"]
+
+[node name="Sprite2D" type="Sprite2D"]
+y_sort_enabled = true
+texture = ExtResource("1_hho65")

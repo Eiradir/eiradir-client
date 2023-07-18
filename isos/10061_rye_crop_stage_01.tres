@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://d3c670lq272x8"]
+
+[ext_resource type="PackedScene" uid="uid://clth32xx4pog8" path="res://items/crops/rye_crop/rye_crop_stage_01.tscn" id="1_3xf61"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_ctrv6"]
+[ext_resource type="Texture2D" uid="uid://dr1kg8f34fghu" path="res://items/crops/rye_crop/rye_crop_stage_01.png" id="3_gii20"]
+
+[resource]
+script = ExtResource("2_ctrv6")
+scene = ExtResource("1_3xf61")
+texture = ExtResource("3_gii20")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

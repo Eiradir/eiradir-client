@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://da6qdn1e1ns7g"]
+
+[ext_resource type="PackedScene" uid="uid://ccxblr0g8lfr8" path="res://items/equipment/weapons/improved_waraxe.tscn" id="1_6gd4i"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_t65rs"]
+[ext_resource type="Texture2D" uid="uid://bcm7t8o3b81an" path="res://items/equipment/weapons/improved_waraxe.png" id="3_l1vfo"]
+
+[resource]
+script = ExtResource("2_t65rs")
+scene = ExtResource("1_6gd4i")
+texture = ExtResource("3_l1vfo")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

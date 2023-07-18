@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqgnt7vyhg4wa"]
+
+[ext_resource type="Script" path="res://interface/equipment/item_slot.gd" id="1_8pjos"]
+
+[node name="AspectRatioContainer" type="AspectRatioContainer"]
+offset_left = 20.0
+offset_top = 133.0
+offset_right = 62.0
+offset_bottom = 183.0
+tooltip_text = "empty"
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+script = ExtResource("1_8pjos")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+expand_mode = 1
+
+[node name="CountLabel" type="Label" parent="TextureRect"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -23.0
+grow_horizontal = 0
+grow_vertical = 0
+horizontal_alignment = 2
+vertical_alignment = 2

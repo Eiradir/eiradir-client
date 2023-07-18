@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://6g0ten2gkjpn"]
+
+[ext_resource type="PackedScene" uid="uid://c0wc8l7edw3l5" path="res://items/nature/bushes/bush_01.tscn" id="1_j2w26"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_gsfck"]
+[ext_resource type="Texture2D" uid="uid://dw3myqbsfi0uo" path="res://items/nature/bushes/bush_01.png" id="3_j7h1b"]
+
+[resource]
+script = ExtResource("2_gsfck")
+scene = ExtResource("1_j2w26")
+texture = ExtResource("3_j7h1b")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

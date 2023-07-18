@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://dnltq0ixp64dg"]
+
+[ext_resource type="PackedScene" uid="uid://cwgr3mpubjio3" path="res://items/misc/rye_grain.tscn" id="1_w3ggl"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_qb0au"]
+[ext_resource type="Texture2D" uid="uid://c0meypr4sy07u" path="res://items/misc/rye_grain.png" id="3_pahuf"]
+
+[resource]
+script = ExtResource("2_qb0au")
+scene = ExtResource("1_w3ggl")
+texture = ExtResource("3_pahuf")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])

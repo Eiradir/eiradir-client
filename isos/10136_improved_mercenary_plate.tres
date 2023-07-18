@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=4 format=3 uid="uid://y4csjog0gbqf"]
+
+[ext_resource type="PackedScene" uid="uid://q42r6lykbi4a" path="res://items/equipment/armor/improved_mercenary_plate.tscn" id="1_5nr6y"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_b2vk7"]
+[ext_resource type="Texture2D" uid="uid://cyou0juswn7br" path="res://items/equipment/armor/improved_mercenary_plate.png" id="3_t0aae"]
+
+[resource]
+script = ExtResource("2_b2vk7")
+scene = ExtResource("1_5nr6y")
+texture = ExtResource("3_t0aae")
+elevation = 0
+is_solid = false
+is_bridge = false
+disallow_drag = true
+tags = Array[String]([])
