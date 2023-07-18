@@ -38,13 +38,14 @@ Image and audio assets may differ in license, many of them remain All Rights Res
 
 |Assets|License|
 |---|---|
-|characters/chicken|[Custom License (Reiner “Tiles” Prokein)](LICENSE-reiner.md)
-|characters/cow|[Custom License (Reiner “Tiles” Prokein)](LICENSE-reiner.md)
-|characters/pig|[Custom License (Reiner “Tiles” Prokein)](LICENSE-reiner.md)
-|characters/sheep|[Custom License (Reiner “Tiles” Prokein)](LICENSE-reiner.md)
+|characters/chicken/**|[Custom License (Reiner “Tiles” Prokein)](LICENSE-reiner.md)
+|characters/cow/**|[Custom License (Reiner “Tiles” Prokein)](LICENSE-reiner.md)
+|characters/pig/**|[Custom License (Reiner “Tiles” Prokein)](LICENSE-reiner.md)
+|characters/sheep/**|[Custom License (Reiner “Tiles” Prokein)](LICENSE-reiner.md)
 |characters/**|[All Rights Reserved](LICENSE-arr.md)
 |clothing/**|[All Rights Reserved](LICENSE-arr.md)
 |icons/**|[All Rights Reserved](LICENSE-arr.md)
+|interface/**|[All Rights Reserved](LICENSE-arr.md)
 |items/**|[All Rights Reserved](LICENSE-arr.md)
 |sprites/**|[All Rights Reserved](LICENSE-arr.md)
 |tiles/**|[All Rights Reserved](LICENSE-arr.md)
