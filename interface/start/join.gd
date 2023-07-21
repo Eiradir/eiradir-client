@@ -22,7 +22,7 @@ func _ready():
 	NetworkClient.Joining.connect(_on_joining)
 	NetworkClient.Joined.connect(_on_joined)
 	NetworkClient.Disconnected.connect(_on_disconnected)
-	var game_host = "eiradir.net" if _server.contains("eiradir.net") else "localhost" # TODO small hack, should instead include the endpoint in the join token response!
+	var game_host = "gs.eiradir.net" if _server.contains("eiradir.net") else "localhost" # TODO small hack, should instead include the endpoint in the join token response!
 	NetworkClient.ConnectToServer(game_host, 8147)
 	
 func _on_connected(username, join_token):
