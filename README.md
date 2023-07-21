@@ -6,7 +6,7 @@ This repository holds the sources for the game client developed in Godot Engine.
 
 ## Prerequisites
 
-- [Godot Engine](https://godotengine.org/) 4.x
+- [Godot Engine - .NET 4.x](https://godotengine.org/) (with C# support)
 
 ## Installation
 
