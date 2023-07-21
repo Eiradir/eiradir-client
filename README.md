@@ -4,9 +4,21 @@ Eiradir is an open source online roleplaying game with focus on textual characte
 
 This repository holds the sources for the game client developed in Godot Engine.
 
-## Prerequisites & Installation
+## Prerequisites
 
-An extensive guide on how to setup a development environment can be found [here](https://github.com/Eiradir/eiradir-docs/blob/main/setup.md).
+- [Godot Engine](https://godotengine.org/) 4.1
+
+## Installation
+
+1. Clone the repository
+```sh
+git clone https://github.com/Eiradir/eiradir-client.git
+```
+
+2. Open the project in Godot Engine.
+3. Press `F5` or click on Play (▶️) button to run the game.
+
+A more extensive guide on how to setup a development environment can be found [here](https://github.com/Eiradir/eiradir-docs/blob/main/setup.md).
 
 ## Contributing
 
