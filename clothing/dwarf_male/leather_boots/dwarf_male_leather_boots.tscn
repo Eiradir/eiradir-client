@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://b1b1cw5w4vvey"]
-
-[ext_resource type="SpriteFrames" uid="uid://s7d270nijsf3" path="res://clothing/dwarf_male/leather_boots/dwarf_male_leather_boots.tres" id="1_6djgp"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_6djgp")
-animation = &"idle_east"
-offset = Vector2(-4, -24)

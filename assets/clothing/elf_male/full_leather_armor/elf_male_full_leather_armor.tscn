@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqyy5qjyhkk1f"]
+
+[ext_resource type="SpriteFrames" uid="uid://bgm68j07dor4e" path="res://assets/clothing/elf_male/full_leather_armor/elf_male_full_leather_armor.tres" id="1_e8rhm"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_e8rhm")
+animation = &"idle_east"
+offset = Vector2(5, -44)

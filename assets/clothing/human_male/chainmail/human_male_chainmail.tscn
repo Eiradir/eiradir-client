@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5ihk1j3m6e7w"]
+
+[ext_resource type="SpriteFrames" uid="uid://j63ep3570oqi" path="res://assets/clothing/human_male/chainmail/human_male_chainmail.tres" id="1_5fsl3"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_5fsl3")
+animation = &"idle_east"
+offset = Vector2(2, -37)

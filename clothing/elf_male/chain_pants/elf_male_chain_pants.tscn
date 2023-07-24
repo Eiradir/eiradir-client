@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dnjktkns8vk78"]
-
-[ext_resource type="SpriteFrames" uid="uid://bcbt5tb8ff7ui" path="res://clothing/elf_male/chain_pants/elf_male_chain_pants.tres" id="1_qh8lo"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_qh8lo")
-animation = &"idle_east"
-offset = Vector2(5, -44)

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://diwu2j88dpog0"]
+
+[ext_resource type="SpriteFrames" uid="uid://bqqs0q1km5dxa" path="res://assets/clothing/elf_male/steel_plate/elf_male_steel_plate.tres" id="1_iftud"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_iftud")
+animation = &"idle_east"
+offset = Vector2(5, -44)

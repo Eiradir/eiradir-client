@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://uecn0m17p7pd"]
+
+[ext_resource type="SpriteFrames" uid="uid://dxhvqc2bl0fsb" path="res://assets/clothing/orc_female/trousers/orc_female_trousers.tres" id="1_k5efq"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_k5efq")
+animation = &"idle_east"
+offset = Vector2(1, -34)

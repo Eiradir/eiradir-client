@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://c2c6diqcdvf1q"]
-
-[ext_resource type="SpriteFrames" uid="uid://bdn8rkm6lgp7w" path="res://clothing/human_male/full_leather_armor/human_male_full_leather_armor.tres" id="1_hlb6k"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_hlb6k")
-animation = &"idle_east"
-offset = Vector2(2, -37)

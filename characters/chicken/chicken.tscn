@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://b0gwundmnb4ca"]
-
-[ext_resource type="SpriteFrames" uid="uid://dg3qlamhjohcr" path="res://characters/chicken/chicken.tres" id="1_r6ydl"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_r6ydl")
-animation = &"idle_north"
-offset = Vector2(1, -6)

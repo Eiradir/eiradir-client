@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://md8oqh2vxdh5"]
+
+[ext_resource type="SpriteFrames" uid="uid://2xbi4x30420m" path="res://assets/clothing/human_male/leather_boots/human_male_leather_boots.tres" id="1_ti758"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_ti758")
+animation = &"idle_east"
+offset = Vector2(2, -37)

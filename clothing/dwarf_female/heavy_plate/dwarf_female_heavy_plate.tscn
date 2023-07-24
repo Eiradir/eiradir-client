@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://cu3j6okucclq1"]
-
-[ext_resource type="SpriteFrames" uid="uid://djyxtnj55h748" path="res://clothing/dwarf_female/heavy_plate/dwarf_female_heavy_plate.tres" id="1_0gafa"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_0gafa")
-animation = &"walking_southwest"
-offset = Vector2(2, -27)

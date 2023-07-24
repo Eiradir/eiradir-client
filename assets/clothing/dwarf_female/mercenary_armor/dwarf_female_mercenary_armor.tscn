@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0dt1n4e2ljfr"]
+
+[ext_resource type="SpriteFrames" uid="uid://dx0cychwoj4xt" path="res://assets/clothing/dwarf_female/mercenary_armor/dwarf_female_mercenary_armor.tres" id="1_lvfh2"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_lvfh2")
+animation = &"walking_southwest"
+offset = Vector2(2, -27)

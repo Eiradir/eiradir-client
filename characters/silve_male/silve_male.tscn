@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dyk5tl1vsna5w"]
-
-[ext_resource type="SpriteFrames" uid="uid://h1nflppwt5fe" path="res://characters/silve_male/silve_male.tres" id="1_qhlj0"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_qhlj0")
-animation = &"idle_east"
-offset = Vector2(-3, -36)

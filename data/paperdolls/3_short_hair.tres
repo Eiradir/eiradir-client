@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="PaperdollDefinition" load_steps=6 format=3 uid="uid://2ytxre0unkud"]
+
+[ext_resource type="Script" path="res://registry/data/paperdoll_definition.gd" id="1_576h1"]
+[ext_resource type="Resource" uid="uid://xiog7uc67rxu" path="res://isos/1_human_male.tres" id="1_oxitl"]
+[ext_resource type="PackedScene" uid="uid://cwb352m8cohr5" path="res://assets/clothing/human_male/short_hair/human_male_short_hair.tscn" id="2_qma31"]
+[ext_resource type="Script" path="res://registry/data/paperdoll_mapping.gd" id="3_k03cp"]
+
+[sub_resource type="Resource" id="Resource_043j1"]
+script = ExtResource("3_k03cp")
+iso = ExtResource("1_oxitl")
+scene = ExtResource("2_qma31")
+
+[resource]
+script = ExtResource("1_576h1")
+mappings = Array[ExtResource("3_k03cp")]([SubResource("Resource_043j1")])

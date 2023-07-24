@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dkm7nl4ysxaes"]
 
-[ext_resource type="Texture2D" uid="uid://bebevqgu6yxru" path="res://sprites/tile_selection.png" id="1_hut2i"]
+[ext_resource type="Texture2D" uid="uid://bebevqgu6yxru" path="res://assets/sprites/tile_selection.png" id="1_hut2i"]
 [ext_resource type="Script" path="res://game/cursor/tile_selection.gd" id="2_v2jxf"]
 
 [node name="TileSelection" type="Sprite2D"]

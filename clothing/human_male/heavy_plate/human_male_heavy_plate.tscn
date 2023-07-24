@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://brkxkd31jlvj8"]
-
-[ext_resource type="SpriteFrames" uid="uid://cderjyfrrg2db" path="res://clothing/human_male/heavy_plate/human_male_heavy_plate.tres" id="1_l3x6a"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_l3x6a")
-animation = &"idle_east"
-offset = Vector2(2, -37)

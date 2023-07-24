@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmk1xbva1k0a0"]
+
+[ext_resource type="SpriteFrames" uid="uid://b6td1wbgst33v" path="res://assets/characters/elf_female/elf_female.tres" id="1_86527"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_86527")
+animation = &"idle_east"
+offset = Vector2(1, -39)

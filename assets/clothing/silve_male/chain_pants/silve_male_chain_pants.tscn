@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dj2nv0bbthena"]
+
+[ext_resource type="SpriteFrames" path="res://assets/clothing/silve_male/chain_pants/silve_male_chain_pants.tres" id="1_lwfrk"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_lwfrk")
+animation = &"idle_east"
+offset = Vector2(-3, -36)

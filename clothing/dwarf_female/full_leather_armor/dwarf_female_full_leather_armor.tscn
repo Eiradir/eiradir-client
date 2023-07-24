@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://d1w00c24l6bs1"]
-
-[ext_resource type="SpriteFrames" uid="uid://b6jiapqp0rlv1" path="res://clothing/dwarf_female/full_leather_armor/dwarf_female_full_leather_armor.tres" id="1_25yx6"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_25yx6")
-animation = &"walking_southwest"
-offset = Vector2(2, -27)
