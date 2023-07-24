@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://bt10kfluwos2m"]
-
-[ext_resource type="SpriteFrames" uid="uid://bggf54mdfqavr" path="res://clothing/dwarf_male/steel_plate/dwarf_male_steel_plate.tres" id="1_8ev78"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_8ev78")
-animation = &"idle_east"
-offset = Vector2(-4, -24)

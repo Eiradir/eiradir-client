@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://dt5voaakf2s0a"]
 
-[ext_resource type="AudioStream" uid="uid://bgbri03xm1vh0" path="res://music/eiradir.ogg" id="1_aq1k8"]
+[ext_resource type="AudioStream" uid="uid://bgbri03xm1vh0" path="res://assets/music/eiradir.ogg" id="1_aq1k8"]
 [ext_resource type="PackedScene" uid="uid://dc38u0c2np62y" path="res://interface/start/title.tscn" id="2_dnnhn"]
 [ext_resource type="Script" path="res://interface/start/title.gd" id="3_lec7v"]
 

@@ -6,12 +6,12 @@ signal character_selected(server: String, id: int)
 var servers = [
 	{
 		name = "Eiradir Server",
-		icon = preload("res://icons/eiradir.png"),
+		icon = preload("res://assets/icons/eiradir.png"),
 		url = "https://server.eiradir.net"
 	},
 	{
 		name = "Local Server",
-		icon = preload("res://icons/eiradev.png"),
+		icon = preload("res://assets/icons/eiradev.png"),
 		url = "http://localhost:8080"
 	}
 ]

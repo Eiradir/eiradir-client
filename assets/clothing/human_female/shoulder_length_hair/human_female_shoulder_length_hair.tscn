@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dph6haa4vh87k"]
+
+[ext_resource type="SpriteFrames" path="res://assets/clothing/human_female/shoulder_length_hair/human_female_shoulder_length_hair.tres" id="1_jgnm1"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_jgnm1")
+animation = &"idle_east"
+offset = Vector2(-1, -34)

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://d21cx4kodk65t"]
+
+[ext_resource type="SpriteFrames" uid="uid://cetv2k5lta4in" path="res://assets/clothing/elf_male/shoulder_length_hair/elf_male_shoulder_length_hair.tres" id="1_u5uw4"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_u5uw4")
+animation = &"idle_east"
+offset = Vector2(5, -44)

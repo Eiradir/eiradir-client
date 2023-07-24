@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dsii1h0buckrx"]
-
-[ext_resource type="SpriteFrames" uid="uid://dtmt0klexf7o0" path="res://clothing/human_male/metal_shoes/human_male_metal_shoes.tres" id="1_so60a"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_so60a")
-animation = &"idle_east"
-offset = Vector2(2, -37)

@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://c2go6bm8dlr85"]
-
-[ext_resource type="SpriteFrames" uid="uid://cv16je7ccgwb0" path="res://clothing/elf_male/mercenary_armor/elf_male_mercenary_armor.tres" id="1_kpt4t"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_kpt4t")
-animation = &"idle_east"
-offset = Vector2(5, -44)

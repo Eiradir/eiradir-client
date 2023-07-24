@@ -36,7 +36,7 @@ ChunkManager="*res://game/chunk_manager.gd"
 
 window/size/viewport_width=1366
 window/size/viewport_height=768
-mouse_cursor/custom_image="res://interface/cursor.png"
+mouse_cursor/custom_image="res://assets/interface/cursor.png"
 
 [dotnet]
 

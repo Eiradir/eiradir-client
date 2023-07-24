@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxgr2mott1ntw"]
+
+[ext_resource type="SpriteFrames" uid="uid://c2rhf6va7kv18" path="res://assets/clothing/dwarf_male/mercenary_armor/dwarf_male_mercenary_armor.tres" id="1_4rwb8"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_4rwb8")
+animation = &"idle_east"
+offset = Vector2(-4, -24)

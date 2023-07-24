@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dvdx17nu2gwik"]
+
+[ext_resource type="SpriteFrames" uid="uid://pkhpi43qe02b" path="res://assets/clothing/orc_female/sallet/orc_female_sallet.tres" id="1_8qsvq"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_8qsvq")
+animation = &"idle_east"
+offset = Vector2(1, -34)

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=3 format=3 uid="uid://c2l161qktadca"]
+
+[ext_resource type="PackedScene" uid="uid://yuyqc7w0nl3o" path="res://assets/characters/pig/pig.tscn" id="1_tk6vg"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_tpo4b"]
+
+[resource]
+script = ExtResource("2_tpo4b")
+scene = ExtResource("1_tk6vg")
+elevation = 0
+is_solid = true
+is_bridge = false
+disallow_drag = true
+eager_tooltip = true
+tags = Array[String]([])

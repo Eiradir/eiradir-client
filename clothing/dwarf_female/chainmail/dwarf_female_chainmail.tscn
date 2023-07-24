@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://xegwnr0kxhje"]
-
-[ext_resource type="SpriteFrames" uid="uid://cgl8bq8guapeo" path="res://clothing/dwarf_female/chainmail/dwarf_female_chainmail.tres" id="1_epop6"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_epop6")
-animation = &"walking_southwest"
-offset = Vector2(2, -27)

@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://bbhp5464sxlhg"]
-
-[ext_resource type="SpriteFrames" uid="uid://cebegutcq6qnc" path="res://clothing/orc_male/plate_legs/orc_male_plate_legs.tres" id="1_px2ot"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_px2ot")
-animation = &"idle_east"
-offset = Vector2(6, -34)

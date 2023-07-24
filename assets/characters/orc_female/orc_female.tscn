@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://iuc8aoudi2ft"]
+
+[ext_resource type="SpriteFrames" uid="uid://ctguvvrjd8t04" path="res://assets/characters/orc_female/orc_female.tres" id="1_khnjg"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+y_sort_enabled = true
+sprite_frames = ExtResource("1_khnjg")
+animation = &"idle_east"
+offset = Vector2(1, -34)

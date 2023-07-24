@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://bw3u6451qb3fw"]
-
-[ext_resource type="SpriteFrames" uid="uid://dwolw2q4ucwsb" path="res://clothing/elf_male/chainmail/elf_male_chainmail.tres" id="1_ipk3x"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_ipk3x")
-animation = &"idle_east"
-offset = Vector2(5, -44)

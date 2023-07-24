@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IsoDefinition" load_steps=3 format=3 uid="uid://di1fhorqb8p"]
+
+[ext_resource type="PackedScene" uid="uid://clwo6unii5g2u" path="res://assets/characters/orc_male/orc_male.tscn" id="1_t4u50"]
+[ext_resource type="Script" path="res://registry/data/iso_definition.gd" id="2_2n0mg"]
+
+[resource]
+script = ExtResource("2_2n0mg")
+scene = ExtResource("1_t4u50")
+elevation = 0
+is_solid = true
+is_bridge = false
+disallow_drag = true
+eager_tooltip = true
+tags = Array[String]([])

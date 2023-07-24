@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dv1kx1rorc5lx"]
-
-[ext_resource type="SpriteFrames" path="res://clothing/elf_female/full_leather_armor/elf_female_full_leather_armor.tres" id="1_mfn5e"]
-
-[node name="elf_female_blouse" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_mfn5e")
-animation = &"idle_east"
-offset = Vector2(1, -39)

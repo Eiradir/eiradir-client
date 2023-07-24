@@ -8,7 +8,7 @@ signal beard_changed(beard: Dictionary)
 signal gear_changed(category: String, iso_id: int)
 signal gear_color_changed(category: String, color: Color)
 
-var none_item_texture = preload("res://items/misc/locked_slot.png")
+var none_item_texture = preload("res://assets/items/misc/locked_slot.png")
 
 var _gear_options: Dictionary = {}
 var _skin_colors: Array[Color] = []

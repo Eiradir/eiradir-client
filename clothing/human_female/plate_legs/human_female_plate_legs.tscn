@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://bgb36hl1i4tgc"]
-
-[ext_resource type="SpriteFrames" path="res://clothing/human_female/plate_legs/human_female_plate_legs.tres" id="1_kb5ml"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_kb5ml")
-animation = &"idle_east"
-offset = Vector2(-1, -34)

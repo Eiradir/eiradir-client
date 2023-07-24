@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://b8b400q6drxpj"]
-
-[ext_resource type="SpriteFrames" uid="uid://cyl4nul0fqpbg" path="res://characters/human_female/human_female.tres" id="1_7i2s2"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-y_sort_enabled = true
-sprite_frames = ExtResource("1_7i2s2")
-animation = &"idle_east"
-offset = Vector2(-1, -34)
