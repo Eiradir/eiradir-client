@@ -4,7 +4,7 @@ using Godot.Collections;
 
 namespace Eiradir.network;
 
-public partial class NetworkedEntity : GodotObject
+public partial class NetworkedEntity : RefCounted
 {
     public string Id;
     public Vector3I Position;
