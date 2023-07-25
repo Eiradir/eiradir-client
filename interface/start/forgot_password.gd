@@ -7,7 +7,6 @@ func init(email):
 	%Email.text = email
 
 func _ready():
-	Supabase.auth.reset_email_sent.connect(_on_reset_email_sent)
 	%Email.grab_focus()
 	%Email.caret_column = %Email.text.length()
 	updateButtonState()
@@ -19,7 +18,6 @@ func _on_back_to_login_button_pressed():
 
 func _on_reset_password_button_pressed():
 	%ResetPasswordButton.set_disabled(true)
-	Supabase.auth.reset_password_for_email(%Email.text)
 
 
 func _on_reset_email_sent():

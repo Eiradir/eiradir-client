@@ -8,7 +8,6 @@ func init(email, password):
 	%Password.text = password
 
 func _ready():
-	Supabase.auth.signed_up.connect(_on_signed_up)
 	%Email.grab_focus()
 	%Email.caret_column = %Email.text.length()
 	updateButtonState()
@@ -19,7 +18,7 @@ func _on_back_to_login_button_pressed():
 
 
 func _on_create_account_button_pressed():
-	Supabase.auth.sign_up(%Email.text, %Password.text)
+	pass
 
 func updateButtonState():
 	%CreateAccountButton.set_disabled(%Email.text.is_empty() || %Password.text.is_empty() || !%Rules.is_pressed())
