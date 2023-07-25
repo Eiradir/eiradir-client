@@ -44,6 +44,7 @@ Image and audio assets may differ in license, many of them remain All Rights Res
 |assets/characters/cow/**|[Custom License (Reiner “Tiles” Prokein)](LICENSE-REINER.md)
 |assets/characters/pig/**|[Custom License (Reiner “Tiles” Prokein)](LICENSE-REINER.md)
 |assets/characters/sheep/**|[Custom License (Reiner “Tiles” Prokein)](LICENSE-REINER.md)
+|assets/interface/theme/textures/checkbox_checked.png|[CC-BY 3.0 (Lamoot)](https://opengameart.org/content/rpg-gui-construction-kit-v10)
 |assets/**|[All Rights Reserved](LICENSE-ARR.md)
 
 ## Community
