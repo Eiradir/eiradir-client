@@ -6,7 +6,7 @@ using Godot;
 
 namespace Eiradir.network;
 
-public partial class GodotSupportedByteBuffer : GodotObject
+public partial class GodotSupportedByteBuffer : RefCounted
 {
 
     private readonly SupportedByteBuffer buf;

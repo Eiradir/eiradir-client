@@ -4,7 +4,7 @@ using Godot.Collections;
 
 namespace Eiradir.network;
 
-public partial class NetworkedTrait : GodotObject
+public partial class NetworkedTrait : RefCounted
 {
     public int IsoId;
     public int Count;
