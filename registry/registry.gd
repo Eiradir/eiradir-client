@@ -32,8 +32,8 @@ func preload_resources():
 
 func load_registry(base_dir: String) -> void:
 	_find_resource_paths(base_dir)
-	if not OS.has_feature("editor"):
-		preload_resources()
+	#if not OS.has_feature("editor"):
+	preload_resources()
 
 func get_entry_path_by_id(id: int) -> String:
 	return resource_paths_by_id.get(id, "")

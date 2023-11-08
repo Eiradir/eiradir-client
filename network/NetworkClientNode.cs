@@ -140,8 +140,6 @@ public partial class NetworkClientNode : Node
         var staticIdMappingsResolver = new StaticIdMappingsResolver().LoadFromResources();
         var packetFactory = new PacketFactory(staticIdMappingsResolver);
         client = new NetworkClient(packetFactory, registries = new RegistriesImpl());
-        // TODO eventBus.post(NetworkRegisterPacketsEvent(packetFactory))
-        // TODO eventBus.post(NetworkRegisterHandlersEvent(packetFactory))
 
         packetFactory.RegisterPacket(ConnectPacket.Encode, ConnectPacket.Decode);
         packetFactory.RegisterPacket(ConnectionStatusPacket.Encode, ConnectionStatusPacket.Decode);
