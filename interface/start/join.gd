@@ -17,13 +17,14 @@ func _ready():
 	var result = await Eiradir.server_api.fetch_join_token(_server).completed
 	var username = result[0]
 	var join_token = result[1]
+	var game_host = result[2]
+	var game_port = result[3]
 	%Message.text = tr("JOIN_CONNECTING")
 	NetworkClient.Connected.connect(_on_connected.bind(username, join_token))
 	NetworkClient.Joining.connect(_on_joining)
 	NetworkClient.Joined.connect(_on_joined)
 	NetworkClient.Disconnected.connect(_on_disconnected)
-	var game_host = "gs.eiradir.net" if _server.contains("eiradir.net") else "localhost" # TODO small hack, should instead include the endpoint in the join token response!
-	NetworkClient.ConnectToServer(game_host, 8147)
+	NetworkClient.ConnectToServer(game_host, game_port)
 	
 func _on_connected(username, join_token):
 	_game = load("res://game/game.tscn").instantiate()

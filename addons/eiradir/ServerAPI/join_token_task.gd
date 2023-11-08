@@ -2,7 +2,7 @@
 extends RefCounted
 class_name JoinTokenTask
 
-signal completed(username: String, joinToken: String, error: String)
+signal completed(username: String, joinToken: String, gameHost: String, gamePort: int, error: String)
 
 func execute(request: HTTPRequest, baseUrl: String):
 	reference() # refcount this until request completes in case caller doesn't keep track of it
@@ -19,4 +19,4 @@ func _on_http_request_completed(result: int, response_code: int, headers: Packed
 	var body_text = body.get_string_from_utf8()
 	var error: EiradirError = Eiradir.handle_request_error(result, response_code, body_text)
 	var json: Dictionary = JSON.parse_string(body_text) if !error else {}
-	completed.emit(json.get("username", ""), json.get("login_token", ""), error)
+	completed.emit(json.get("username", ""), json.get("login_token", ""), json.get("game_server_host", ""), json.get("game_server_port", 0), error)
