@@ -40,6 +40,8 @@ public class NetworkClient : ChannelHandlerAdapter, NetworkContext
     public EndPoint Address => Channel.RemoteAddress;
     public bool IsConnected => Channel.Registered && Channel.Active;
 
+    public override bool IsSharable => true;
+
     public NetworkClient(PacketFactory packetFactory, Registries registries)
     {
         this.packetFactory = packetFactory;
