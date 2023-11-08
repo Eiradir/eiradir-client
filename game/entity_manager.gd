@@ -82,8 +82,11 @@ func get_entity_at(map_position: Vector2i, level: int):
 			return entity
 	return null
 
+func get_entity_by_id(entity_id: String):
+	return get_node_or_null(entity_id)
+
 func _on_entity_moved(entity_id: String, world_pos: Vector3i):
-	var entity = get_node_or_null(entity_id)
+	var entity = get_entity_by_id(entity_id)
 	if !entity:
 		print("received move for unknown entity ", entity_id)
 		return
