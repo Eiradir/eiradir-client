@@ -10,7 +10,7 @@ var supports_directions: bool = false
 
 var last_direction: GridDirections.Keys
 var moving = false
-var moving_time = 1.0
+var move_duration = 0.5
 
 func _ready():
 	entity = get_parent()
@@ -29,7 +29,7 @@ func _process(_delta):
 	if !moving and active_animation != idle_animation:
 		set_animation(idle_animation)
 	elif moving and active_animation != "walking":
-		set_animation("walking", 2.0)
+		set_animation("walking", 1 / move_duration)
 
 func set_animation(p_anim: String, p_speed: float = 1.0, frame: int = 0, frame_progress: float = 0.0) -> void:
 	active_animation = p_anim
