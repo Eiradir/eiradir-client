@@ -6,6 +6,7 @@ var menu_scene = preload("res://interface/menu/menu.tscn")
 var entity_manager: EntityManager
 var tile_cursor_position: Vector2i = Vector2i(0, 0)
 var hover_time_passed: float = -1.0
+var eager_hover_time_passed: float = -1.0
 var current_tooltip: PopupPanel
 var current_menu: PopupMenu
 
@@ -19,12 +20,19 @@ func _process(delta: float):
 			current_tooltip.queue_free()
 			current_tooltip = null
 		hover_time_passed = 0.0
+		eager_hover_time_passed = 0.0
 		tile_cursor_position = map_position
-	elif hover_time_passed != -1.0 and !current_menu:
-		hover_time_passed += delta
+	elif !current_menu:
+		if hover_time_passed != -1.0:
+			hover_time_passed += delta
+		if eager_hover_time_passed != -1.0:
+			eager_hover_time_passed += delta
 	if hover_time_passed > 0.2 and hover_time_passed != -1.0:
 		request_tooltip(map_position, 0, false)
 		hover_time_passed = -1.0
+	elif eager_hover_time_passed > 3 and eager_hover_time_passed != -1.0:
+		request_tooltip(map_position, 0, true)
+		eager_hover_time_passed = -1.0
 
 func _input(event):
 	if FocusManager.is_mouse_over_hud():
@@ -45,8 +53,6 @@ func position_clicked(map_position: Vector2i, level: int):
 		interact(map_position, level, 8)
 	elif FocusManager.is_mouse_occupied():
 		interact(map_position, level, 1)
-	else:
-		request_tooltip(map_position, level, true)
 
 func position_rightclicked(map_position: Vector2i, level: int):
 	if FocusManager.is_mouse_occupied():
