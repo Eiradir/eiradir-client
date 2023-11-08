@@ -33,8 +33,11 @@ func _ready():
 	update_paperdolls()
 	update_visual_traits()
 	update_name_tag()
-	mobility = mobility_script.new()
-	add_child(mobility)
+
+func enable_mobility():
+	if !mobility:
+		mobility = mobility_script.new()
+		add_child(mobility)
 
 func update_paperdolls():
 	for i in range(paperdolls.size()):

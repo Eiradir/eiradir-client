@@ -35,7 +35,8 @@ func _process(_delta):
 					NetworkClient.SendTurnInput(grid_direction)
 					last_direction_update = now
 			else:
-				if (move_requested_at == 0 || now - move_requested_at > move_timeout) && (!target.mobility.moving || target.mobility.move_progress > 0.9):
+				var ready_to_move = !target.mobility || (!target.mobility.moving || target.mobility.move_progress > 0.9)
+				if (move_requested_at == 0 || now - move_requested_at > move_timeout) && ready_to_move:
 					var target_pos = GridDirections.apply_offset(target.map_position, grid_direction)
 					NetworkClient.SendMoveInput(target_pos)
 					move_requested_at = now

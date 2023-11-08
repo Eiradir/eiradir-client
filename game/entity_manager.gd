@@ -94,6 +94,7 @@ func _on_entity_moved(entity_id: String, world_pos: Vector3i):
 	entity.direction = GridDirections.get_direction_to(entity.map_position, map_pos)
 	entity.map_position = map_pos
 	entity.level = world_pos.z
+	entity.enable_mobility()
 	if entity.mobility:
 		entity.mobility.move_to(world_pos)
 	else:
