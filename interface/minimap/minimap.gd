@@ -21,7 +21,9 @@ func _ready():
 	_content.texture = _minimap_texture
 
 func _update_minimap():
+	@warning_ignore("integer_division")
 	var sx = center.x - minimap_size / 2
+	@warning_ignore("integer_division")
 	var sy = center.y - minimap_size / 2
 	for rx in range(minimap_size):
 		for ry in range(minimap_size):
@@ -35,10 +37,10 @@ func _update_minimap():
 
 func _on_map_position_changed(map_position: Vector2i):
 	center = map_position
-	_update_minimap()
+	pass #_update_minimap()
 	
-func _on_tilemap_received(_map_name: String, chunk_pos: Vector3i, _chunk_size: int, tiles):
-	_update_minimap()
+func _on_tilemap_received(_map_name: String, _chunk_pos: Vector3i, _chunk_size: int, _tiles):
+	pass #_update_minimap()
 
-func _on_tile_update_received(_map_name: String, world_pos: Vector3i, tile_id: int):
-	_update_minimap()
+func _on_tile_update_received(_map_name: String, _world_pos: Vector3i, _tile_id: int):
+	pass #_update_minimap()
