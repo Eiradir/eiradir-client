@@ -559,7 +559,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walking_east",
-"speed": 5.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -603,7 +603,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walking_north",
-"speed": 5.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -647,7 +647,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walking_northeast",
-"speed": 5.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -691,7 +691,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walking_northwest",
-"speed": 5.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -735,7 +735,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walking_south",
-"speed": 5.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -779,7 +779,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walking_southeast",
-"speed": 5.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -823,7 +823,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walking_southwest",
-"speed": 5.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -867,5 +867,5 @@ animations = [{
 }],
 "loop": true,
 "name": &"walking_west",
-"speed": 5.0
+"speed": 12.0
 }]

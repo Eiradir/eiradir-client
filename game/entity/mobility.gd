@@ -17,7 +17,7 @@ func _ready():
 func _process(delta):
 	if moving:
 		move_time_passed += delta
-		move_progress = move_time_passed / move_time
+		move_progress = min(move_time_passed / move_time, 1.0)
 		entity.position = move_start_pos.lerp(move_end_pos, move_progress)
 
 		if move_progress >= 1.0:
