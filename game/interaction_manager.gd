@@ -30,7 +30,7 @@ func _process(delta: float):
 	if hover_time_passed > 0.2 and hover_time_passed != -1.0:
 		request_tooltip(map_position, 0, false)
 		hover_time_passed = -1.0
-	elif eager_hover_time_passed > 3 and eager_hover_time_passed != -1.0:
+	elif eager_hover_time_passed > 2 and eager_hover_time_passed != -1.0:
 		request_tooltip(map_position, 0, true)
 		eager_hover_time_passed = -1.0
 
